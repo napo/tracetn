@@ -1,6 +1,6 @@
-# TRACETN – Trentino Analysis of Commuter Exchanges
+![](tracetn_logo.png)
 
-**TRACETN** is a data-driven project that analyses and visualizes the commuting flows between municipalities in the Trentino region (Italy).  
+**TRACETN** - Trentino Analysis of Commuter Exchanges - is a data-driven project that analyses and visualizes the commuting flows between municipalities in the Trentino province (Italy).  
 It combines open mobility data, population statistics, and network models to explore the *invisible roads* that connect people’s daily lives.
 
 ---
