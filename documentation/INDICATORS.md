@@ -1,13 +1,13 @@
 ---
-title: "Indicatori / Indicators – Trentino Commuter Analysis (tracetn)"
-author: "Digital Commons Lab – FBK"
+title: "Indicatori / Indicators  Trentino - Commuter Analysis"
+author: ""
 date: "2021"
 license: "CC BY 4.0"
-description: "Factsheet of all indicators computed in the tracetn project, available in Italian and English versions."
+description: "Factsheet of all indicators computed available in Italian and English versions."
 tags: ["mobility", "Trentino", "commuting", "data analysis", "accessibility"]
 ---
 
-# Indicatori / Indicators - *Trentino Commuter Analysis (tracetn)*
+# Indicatori / Indicators - *Trentino Commuter Analysis*
 
 **Anno di riferimento / Reference year:** 2021  
 **Unità di analisi / Unit of analysis:** Comune (Provincia di Trento, Italia / Municipality – Trentino, Italy)
