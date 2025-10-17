@@ -1,8 +1,7 @@
-# 🗺️ Schede di Mobilità dei Comuni del Trentino — 2021
+# Schede di Mobilità dei Comuni del Trentino — 2021
 
 Le seguenti schede descrivono il **profilo di mobilità** di ciascun comune del Trentino, basato sui microdati dei movimenti pendolari 2021.
-Ogni scheda riporta un commento sintetico in linguaggio naturale, una tabella di indicatori confrontata con la **media provinciale**, e una lista di **comuni simili** calcolata tramite analisi di similarità sugli indicatori principali.
-Questo documento fa parte del progetto **tracetn — Trentino Commuter Analysis**.
+Ogni scheda riporta un commento sintetico, una tabella di indicatori confrontata con la **media provinciale**, e una lista di **comuni simili** calcolata tramite analisi di similarità sugli indicatori principali.
 
 ## Indice
 - [Ala](#ala)

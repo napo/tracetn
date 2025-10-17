@@ -7,7 +7,7 @@ description: "Factsheet of all indicators computed in the tracetn project, avail
 tags: ["mobility", "Trentino", "commuting", "data analysis", "accessibility"]
 ---
 
-# 📊 Indicatori / Indicators - *Trentino Commuter Analysis (tracetn)*
+# Indicatori / Indicators - *Trentino Commuter Analysis (tracetn)*
 
 **Anno di riferimento / Reference year:** 2021  
 **Unità di analisi / Unit of analysis:** Comune (Provincia di Trento, Italia / Municipality – Trentino, Italy)
