@@ -10,7 +10,7 @@ tags: ["mobility", "Trentino", "commuting", "data analysis", "accessibility"]
 # Indicatori  - *Trentino Commuter Analysis*
 
 **Anno di riferimento :** 2021  
-**Unità di analisi:** Comune (Provincia di Trento, Italia / Municipality – Trentino, Italy)
+**Unità di analisi:** Comune (Provincia autonoma di Trento, Italia)
 
 ## Scopo degl indicatori
 - Misurare l’**integrazione funzionale** tra i comuni.  
