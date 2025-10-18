@@ -12,6 +12,23 @@ tags: ["mobility", "Trentino", "commuting", "data analysis", "accessibility"]
 **Anno di riferimento :** 2021  
 **Unità di analisi:** Comune (Provincia autonoma di Trento, Italia)
 
+Indice
+======
+
+* [Indicatori  - <em>Trentino Commuter Analysis</em>](#indicatori----trentino-commuter-analysis)
+   * [Scopo degl indicatori](#scopo-degl-indicatori)
+   * [Indicatori dei flussi di pendolarismo](#indicatori-dei-flussi-di-pendolarismo)
+   * [Intensità di pendolarismo e ruoli funzionali](#intensità-di-pendolarismo-e-ruoli-funzionali)
+   * [Equilibrio territoriale](#equilibrio-territoriale)
+   * [Accessibilità territoriale](#accessibilità-territoriale)
+   * [Connettività locale](#connettività-locale)
+   * [Indicatori sintetici](#indicatori-sintetici)
+   * [Confronto statistico (medie e quartili)](#confronto-statistico-medie-e-quartili)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+
+
+
 ## Scopo degl indicatori
 - Misurare l’**integrazione funzionale** tra i comuni.  
 - Evidenziare **disuguaglianze territoriali** in accessibilità e lavoro.  
@@ -80,20 +97,3 @@ Indicatori di confronto calcolati su tutti i comuni.
 |----------------|------------------|-------------|
 | **media, quartili (Q1, Q2, Q3)** | Statistiche provinciali per ogni indicatore | Permettono di capire se un comune è **sopra o sotto la media**. |
 | **quartile_category** | Posizione del comune (Q1–Q4) | Semplifica la lettura: Q4 = migliori 25%, Q1 = peggiori 25%. |
-
-
-
-Table of Contents
-=================
-
-* Indicatori  - <em>Trentino Commuter Analysis</em>
-   * [Scopo degl indicatori](#scopo-degl-indicatori)
-   * [Indicatori dei flussi di pendolarismo](#indicatori-dei-flussi-di-pendolarismo)
-   * [Intensità di pendolarismo e ruoli funzionali](#intensità-di-pendolarismo-e-ruoli-funzionali)
-   * [Equilibrio territoriale](#equilibrio-territoriale)
-   * [Accessibilità territoriale](#accessibilità-territoriale)
-   * [Connettività locale](#connettività-locale)
-   * [Indicatori sintetici](#indicatori-sintetici)
-   * [Confronto statistico (medie e quartili)](#confronto-statistico-medie-e-quartili)
-
-<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
