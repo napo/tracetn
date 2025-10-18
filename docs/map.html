@@ -1,0 +1,3904 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5fdeffa435d1c7d9f19487e2e857b00 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b5fdeffa435d1c7d9f19487e2e857b00" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b5fdeffa435d1c7d9f19487e2e857b00 = L.map(
+                "map_b5fdeffa435d1c7d9f19487e2e857b00",
+                {
+                    center: [46.1, 11.1],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12a08fc20ccfdbcb460f160257dc7f04 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_12a08fc20ccfdbcb460f160257dc7f04.addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+            var circle_marker_807584d7f4189047bbe17772fb846c75 = L.circleMarker(
+                [45.7625503, 11.0051619],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.540201285805477, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_b0d0cf0b88473c40e44470190f7b0340 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3a55ec5c07215ce3aa37afe6cb3af53 = $(`<div id="html_e3a55ec5c07215ce3aa37afe6cb3af53" style="width: 100.0%; height: 100.0%;"><b>Ala</b><br>Saldo netto: -47<br>Attrattività pc: 0.0086393088552915<br>R50_km: 45.396 – T50_min: 39.0</div>`)[0];
+                popup_b0d0cf0b88473c40e44470190f7b0340.setContent(html_e3a55ec5c07215ce3aa37afe6cb3af53);
+            
+        
+
+        circle_marker_807584d7f4189047bbe17772fb846c75.bindPopup(popup_b0d0cf0b88473c40e44470190f7b0340)
+        ;
+
+        
+    
+    
+            var circle_marker_c98239d138935991f78cbceda1f917a8 = L.circleMarker(
+                [46.1443766, 11.1940028],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.560986189403755, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_1b3fa3243822026c5ffcf11873390940 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6ff35416109fb20d1cb4c5843b3bde0e = $(`<div id="html_6ff35416109fb20d1cb4c5843b3bde0e" style="width: 100.0%; height: 100.0%;"><b>Albiano</b><br>Saldo netto: -20<br>Attrattività pc: 0.0<br>R50_km: 38.993 – T50_min: 34.0</div>`)[0];
+                popup_1b3fa3243822026c5ffcf11873390940.setContent(html_6ff35416109fb20d1cb4c5843b3bde0e);
+            
+        
+
+        circle_marker_c98239d138935991f78cbceda1f917a8.bindPopup(popup_1b3fa3243822026c5ffcf11873390940)
+        ;
+
+        
+    
+    
+            var circle_marker_1bdfe0b6f452ea9c50e8010d11f33610 = L.circleMarker(
+                [45.980792, 11.0915338],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 15.36026708840852, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_fa8753c6cae72145f2418d03a18b59c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a56c25bc723fc07194cd8c01ebda9b18 = $(`<div id="html_a56c25bc723fc07194cd8c01ebda9b18" style="width: 100.0%; height: 100.0%;"><b>Aldeno</b><br>Saldo netto: -28<br>Attrattività pc: 0.001254705144291<br>R50_km: 27.198 – T50_min: 26.0</div>`)[0];
+                popup_fa8753c6cae72145f2418d03a18b59c6.setContent(html_a56c25bc723fc07194cd8c01ebda9b18);
+            
+        
+
+        circle_marker_1bdfe0b6f452ea9c50e8010d11f33610.bindPopup(popup_fa8753c6cae72145f2418d03a18b59c6)
+        ;
+
+        
+    
+    
+            var circle_marker_39215dc01633899a34182643b2d025ef = L.circleMarker(
+                [46.1806718, 11.2331619],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.767742739662543, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_85956f6baff72f0219366bc485f93964 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f230746d4c2501d54cc9457a6577e0cd = $(`<div id="html_f230746d4c2501d54cc9457a6577e0cd" style="width: 100.0%; height: 100.0%;"><b>Altavalle</b><br>Saldo netto: -3<br>Attrattività pc: 0.0030845157310302<br>R50_km: 40.582 – T50_min: 37.0</div>`)[0];
+                popup_85956f6baff72f0219366bc485f93964.setContent(html_f230746d4c2501d54cc9457a6577e0cd);
+            
+        
+
+        circle_marker_39215dc01633899a34182643b2d025ef.bindPopup(popup_85956f6baff72f0219366bc485f93964)
+        ;
+
+        
+    
+    
+            var circle_marker_f1dd8812cd96a38312579d0017647294 = L.circleMarker(
+                [46.0054222, 11.199894],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 15.162053112890646, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_b65d068ecd94338aeab6b8984bc3a028 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_556347078b6d51d786ec76943a4379f6 = $(`<div id="html_556347078b6d51d786ec76943a4379f6" style="width: 100.0%; height: 100.0%;"><b>Altopiano della Vigolana</b><br>Saldo netto: -23<br>Attrattività pc: 0.0021539064029763<br>R50_km: 27.887 – T50_min: 29.0</div>`)[0];
+                popup_b65d068ecd94338aeab6b8984bc3a028.setContent(html_556347078b6d51d786ec76943a4379f6);
+            
+        
+
+        circle_marker_f1dd8812cd96a38312579d0017647294.bindPopup(popup_b65d068ecd94338aeab6b8984bc3a028)
+        ;
+
+        
+    
+    
+            var circle_marker_f5914a81223dd3872ca82f64f7c234e9 = L.circleMarker(
+                [46.3950466, 11.1466795],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.601412264475325, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_42bb4854a820bfd1592a76ab1b025449 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f95b9924964dd7f37e950228f984fb2 = $(`<div id="html_5f95b9924964dd7f37e950228f984fb2" style="width: 100.0%; height: 100.0%;"><b>Amblar-Don</b><br>Saldo netto: -14<br>Attrattività pc: 0.0036563071297989<br>R50_km: 60.523 – T50_min: 57.0</div>`)[0];
+                popup_42bb4854a820bfd1592a76ab1b025449.setContent(html_5f95b9924964dd7f37e950228f984fb2);
+            
+        
+
+        circle_marker_f5914a81223dd3872ca82f64f7c234e9.bindPopup(popup_42bb4854a820bfd1592a76ab1b025449)
+        ;
+
+        
+    
+    
+            var circle_marker_ba231f81b92472b4496d02ee65f2cc94 = L.circleMarker(
+                [46.1640385, 11.0025291],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.61133106040254, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8c54c1937ef743debce6cf7baa367400 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cfb37a435153f3d94c8a2a890570d8ac = $(`<div id="html_cfb37a435153f3d94c8a2a890570d8ac" style="width: 100.0%; height: 100.0%;"><b>Andalo</b><br>Saldo netto: 7<br>Attrattività pc: 0.0057995028997514<br>R50_km: 46.181 – T50_min: 42.0</div>`)[0];
+                popup_8c54c1937ef743debce6cf7baa367400.setContent(html_cfb37a435153f3d94c8a2a890570d8ac);
+            
+        
+
+        circle_marker_ba231f81b92472b4496d02ee65f2cc94.bindPopup(popup_8c54c1937ef743debce6cf7baa367400)
+        ;
+
+        
+    
+    
+            var circle_marker_557b5d59b882d716d7a869f259aceff1 = L.circleMarker(
+                [45.9180235, 10.8860199],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.660141980457194, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_fafedef8b8dca717387b59268a8c9cf3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9a937b6f5d5ae703418e3a29fece5f22 = $(`<div id="html_9a937b6f5d5ae703418e3a29fece5f22" style="width: 100.0%; height: 100.0%;"><b>Arco</b><br>Saldo netto: 39<br>Attrattività pc: 0.0103691180614257<br>R50_km: 35.889 – T50_min: 39.0</div>`)[0];
+                popup_fafedef8b8dca717387b59268a8c9cf3.setContent(html_9a937b6f5d5ae703418e3a29fece5f22);
+            
+        
+
+        circle_marker_557b5d59b882d716d7a869f259aceff1.bindPopup(popup_fafedef8b8dca717387b59268a8c9cf3)
+        ;
+
+        
+    
+    
+            var circle_marker_fc376828669b551d5b0d327245e57010 = L.circleMarker(
+                [45.7352758, 10.9393404],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.537044914323817, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_36e18b0d0fed025cee27605709e0a492 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8aa4b0d64bd8dccf22a4f2debee0f017 = $(`<div id="html_8aa4b0d64bd8dccf22a4f2debee0f017" style="width: 100.0%; height: 100.0%;"><b>Avio</b><br>Saldo netto: 23<br>Attrattività pc: 0.0317848410757946<br>R50_km: 49.141 – T50_min: 39.0</div>`)[0];
+                popup_36e18b0d0fed025cee27605709e0a492.setContent(html_8aa4b0d64bd8dccf22a4f2debee0f017);
+            
+        
+
+        circle_marker_fc376828669b551d5b0d327245e57010.bindPopup(popup_36e18b0d0fed025cee27605709e0a492)
+        ;
+
+        
+    
+    
+            var circle_marker_4a70e8c235ffca9a252e28086566f4ab = L.circleMarker(
+                [46.1298616, 11.2440473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.313626151189279, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7ebf624ab802d54337283d0014e6dac2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6c9a981bb7a995b8e4ff7c36e32463aa = $(`<div id="html_6c9a981bb7a995b8e4ff7c36e32463aa" style="width: 100.0%; height: 100.0%;"><b>Baselga di Pinè</b><br>Saldo netto: 10<br>Attrattività pc: 0.0068816358631537<br>R50_km: 40.522 – T50_min: 36.0</div>`)[0];
+                popup_7ebf624ab802d54337283d0014e6dac2.setContent(html_6c9a981bb7a995b8e4ff7c36e32463aa);
+            
+        
+
+        circle_marker_4a70e8c235ffca9a252e28086566f4ab.bindPopup(popup_7ebf624ab802d54337283d0014e6dac2)
+        ;
+
+        
+    
+    
+            var circle_marker_176be506ad1ec3327a5cef3e66212f41 = L.circleMarker(
+                [46.1651119, 11.2999856],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.048162348046514, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_41d1c63798e6fe29f73d9ab9854a082b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b3e0aa3afced7f90766ef0ea252be18 = $(`<div id="html_8b3e0aa3afced7f90766ef0ea252be18" style="width: 100.0%; height: 100.0%;"><b>Bedollo</b><br>Saldo netto: -9<br>Attrattività pc: 0.000679809653297<br>R50_km: 44.71 – T50_min: 45.0</div>`)[0];
+                popup_41d1c63798e6fe29f73d9ab9854a082b.setContent(html_8b3e0aa3afced7f90766ef0ea252be18);
+            
+        
+
+        circle_marker_176be506ad1ec3327a5cef3e66212f41.bindPopup(popup_41d1c63798e6fe29f73d9ab9854a082b)
+        ;
+
+        
+    
+    
+            var circle_marker_6676939e2df3be0b462cce676efaa57e = L.circleMarker(
+                [45.9416864, 11.1101855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 16.278369558560822, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_61d94083e7033ec2b16bbcce5ace839a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c60cfd23c0cb9b354ec8248cf321a93a = $(`<div id="html_c60cfd23c0cb9b354ec8248cf321a93a" style="width: 100.0%; height: 100.0%;"><b>Besenello</b><br>Saldo netto: -21<br>Attrattività pc: 0.0007272727272727<br>R50_km: 27.69 – T50_min: 28.0</div>`)[0];
+                popup_61d94083e7033ec2b16bbcce5ace839a.setContent(html_c60cfd23c0cb9b354ec8248cf321a93a);
+            
+        
+
+        circle_marker_6676939e2df3be0b462cce676efaa57e.bindPopup(popup_61d94083e7033ec2b16bbcce5ace839a)
+        ;
+
+        
+    
+    
+            var circle_marker_655b901c78b9bbc8a706ef397188dcb0 = L.circleMarker(
+                [46.0805682, 11.5567877],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.59343277429147, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_9e6f57128286c7c9dc3db8b46f293704 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ca004f576bdc2454dafc822a526574a = $(`<div id="html_3ca004f576bdc2454dafc822a526574a" style="width: 100.0%; height: 100.0%;"><b>Bieno</b><br>Saldo netto: -4<br>Attrattività pc: 0.0022321428571428<br>R50_km: 58.599 – T50_min: 55.0</div>`)[0];
+                popup_9e6f57128286c7c9dc3db8b46f293704.setContent(html_3ca004f576bdc2454dafc822a526574a);
+            
+        
+
+        circle_marker_655b901c78b9bbc8a706ef397188dcb0.bindPopup(popup_9e6f57128286c7c9dc3db8b46f293704)
+        ;
+
+        
+    
+    
+            var circle_marker_943b5f57f565331918b0c99ad7d38e68 = L.circleMarker(
+                [46.0271964, 10.8216064],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.22670240672997, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_ae805af47c2321bfa0d861bd271a3da9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_07dfb5f87d633ead740dcf5ff6804712 = $(`<div id="html_07dfb5f87d633ead740dcf5ff6804712" style="width: 100.0%; height: 100.0%;"><b>Bleggio Superiore</b><br>Saldo netto: 56<br>Attrattività pc: 0.041311475409836<br>R50_km: 43.438 – T50_min: 44.0</div>`)[0];
+                popup_ae805af47c2321bfa0d861bd271a3da9.setContent(html_07dfb5f87d633ead740dcf5ff6804712);
+            
+        
+
+        circle_marker_943b5f57f565331918b0c99ad7d38e68.bindPopup(popup_ae805af47c2321bfa0d861bd271a3da9)
+        ;
+
+        
+    
+    
+            var circle_marker_f45bdcbf4a09c8614ae4d30f291fb24a = L.circleMarker(
+                [46.1184425, 10.7588427],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.486960563776286, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_9a3499503c394eb3e965a5f845c1e834 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4970ed01c75c471599aeab71f55d21a6 = $(`<div id="html_4970ed01c75c471599aeab71f55d21a6" style="width: 100.0%; height: 100.0%;"><b>Bocenago</b><br>Saldo netto: 2<br>Attrattività pc: 0.007537688442211<br>R50_km: 59.211 – T50_min: 62.0</div>`)[0];
+                popup_9a3499503c394eb3e965a5f845c1e834.setContent(html_4970ed01c75c471599aeab71f55d21a6);
+            
+        
+
+        circle_marker_f45bdcbf4a09c8614ae4d30f291fb24a.bindPopup(popup_9a3499503c394eb3e965a5f845c1e834)
+        ;
+
+        
+    
+    
+            var circle_marker_a2ba8eef6b3c31d2dcbc7ff55ba9df06 = L.circleMarker(
+                [45.8060446, 10.5496095],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 6.494525940262015, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_47faf57b853c751b905064ce3c3aed80 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a73639dc2138eb623ee458824e407afa = $(`<div id="html_a73639dc2138eb623ee458824e407afa" style="width: 100.0%; height: 100.0%;"><b>Bondone</b><br>Saldo netto: -13<br>Attrattività pc: 0.0249609984399376<br>R50_km: 79.439 – T50_min: 80.0</div>`)[0];
+                popup_47faf57b853c751b905064ce3c3aed80.setContent(html_a73639dc2138eb623ee458824e407afa);
+            
+        
+
+        circle_marker_a2ba8eef6b3c31d2dcbc7ff55ba9df06.bindPopup(popup_47faf57b853c751b905064ce3c3aed80)
+        ;
+
+        
+    
+    
+            var circle_marker_4a93fe6418d8344f987d54cbd44b2f6f = L.circleMarker(
+                [45.8896544, 10.6002372],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.042949813765937, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_cc4cc86735b646e8f1c7a661f5966864 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a9997c072fc9cbbe6c6800c4651aa301 = $(`<div id="html_a9997c072fc9cbbe6c6800c4651aa301" style="width: 100.0%; height: 100.0%;"><b>Borgo Chiese</b><br>Saldo netto: 167<br>Attrattività pc: 0.1010719754977029<br>R50_km: 63.471 – T50_min: 63.0</div>`)[0];
+                popup_cc4cc86735b646e8f1c7a661f5966864.setContent(html_a9997c072fc9cbbe6c6800c4651aa301);
+            
+        
+
+        circle_marker_4a93fe6418d8344f987d54cbd44b2f6f.bindPopup(popup_cc4cc86735b646e8f1c7a661f5966864)
+        ;
+
+        
+    
+    
+            var circle_marker_a234683659f57e8f6e320758d5afaa4f = L.circleMarker(
+                [46.4357411, 11.144426],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.60333175687093, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_4c5b71554d16c3a3edc33e7aed4ae0b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_46266e9678dc640bfde846736f066afd = $(`<div id="html_46266e9678dc640bfde846736f066afd" style="width: 100.0%; height: 100.0%;"><b>Borgo d'Anaunia</b><br>Saldo netto: -89<br>Attrattività pc: 0.0068108974358974<br>R50_km: 62.981 – T50_min: 58.0</div>`)[0];
+                popup_4c5b71554d16c3a3edc33e7aed4ae0b8.setContent(html_46266e9678dc640bfde846736f066afd);
+            
+        
+
+        circle_marker_a234683659f57e8f6e320758d5afaa4f.bindPopup(popup_4c5b71554d16c3a3edc33e7aed4ae0b8)
+        ;
+
+        
+    
+    
+            var circle_marker_4103a811f9c47c44c6271edeb6dfff1a = L.circleMarker(
+                [46.0346988, 10.7518837],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.658314083119581, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_f8d8438c258376ff2dfe720d5a266979 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_995e6e037304d749fbe0bf2cee0f95f6 = $(`<div id="html_995e6e037304d749fbe0bf2cee0f95f6" style="width: 100.0%; height: 100.0%;"><b>Borgo Lares</b><br>Saldo netto: 5<br>Attrattività pc: 0.0098039215686274<br>R50_km: 51.757 – T50_min: 52.0</div>`)[0];
+                popup_f8d8438c258376ff2dfe720d5a266979.setContent(html_995e6e037304d749fbe0bf2cee0f95f6);
+            
+        
+
+        circle_marker_4103a811f9c47c44c6271edeb6dfff1a.bindPopup(popup_f8d8438c258376ff2dfe720d5a266979)
+        ;
+
+        
+    
+    
+            var circle_marker_1965be7bacf33705424e86e781f9a14c = L.circleMarker(
+                [46.0531899, 11.4559477],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.629251689696433, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_6da8fba08ad0ac02df327a6bdb2b097a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f8ec808692485032ab1ea85b1003b50 = $(`<div id="html_3f8ec808692485032ab1ea85b1003b50" style="width: 100.0%; height: 100.0%;"><b>Borgo Valsugana</b><br>Saldo netto: 88<br>Attrattività pc: 0.0199111875089528<br>R50_km: 50.209 – T50_min: 48.0</div>`)[0];
+                popup_6da8fba08ad0ac02df327a6bdb2b097a.setContent(html_3f8ec808692485032ab1ea85b1003b50);
+            
+        
+
+        circle_marker_1965be7bacf33705424e86e781f9a14c.bindPopup(popup_6da8fba08ad0ac02df327a6bdb2b097a)
+        ;
+
+        
+    
+    
+            var circle_marker_8807fc2dd92718459dd229d2d5aa1c66 = L.circleMarker(
+                [45.81853, 10.9532032],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.889552876504244, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_ee8a6efd46da752f4b4f46a539da3ab1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aced49b5b157bf23dd6b936c5bf568a5 = $(`<div id="html_aced49b5b157bf23dd6b936c5bf568a5" style="width: 100.0%; height: 100.0%;"><b>Brentonico</b><br>Saldo netto: -22<br>Attrattività pc: 0.0012400793650793<br>R50_km: 39.5 – T50_min: 39.0</div>`)[0];
+                popup_ee8a6efd46da752f4b4f46a539da3ab1.setContent(html_aced49b5b157bf23dd6b936c5bf568a5);
+            
+        
+
+        circle_marker_8807fc2dd92718459dd229d2d5aa1c66.bindPopup(popup_ee8a6efd46da752f4b4f46a539da3ab1)
+        ;
+
+        
+    
+    
+            var circle_marker_e98736705e55bb3d9726e428369b6815 = L.circleMarker(
+                [46.4108447, 10.9685805],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.747090923199163, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_0641c2a936407f8f4a9d09de4d9a534f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5601e5f3288f19eb8e6e92d30f14059f = $(`<div id="html_5601e5f3288f19eb8e6e92d30f14059f" style="width: 100.0%; height: 100.0%;"><b>Bresimo</b><br>Saldo netto: -3<br>Attrattività pc: 0.0<br>R50_km: 63.057 – T50_min: 63.0</div>`)[0];
+                popup_0641c2a936407f8f4a9d09de4d9a534f.setContent(html_5601e5f3288f19eb8e6e92d30f14059f);
+            
+        
+
+        circle_marker_e98736705e55bb3d9726e428369b6815.bindPopup(popup_0641c2a936407f8f4a9d09de4d9a534f)
+        ;
+
+        
+    
+    
+            var circle_marker_695af50c24f69894c9cc3684ebebc6fe = L.circleMarker(
+                [46.1293997, 10.7567788],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.633511722908528, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_dc39e5c771dca761d001981d39088816 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a980a962e5791ce19d04c218af8569b2 = $(`<div id="html_a980a962e5791ce19d04c218af8569b2" style="width: 100.0%; height: 100.0%;"><b>Caderzone Terme</b><br>Saldo netto: -1<br>Attrattività pc: 0.0<br>R50_km: 59.873 – T50_min: 62.0</div>`)[0];
+                popup_dc39e5c771dca761d001981d39088816.setContent(html_a980a962e5791ce19d04c218af8569b2);
+            
+        
+
+        circle_marker_695af50c24f69894c9cc3684ebebc6fe.bindPopup(popup_dc39e5c771dca761d001981d39088816)
+        ;
+
+        
+    
+    
+            var circle_marker_4ef6a7704476ce3f2731b43614b72481 = L.circleMarker(
+                [46.0049314, 11.2420757],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 16.34641439449013, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8486e4cf07977f59dfd0d7ab0cdb8c62 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3098cf677d7809c489a6d3208c19752d = $(`<div id="html_3098cf677d7809c489a6d3208c19752d" style="width: 100.0%; height: 100.0%;"><b>Calceranica al Lago</b><br>Saldo netto: -6<br>Attrattività pc: 0.002896451846488<br>R50_km: 30.72 – T50_min: 33.0</div>`)[0];
+                popup_8486e4cf07977f59dfd0d7ab0cdb8c62.setContent(html_3098cf677d7809c489a6d3208c19752d);
+            
+        
+
+        circle_marker_4ef6a7704476ce3f2731b43614b72481.bindPopup(popup_8486e4cf07977f59dfd0d7ab0cdb8c62)
+        ;
+
+        
+    
+    
+            var circle_marker_3246d2f02158aabb445c656bba9d6f6a = L.circleMarker(
+                [46.3653283, 10.9433309],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.962006194634872, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_37aae4d4775ac724362a1615b74a2147 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9003b60e581a38520071fab4f7a7ca2c = $(`<div id="html_9003b60e581a38520071fab4f7a7ca2c" style="width: 100.0%; height: 100.0%;"><b>Caldes</b><br>Saldo netto: -1<br>Attrattività pc: 0.0<br>R50_km: 63.333 – T50_min: 57.0</div>`)[0];
+                popup_37aae4d4775ac724362a1615b74a2147.setContent(html_9003b60e581a38520071fab4f7a7ca2c);
+            
+        
+
+        circle_marker_3246d2f02158aabb445c656bba9d6f6a.bindPopup(popup_37aae4d4775ac724362a1615b74a2147)
+        ;
+
+        
+    
+    
+            var circle_marker_482fe0b81d04838a3c33841363c39e4d = L.circleMarker(
+                [45.9914453, 11.2621219],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.698555458410619, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_2aa1220b337809cb5a0b6ac6e4e81b12 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f875ada9e71a6ed06b0f3a6e0c2ea97 = $(`<div id="html_6f875ada9e71a6ed06b0f3a6e0c2ea97" style="width: 100.0%; height: 100.0%;"><b>Caldonazzo</b><br>Saldo netto: -10<br>Attrattività pc: 0.0023207839092315<br>R50_km: 33.0 – T50_min: 36.0</div>`)[0];
+                popup_2aa1220b337809cb5a0b6ac6e4e81b12.setContent(html_6f875ada9e71a6ed06b0f3a6e0c2ea97);
+            
+        
+
+        circle_marker_482fe0b81d04838a3c33841363c39e4d.bindPopup(popup_2aa1220b337809cb5a0b6ac6e4e81b12)
+        ;
+
+        
+    
+    
+            var circle_marker_ff12f47964b1c67120fe93bf546af4c0 = L.circleMarker(
+                [45.9351538, 11.0942374],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 17.60919372089777, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_96ae33d0fc6f7f8e69c054ab49e95d16 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f3cc9da9158a963291d545fbcac2352 = $(`<div id="html_0f3cc9da9158a963291d545fbcac2352" style="width: 100.0%; height: 100.0%;"><b>Calliano</b><br>Saldo netto: -16<br>Attrattività pc: 0.0029880478087649<br>R50_km: 28.469 – T50_min: 27.0</div>`)[0];
+                popup_96ae33d0fc6f7f8e69c054ab49e95d16.setContent(html_0f3cc9da9158a963291d545fbcac2352);
+            
+        
+
+        circle_marker_ff12f47964b1c67120fe93bf546af4c0.bindPopup(popup_96ae33d0fc6f7f8e69c054ab49e95d16)
+        ;
+
+        
+    
+    
+            var circle_marker_0d4fcb8a83dbf6a454e65224e40ca224 = L.circleMarker(
+                [46.4768, 11.74146],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.696235245991889, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8435e37b6101644cbabb4acf3d78fecf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_266b16b95ec31c00a4320ee46ef8e202 = $(`<div id="html_266b16b95ec31c00a4320ee46ef8e202" style="width: 100.0%; height: 100.0%;"><b>Campitello di Fassa / Ciampedel</b><br>Saldo netto: 3<br>Attrattività pc: 0.0056497175141242<br>R50_km: 88.45 – T50_min: 91.0</div>`)[0];
+                popup_8435e37b6101644cbabb4acf3d78fecf.setContent(html_266b16b95ec31c00a4320ee46ef8e202);
+            
+        
+
+        circle_marker_0d4fcb8a83dbf6a454e65224e40ca224.bindPopup(popup_8435e37b6101644cbabb4acf3d78fecf)
+        ;
+
+        
+    
+    
+            var circle_marker_01e6a146469ac7667d0c732e1a8891e4 = L.circleMarker(
+                [46.2583461, 11.0330205],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.149844463843747, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_a50aa48371c6280f0104294b97db86a1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7081eecf7cc15accc9f58cd39d4f098f = $(`<div id="html_7081eecf7cc15accc9f58cd39d4f098f" style="width: 100.0%; height: 100.0%;"><b>Campodenno</b><br>Saldo netto: -23<br>Attrattività pc: 0.0006596306068601<br>R50_km: 42.21 – T50_min: 37.0</div>`)[0];
+                popup_a50aa48371c6280f0104294b97db86a1.setContent(html_7081eecf7cc15accc9f58cd39d4f098f);
+            
+        
+
+        circle_marker_01e6a146469ac7667d0c732e1a8891e4.bindPopup(popup_a50aa48371c6280f0104294b97db86a1)
+        ;
+
+        
+    
+    
+            var circle_marker_f255dbafe1af7bacebe6a7306f73f3af = L.circleMarker(
+                [46.1549698, 11.7329934],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 5.889825195482343, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_a6dbae3cf8b59c58044cff5dff6f8524 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26e6a810c05e7a859f1eba861a1cfb64 = $(`<div id="html_26e6a810c05e7a859f1eba861a1cfb64" style="width: 100.0%; height: 100.0%;"><b>Canal San Bovo</b><br>Saldo netto: -18<br>Attrattività pc: 0.0102389078498293<br>R50_km: 91.308 – T50_min: 97.0</div>`)[0];
+                popup_a6dbae3cf8b59c58044cff5dff6f8524.setContent(html_26e6a810c05e7a859f1eba861a1cfb64);
+            
+        
+
+        circle_marker_f255dbafe1af7bacebe6a7306f73f3af.bindPopup(popup_a6dbae3cf8b59c58044cff5dff6f8524)
+        ;
+
+        
+    
+    
+            var circle_marker_c9f15b47be032b89d87a11311fb674a7 = L.circleMarker(
+                [46.476671, 11.7705755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 6.386650734135837, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_6d6ece7bf7b8726a6af575d35d4f8b02 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f9122b6c2cba90773ed4dd2ce5d83fee = $(`<div id="html_f9122b6c2cba90773ed4dd2ce5d83fee" style="width: 100.0%; height: 100.0%;"><b>Canazei / Cianacei</b><br>Saldo netto: 24<br>Attrattività pc: 0.0159219311761684<br>R50_km: 90.891 – T50_min: 93.0</div>`)[0];
+                popup_6d6ece7bf7b8726a6af575d35d4f8b02.setContent(html_f9122b6c2cba90773ed4dd2ce5d83fee);
+            
+        
+
+        circle_marker_c9f15b47be032b89d87a11311fb674a7.bindPopup(popup_6d6ece7bf7b8726a6af575d35d4f8b02)
+        ;
+
+        
+    
+    
+            var circle_marker_06e8de84558e961ddac0771ee6a9dbb3 = L.circleMarker(
+                [46.2624529, 11.3387549],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.48325716104956, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_64f52c7bd757d317ced5ffb9ad424b8b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2b41b5109bc043a1f8ad6c0f4d421d5a = $(`<div id="html_2b41b5109bc043a1f8ad6c0f4d421d5a" style="width: 100.0%; height: 100.0%;"><b>Capriana</b><br>Saldo netto: -35<br>Attrattività pc: 0.0017123287671232<br>R50_km: 52.255 – T50_min: 51.0</div>`)[0];
+                popup_64f52c7bd757d317ced5ffb9ad424b8b.setContent(html_2b41b5109bc043a1f8ad6c0f4d421d5a);
+            
+        
+
+        circle_marker_06e8de84558e961ddac0771ee6a9dbb3.bindPopup(popup_64f52c7bd757d317ced5ffb9ad424b8b)
+        ;
+
+        
+    
+    
+            var circle_marker_ee7c2bd0e8ace7c5d0c543f9d0c800f1 = L.circleMarker(
+                [46.1693693, 10.7617087],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.389332445876725, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_d22a7e6f2bceb99f290e52e793e9566c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a520ef49cc608cce937dba89fbfa7066 = $(`<div id="html_a520ef49cc608cce937dba89fbfa7066" style="width: 100.0%; height: 100.0%;"><b>Carisolo</b><br>Saldo netto: 3<br>Attrattività pc: 0.0031612223393045<br>R50_km: 63.113 – T50_min: 64.0</div>`)[0];
+                popup_d22a7e6f2bceb99f290e52e793e9566c.setContent(html_a520ef49cc608cce937dba89fbfa7066);
+            
+        
+
+        circle_marker_ee7c2bd0e8ace7c5d0c543f9d0c800f1.bindPopup(popup_d22a7e6f2bceb99f290e52e793e9566c)
+        ;
+
+        
+    
+    
+            var circle_marker_e8bbf60fd25b02e339081c16c3521438 = L.circleMarker(
+                [46.0729249, 11.492189],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.550202152937956, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_89e6f2178431bfaedbfe4fd58746915e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05b9bfeab56afe9b0c16957bef8cfc03 = $(`<div id="html_05b9bfeab56afe9b0c16957bef8cfc03" style="width: 100.0%; height: 100.0%;"><b>Carzano</b><br>Saldo netto: -4<br>Attrattività pc: 0.001926782273603<br>R50_km: 52.069 – T50_min: 50.0</div>`)[0];
+                popup_89e6f2178431bfaedbfe4fd58746915e.setContent(html_05b9bfeab56afe9b0c16957bef8cfc03);
+            
+        
+
+        circle_marker_e8bbf60fd25b02e339081c16c3521438.bindPopup(popup_89e6f2178431bfaedbfe4fd58746915e)
+        ;
+
+        
+    
+    
+            var circle_marker_9a0ef9bd36e7e5ee693cd545da91860e = L.circleMarker(
+                [45.914582, 10.6030291],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.633807691101209, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_049d832d129506777bbccf7c1b47991f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc8e199e6735b6bd9cb81c3aceaffc0b = $(`<div id="html_fc8e199e6735b6bd9cb81c3aceaffc0b" style="width: 100.0%; height: 100.0%;"><b>Castel Condino</b><br>Saldo netto: -5<br>Attrattività pc: 0.0045045045045045<br>R50_km: 68.449 – T50_min: 71.0</div>`)[0];
+                popup_049d832d129506777bbccf7c1b47991f.setContent(html_fc8e199e6735b6bd9cb81c3aceaffc0b);
+            
+        
+
+        circle_marker_9a0ef9bd36e7e5ee693cd545da91860e.bindPopup(popup_049d832d129506777bbccf7c1b47991f)
+        ;
+
+        
+    
+    
+            var circle_marker_d531af714a28d095056bb420d3c2631d = L.circleMarker(
+                [46.0674405, 11.5228147],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.751789624210556, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_58272ccb3ca90b50a1aca2644f059acd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60ea6ec7a43714519355e4fdddbcf677 = $(`<div id="html_60ea6ec7a43714519355e4fdddbcf677" style="width: 100.0%; height: 100.0%;"><b>Castel Ivano</b><br>Saldo netto: 19<br>Attrattività pc: 0.0119302539002753<br>R50_km: 54.684 – T50_min: 52.0</div>`)[0];
+                popup_58272ccb3ca90b50a1aca2644f059acd.setContent(html_60ea6ec7a43714519355e4fdddbcf677);
+            
+        
+
+        circle_marker_d531af714a28d095056bb420d3c2631d.bindPopup(popup_58272ccb3ca90b50a1aca2644f059acd)
+        ;
+
+        
+    
+    
+            var circle_marker_5262decfe5a94a99bb0975e7f6a73f59 = L.circleMarker(
+                [46.0648314, 11.6332197],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.848626008616124, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7f0ce9577f7abe187706a4a8684e775e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5da2ba45e7c7499864a4e51a5dd30e46 = $(`<div id="html_5da2ba45e7c7499864a4e51a5dd30e46" style="width: 100.0%; height: 100.0%;"><b>Castello Tesino</b><br>Saldo netto: 0<br>Attrattività pc: 0.0103359173126615<br>R50_km: 66.155 – T50_min: 62.0</div>`)[0];
+                popup_7f0ce9577f7abe187706a4a8684e775e.setContent(html_5da2ba45e7c7499864a4e51a5dd30e46);
+            
+        
+
+        circle_marker_5262decfe5a94a99bb0975e7f6a73f59.bindPopup(popup_7f0ce9577f7abe187706a4a8684e775e)
+        ;
+
+        
+    
+    
+            var circle_marker_05854bc093c445d97ca26b2ce3eb7782 = L.circleMarker(
+                [46.2817731, 11.4348856],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.73129222824657, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_6d12c8be00fe833bc61cbedf108096ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f67f8661b4e2db32a8a0d5a31d5656c = $(`<div id="html_6f67f8661b4e2db32a8a0d5a31d5656c" style="width: 100.0%; height: 100.0%;"><b>Castello-Molina di Fiemme</b><br>Saldo netto: -84<br>Attrattività pc: 0.0068965517241379<br>R50_km: 51.867 – T50_min: 54.0</div>`)[0];
+                popup_6d12c8be00fe833bc61cbedf108096ad.setContent(html_6f67f8661b4e2db32a8a0d5a31d5656c);
+            
+        
+
+        circle_marker_05854bc093c445d97ca26b2ce3eb7782.bindPopup(popup_6d12c8be00fe833bc61cbedf108096ad)
+        ;
+
+        
+    
+    
+            var circle_marker_020f48e2306ec9d095d6a0921dc21070 = L.circleMarker(
+                [46.052822, 11.493266],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.1430388833701, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_1527aebe7bb24d625e2d23bf94a4e52f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aea2c426fa57a8da6e7d36a92ff8173d = $(`<div id="html_aea2c426fa57a8da6e7d36a92ff8173d" style="width: 100.0%; height: 100.0%;"><b>Castelnuovo</b><br>Saldo netto: 0<br>Attrattività pc: 0.0130597014925373<br>R50_km: 51.291 – T50_min: 47.0</div>`)[0];
+                popup_1527aebe7bb24d625e2d23bf94a4e52f.setContent(html_aea2c426fa57a8da6e7d36a92ff8173d);
+            
+        
+
+        circle_marker_020f48e2306ec9d095d6a0921dc21070.bindPopup(popup_1527aebe7bb24d625e2d23bf94a4e52f)
+        ;
+
+        
+    
+    
+            var circle_marker_8e1a76eb3109cd230aab626bd59679a1 = L.circleMarker(
+                [46.2912839, 11.4603712],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.235058935470931, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7b0edd2aa1831d57fd4d30c6b9e20a7b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fed3ee42feb2cedff8a2cc8ff24c9641 = $(`<div id="html_fed3ee42feb2cedff8a2cc8ff24c9641" style="width: 100.0%; height: 100.0%;"><b>Cavalese</b><br>Saldo netto: -55<br>Attrattività pc: 0.0111386138613861<br>R50_km: 54.558 – T50_min: 57.0</div>`)[0];
+                popup_7b0edd2aa1831d57fd4d30c6b9e20a7b.setContent(html_fed3ee42feb2cedff8a2cc8ff24c9641);
+            
+        
+
+        circle_marker_8e1a76eb3109cd230aab626bd59679a1.bindPopup(popup_7b0edd2aa1831d57fd4d30c6b9e20a7b)
+        ;
+
+        
+    
+    
+            var circle_marker_0697c87a10a3bfa557ca89735b110045 = L.circleMarker(
+                [46.4073278, 11.1369671],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.500777233217281, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_9e12cd2e8833accedc267adbf911f7a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_758a3ea9c6def30e207ad0714226cde1 = $(`<div id="html_758a3ea9c6def30e207ad0714226cde1" style="width: 100.0%; height: 100.0%;"><b>Cavareno</b><br>Saldo netto: -59<br>Attrattività pc: 0.0070921985815602<br>R50_km: 59.703 – T50_min: 53.0</div>`)[0];
+                popup_9e12cd2e8833accedc267adbf911f7a5.setContent(html_758a3ea9c6def30e207ad0714226cde1);
+            
+        
+
+        circle_marker_0697c87a10a3bfa557ca89735b110045.bindPopup(popup_9e12cd2e8833accedc267adbf911f7a5)
+        ;
+
+        
+    
+    
+            var circle_marker_7120d2d1681f6ffb15010d5f9870297c = L.circleMarker(
+                [46.1835267, 11.0281496],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.440305748230859, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7b4744e728ff7445a3ca0aca2ad57246 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c29aaa2104275e13b6e3a230e387e22b = $(`<div id="html_c29aaa2104275e13b6e3a230e387e22b" style="width: 100.0%; height: 100.0%;"><b>Cavedago</b><br>Saldo netto: -5<br>Attrattività pc: 0.0018050541516245<br>R50_km: 45.744 – T50_min: 40.0</div>`)[0];
+                popup_7b4744e728ff7445a3ca0aca2ad57246.setContent(html_c29aaa2104275e13b6e3a230e387e22b);
+            
+        
+
+        circle_marker_7120d2d1681f6ffb15010d5f9870297c.bindPopup(popup_7b4744e728ff7445a3ca0aca2ad57246)
+        ;
+
+        
+    
+    
+            var circle_marker_510d976fadd52ca3621ffd83a5d71ea1 = L.circleMarker(
+                [45.9935135, 10.9756441],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.654261200627925, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_d680c721b5d12ea99f38d4fc2b1cad1e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dcc6610eb8cb1ae7108bd14a0726148e = $(`<div id="html_dcc6610eb8cb1ae7108bd14a0726148e" style="width: 100.0%; height: 100.0%;"><b>Cavedine</b><br>Saldo netto: -22<br>Attrattività pc: 0.0006635700066357<br>R50_km: 37.405 – T50_min: 37.0</div>`)[0];
+                popup_d680c721b5d12ea99f38d4fc2b1cad1e.setContent(html_dcc6610eb8cb1ae7108bd14a0726148e);
+            
+        
+
+        circle_marker_510d976fadd52ca3621ffd83a5d71ea1.bindPopup(popup_d680c721b5d12ea99f38d4fc2b1cad1e)
+        ;
+
+        
+    
+    
+            var circle_marker_3797e0d39e473f0415be97c82200ec9e = L.circleMarker(
+                [46.3676008, 10.9579527],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.933019428058113, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_52b570cf9e1cb36475b5832b06430d6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f13e00f19353de8b47da4cd04ccdb4b = $(`<div id="html_9f13e00f19353de8b47da4cd04ccdb4b" style="width: 100.0%; height: 100.0%;"><b>Cavizzana</b><br>Saldo netto: -1<br>Attrattività pc: 0.0<br>R50_km: 63.176 – T50_min: 58.0</div>`)[0];
+                popup_52b570cf9e1cb36475b5832b06430d6a.setContent(html_9f13e00f19353de8b47da4cd04ccdb4b);
+            
+        
+
+        circle_marker_3797e0d39e473f0415be97c82200ec9e.bindPopup(popup_52b570cf9e1cb36475b5832b06430d6a)
+        ;
+
+        
+    
+    
+            var circle_marker_775c5dc1e6775b446ef54723c36d6fb7 = L.circleMarker(
+                [46.1751948, 11.2224942],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.232642279539025, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8c84d95615730c2abd6a93fe98bfe484 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_52efc0f5776e97ceef6c4e307fcfee95 = $(`<div id="html_52efc0f5776e97ceef6c4e307fcfee95" style="width: 100.0%; height: 100.0%;"><b>Cembra Lisignago</b><br>Saldo netto: -22<br>Attrattività pc: 0.0004344048653344<br>R50_km: 40.746 – T50_min: 35.0</div>`)[0];
+                popup_8c84d95615730c2abd6a93fe98bfe484.setContent(html_52efc0f5776e97ceef6c4e307fcfee95);
+            
+        
+
+        circle_marker_775c5dc1e6775b446ef54723c36d6fb7.bindPopup(popup_8c84d95615730c2abd6a93fe98bfe484)
+        ;
+
+        
+    
+    
+            var circle_marker_1323b16665eecf585eb964a46d5828bd = L.circleMarker(
+                [45.978413, 11.069868],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.573903132926677, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_2c8d435ad8a2c4dbbec79979d97bcef2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ca38dcf45a07aa9b98ea76d25906ee38 = $(`<div id="html_ca38dcf45a07aa9b98ea76d25906ee38" style="width: 100.0%; height: 100.0%;"><b>Cimone</b><br>Saldo netto: -5<br>Attrattività pc: 0.0<br>R50_km: 30.972 – T50_min: 30.0</div>`)[0];
+                popup_2c8d435ad8a2c4dbbec79979d97bcef2.setContent(html_ca38dcf45a07aa9b98ea76d25906ee38);
+            
+        
+
+        circle_marker_1323b16665eecf585eb964a46d5828bd.bindPopup(popup_2c8d435ad8a2c4dbbec79979d97bcef2)
+        ;
+
+        
+    
+    
+            var circle_marker_69dc3cb03d3e25d77730beecff34d135 = L.circleMarker(
+                [46.0571641, 11.6141376],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.875090756775405, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_31df9224835ea96c63a50f928e22ca7e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c2076088143ee2b1cf9404bc0f738bbb = $(`<div id="html_c2076088143ee2b1cf9404bc0f738bbb" style="width: 100.0%; height: 100.0%;"><b>Cinte Tesino</b><br>Saldo netto: 3<br>Attrattività pc: 0.0116618075801749<br>R50_km: 64.287 – T50_min: 61.0</div>`)[0];
+                popup_31df9224835ea96c63a50f928e22ca7e.setContent(html_c2076088143ee2b1cf9404bc0f738bbb);
+            
+        
+
+        circle_marker_69dc3cb03d3e25d77730beecff34d135.bindPopup(popup_31df9224835ea96c63a50f928e22ca7e)
+        ;
+
+        
+    
+    
+            var circle_marker_dc58ba032c1d538df1b4d570c43d3eb2 = L.circleMarker(
+                [46.3995787, 11.0029016],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.291025833538345, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_69868add0ad969439962e9031db153d7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fbf6745d1ed94d0a0dd18154cc60977a = $(`<div id="html_fbf6745d1ed94d0a0dd18154cc60977a" style="width: 100.0%; height: 100.0%;"><b>Cis</b><br>Saldo netto: 0<br>Attrattività pc: 0.0066445182724252<br>R50_km: 59.032 – T50_min: 53.0</div>`)[0];
+                popup_69868add0ad969439962e9031db153d7.setContent(html_fbf6745d1ed94d0a0dd18154cc60977a);
+            
+        
+
+        circle_marker_dc58ba032c1d538df1b4d570c43d3eb2.bindPopup(popup_69868add0ad969439962e9031db153d7)
+        ;
+
+        
+    
+    
+            var circle_marker_05e27c284e185058e231f27bbe353592 = L.circleMarker(
+                [46.0883716, 11.1800917],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_5b1b4cf8afe8019b08975357281e0e47 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d7df4b2fc0306052517851fcbf6f0e23 = $(`<div id="html_d7df4b2fc0306052517851fcbf6f0e23" style="width: 100.0%; height: 100.0%;"><b>Civezzano</b><br>Saldo netto: -22<br>Attrattività pc: 0.0014684287812041<br>R50_km: 34.03 – T50_min: 27.0</div>`)[0];
+                popup_5b1b4cf8afe8019b08975357281e0e47.setContent(html_d7df4b2fc0306052517851fcbf6f0e23);
+            
+        
+
+        circle_marker_05e27c284e185058e231f27bbe353592.bindPopup(popup_5b1b4cf8afe8019b08975357281e0e47)
+        ;
+
+        
+    
+    
+            var circle_marker_2dbded75c4b609add6892c3caaab2484 = L.circleMarker(
+                [46.3647143, 11.0354393],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.599558614395331, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7ac68db17ca28d19f0e8a59c993f1022 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c93e61d514bdb8219c70bbdfd27b3c24 = $(`<div id="html_c93e61d514bdb8219c70bbdfd27b3c24" style="width: 100.0%; height: 100.0%;"><b>Cles</b><br>Saldo netto: -24<br>Attrattività pc: 0.0034945485043332<br>R50_km: 54.631 – T50_min: 46.0</div>`)[0];
+                popup_7ac68db17ca28d19f0e8a59c993f1022.setContent(html_c93e61d514bdb8219c70bbdfd27b3c24);
+            
+        
+
+        circle_marker_2dbded75c4b609add6892c3caaab2484.bindPopup(popup_7ac68db17ca28d19f0e8a59c993f1022)
+        ;
+
+        
+    
+    
+            var circle_marker_ed8c48b506558a04428df74e2d16fe6f = L.circleMarker(
+                [46.0348194, 10.8700206],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.83741383030543, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_9d4a966dfa8ad383bb8d6f163a938e80 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f4f0e0dc940b275f19111010a86f5a10 = $(`<div id="html_f4f0e0dc940b275f19111010a86f5a10" style="width: 100.0%; height: 100.0%;"><b>Comano Terme</b><br>Saldo netto: -8<br>Attrattività pc: 0.0034435261707988<br>R50_km: 40.85 – T50_min: 39.0</div>`)[0];
+                popup_9d4a966dfa8ad383bb8d6f163a938e80.setContent(html_f4f0e0dc940b275f19111010a86f5a10);
+            
+        
+
+        circle_marker_ed8c48b506558a04428df74e2d16fe6f.bindPopup(popup_9d4a966dfa8ad383bb8d6f163a938e80)
+        ;
+
+        
+    
+    
+            var circle_marker_d9d2f0c2e82c1cc9524ac76771f72adc = L.circleMarker(
+                [46.3214386, 10.8387904],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.937670128323763, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_961c567e3f65ecabef016c45800c7d13 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4920c24118805739c7eb01ca229f7fa = $(`<div id="html_b4920c24118805739c7eb01ca229f7fa" style="width: 100.0%; height: 100.0%;"><b>Commezzadura</b><br>Saldo netto: -4<br>Attrattività pc: 0.0009861932938856<br>R50_km: 71.206 – T50_min: 64.0</div>`)[0];
+                popup_961c567e3f65ecabef016c45800c7d13.setContent(html_b4920c24118805739c7eb01ca229f7fa);
+            
+        
+
+        circle_marker_d9d2f0c2e82c1cc9524ac76771f72adc.bindPopup(popup_961c567e3f65ecabef016c45800c7d13)
+        ;
+
+        
+    
+    
+            var circle_marker_c131016581d5b3246cc1402a989c6d63 = L.circleMarker(
+                [46.2840768, 11.0365207],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.120960507803828, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_f0df12779860f118d59287a9abdb239c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7921e37e847d94b1635f47a8ba769ad1 = $(`<div id="html_7921e37e847d94b1635f47a8ba769ad1" style="width: 100.0%; height: 100.0%;"><b>Contà</b><br>Saldo netto: -8<br>Attrattività pc: 0.0014295925661186<br>R50_km: 45.473 – T50_min: 40.0</div>`)[0];
+                popup_f0df12779860f118d59287a9abdb239c.setContent(html_7921e37e847d94b1635f47a8ba769ad1);
+            
+        
+
+        circle_marker_c131016581d5b3246cc1402a989c6d63.bindPopup(popup_f0df12779860f118d59287a9abdb239c)
+        ;
+
+        
+    
+    
+            var circle_marker_122b96501f4fdc5d69e44d2eeade705a = L.circleMarker(
+                [46.344879, 10.9034648],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.609814573573951, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_f0daba9e94f0b85f8242fc9e0997da59 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f3f31180f51474302f211a726f04c7e = $(`<div id="html_6f3f31180f51474302f211a726f04c7e" style="width: 100.0%; height: 100.0%;"><b>Croviana</b><br>Saldo netto: -3<br>Attrattività pc: 0.0<br>R50_km: 65.341 – T50_min: 59.0</div>`)[0];
+                popup_f0daba9e94f0b85f8242fc9e0997da59.setContent(html_6f3f31180f51474302f211a726f04c7e);
+            
+        
+
+        circle_marker_122b96501f4fdc5d69e44d2eeade705a.bindPopup(popup_f0daba9e94f0b85f8242fc9e0997da59)
+        ;
+
+        
+    
+    
+            var circle_marker_324398126c6ac632f1f66b9687c331a1 = L.circleMarker(
+                [46.4054525, 11.0928279],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.93941348962722, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_684564a10d3e020c9ca22e7993a447dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ad2bbd81d81de6252ef5e1a7ee2a5b3 = $(`<div id="html_7ad2bbd81d81de6252ef5e1a7ee2a5b3" style="width: 100.0%; height: 100.0%;"><b>Dambel</b><br>Saldo netto: 0<br>Attrattività pc: 0.0047732696897374<br>R50_km: 58.289 – T50_min: 53.0</div>`)[0];
+                popup_684564a10d3e020c9ca22e7993a447dd.setContent(html_7ad2bbd81d81de6252ef5e1a7ee2a5b3);
+            
+        
+
+        circle_marker_324398126c6ac632f1f66b9687c331a1.bindPopup(popup_684564a10d3e020c9ca22e7993a447dd)
+        ;
+
+        
+    
+    
+            var circle_marker_fe44830931bade8e3bb6d5d1f81e9ca5 = L.circleMarker(
+                [46.2748422, 11.0482149],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.67898486756998, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_d7743742fce9e744a5c879ae90b00fdb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_965de0f045f2a53d046b918c121ce6ac = $(`<div id="html_965de0f045f2a53d046b918c121ce6ac" style="width: 100.0%; height: 100.0%;"><b>Denno</b><br>Saldo netto: -21<br>Attrattività pc: 0.0008250825082508<br>R50_km: 43.546 – T50_min: 37.0</div>`)[0];
+                popup_d7743742fce9e744a5c879ae90b00fdb.setContent(html_965de0f045f2a53d046b918c121ce6ac);
+            
+        
+
+        circle_marker_fe44830931bade8e3bb6d5d1f81e9ca5.bindPopup(popup_d7743742fce9e744a5c879ae90b00fdb)
+        ;
+
+        
+    
+    
+            var circle_marker_90b5a4945e0d80a7c9e82f222bf8298b = L.circleMarker(
+                [46.3255867, 10.8747857],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.926459181994876, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_02877f72327a3cf638730e765bd6567e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd667560748da47a7ad583a7f95a93bc = $(`<div id="html_dd667560748da47a7ad583a7f95a93bc" style="width: 100.0%; height: 100.0%;"><b>Dimaro Folgarida</b><br>Saldo netto: -8<br>Attrattività pc: 0.0019138755980861<br>R50_km: 68.466 – T50_min: 62.0</div>`)[0];
+                popup_02877f72327a3cf638730e765bd6567e.setContent(html_dd667560748da47a7ad583a7f95a93bc);
+            
+        
+
+        circle_marker_90b5a4945e0d80a7c9e82f222bf8298b.bindPopup(popup_02877f72327a3cf638730e765bd6567e)
+        ;
+
+        
+    
+    
+            var circle_marker_1b276a059e3fcbbddaae95c1e894c09a = L.circleMarker(
+                [45.970053, 10.9465026],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.169654157574547, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_82a0d710197e45cec8933f37ef329438 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_09a3d611ecf2dc4fbe08cd19e1aa59b6 = $(`<div id="html_09a3d611ecf2dc4fbe08cd19e1aa59b6" style="width: 100.0%; height: 100.0%;"><b>Drena</b><br>Saldo netto: -6<br>Attrattività pc: 0.0034423407917383<br>R50_km: 35.186 – T50_min: 36.0</div>`)[0];
+                popup_82a0d710197e45cec8933f37ef329438.setContent(html_09a3d611ecf2dc4fbe08cd19e1aa59b6);
+            
+        
+
+        circle_marker_1b276a059e3fcbbddaae95c1e894c09a.bindPopup(popup_82a0d710197e45cec8933f37ef329438)
+        ;
+
+        
+    
+    
+            var circle_marker_406c9edfcbf688c598db951cbdccb1fe = L.circleMarker(
+                [45.9613419, 10.9108002],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.162180735136577, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_3a43d85db407dea07d3289728910f243 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c92d345cb8d706328aaffceb50e3c3f6 = $(`<div id="html_c92d345cb8d706328aaffceb50e3c3f6" style="width: 100.0%; height: 100.0%;"><b>Dro</b><br>Saldo netto: -38<br>Attrattività pc: 0.0019825535289452<br>R50_km: 35.553 – T50_min: 33.0</div>`)[0];
+                popup_3a43d85db407dea07d3289728910f243.setContent(html_c92d345cb8d706328aaffceb50e3c3f6);
+            
+        
+
+        circle_marker_406c9edfcbf688c598db951cbdccb1fe.bindPopup(popup_3a43d85db407dea07d3289728910f243)
+        ;
+
+        
+    
+    
+            var circle_marker_5a990e35b41fcf24821fd69c667b3b3c = L.circleMarker(
+                [46.1784595, 11.0695402],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.361217029000375, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_c378e9f8b1b2cafe7506d61452872f02 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b34af64f7906f85d617ce093239bb81 = $(`<div id="html_3b34af64f7906f85d617ce093239bb81" style="width: 100.0%; height: 100.0%;"><b>Fai della Paganella</b><br>Saldo netto: -6<br>Attrattività pc: 0.0065934065934065<br>R50_km: 45.036 – T50_min: 36.0</div>`)[0];
+                popup_c378e9f8b1b2cafe7506d61452872f02.setContent(html_3b34af64f7906f85d617ce093239bb81);
+            
+        
+
+        circle_marker_5a990e35b41fcf24821fd69c667b3b3c.bindPopup(popup_c378e9f8b1b2cafe7506d61452872f02)
+        ;
+
+        
+    
+    
+            var circle_marker_7366b7dc608e8fa5b8242bf855ba7493 = L.circleMarker(
+                [46.0047212, 10.8422511],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.61256400650876, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_77360e1bee092ea8650b0d3130a8d826 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef4c1640cac6abe976120a30e31a7701 = $(`<div id="html_ef4c1640cac6abe976120a30e31a7701" style="width: 100.0%; height: 100.0%;"><b>Fiavè</b><br>Saldo netto: -3<br>Attrattività pc: 0.0009416195856873<br>R50_km: 39.123 – T50_min: 43.0</div>`)[0];
+                popup_77360e1bee092ea8650b0d3130a8d826.setContent(html_ef4c1640cac6abe976120a30e31a7701);
+            
+        
+
+        circle_marker_7366b7dc608e8fa5b8242bf855ba7493.bindPopup(popup_77360e1bee092ea8650b0d3130a8d826)
+        ;
+
+        
+    
+    
+            var circle_marker_0591872b0268ccabbe04472abe5a3604 = L.circleMarker(
+                [46.1112856, 11.3185822],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.502062669494046, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_1294f77f6f3d7c9d853387160dd0a055 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2578172b2c6a66d706dab215eba2d818 = $(`<div id="html_2578172b2c6a66d706dab215eba2d818" style="width: 100.0%; height: 100.0%;"><b>Fierozzo / Vlarotz</b><br>Saldo netto: -1<br>Attrattività pc: 0.0021008403361344<br>R50_km: 43.731 – T50_min: 41.0</div>`)[0];
+                popup_1294f77f6f3d7c9d853387160dd0a055.setContent(html_2578172b2c6a66d706dab215eba2d818);
+            
+        
+
+        circle_marker_0591872b0268ccabbe04472abe5a3604.bindPopup(popup_1294f77f6f3d7c9d853387160dd0a055)
+        ;
+
+        
+    
+    
+            var circle_marker_6204e9ca663fa1a1d86e928c5bf5d273 = L.circleMarker(
+                [45.9139949, 11.1770133],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.556876664482868, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_605e92187483e79e1b3282b5890bd0dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36275ca117add00594c6c4600c493df9 = $(`<div id="html_36275ca117add00594c6c4600c493df9" style="width: 100.0%; height: 100.0%;"><b>Folgaria</b><br>Saldo netto: 14<br>Attrattività pc: 0.0139726897427754<br>R50_km: 36.941 – T50_min: 39.0</div>`)[0];
+                popup_605e92187483e79e1b3282b5890bd0dd.setContent(html_36275ca117add00594c6c4600c493df9);
+            
+        
+
+        circle_marker_6204e9ca663fa1a1d86e928c5bf5d273.bindPopup(popup_605e92187483e79e1b3282b5890bd0dd)
+        ;
+
+        
+    
+    
+            var circle_marker_dac78ec3ad6f906506092dca07fa0d6f = L.circleMarker(
+                [46.1186941, 11.2074143],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 15.473911313318027, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_c1130fe8816ab8d4174d900bd83efa27 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e44bb41a17e76936701f4fb936f88893 = $(`<div id="html_e44bb41a17e76936701f4fb936f88893" style="width: 100.0%; height: 100.0%;"><b>Fornace</b><br>Saldo netto: -5<br>Attrattività pc: 0.0007598784194528<br>R50_km: 38.031 – T50_min: 33.0</div>`)[0];
+                popup_c1130fe8816ab8d4174d900bd83efa27.setContent(html_e44bb41a17e76936701f4fb936f88893);
+            
+        
+
+        circle_marker_dac78ec3ad6f906506092dca07fa0d6f.bindPopup(popup_c1130fe8816ab8d4174d900bd83efa27)
+        ;
+
+        
+    
+    
+            var circle_marker_9188b6369a07c2c7bf908c6dce7bfd94 = L.circleMarker(
+                [46.0899914, 11.2978635],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.574008201564848, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_b07321095a0bb2002bf2b13f14d014bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1442585fb7e38d0611eaefd0d9e48a53 = $(`<div id="html_1442585fb7e38d0611eaefd0d9e48a53" style="width: 100.0%; height: 100.0%;"><b>Frassilongo / Garait</b><br>Saldo netto: 0<br>Attrattività pc: 0.0<br>R50_km: 42.669 – T50_min: 37.0</div>`)[0];
+                popup_b07321095a0bb2002bf2b13f14d014bf.setContent(html_1442585fb7e38d0611eaefd0d9e48a53);
+            
+        
+
+        circle_marker_9188b6369a07c2c7bf908c6dce7bfd94.bindPopup(popup_b07321095a0bb2002bf2b13f14d014bf)
+        ;
+
+        
+    
+    
+            var circle_marker_15438b7a7e894a8eaadebf82d5f20362 = L.circleMarker(
+                [46.0011193, 11.086054],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.471180666680148, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_57f39de67fb0a369ea70401ade477dfd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0224f8a14578853e225fbda52132e7dd = $(`<div id="html_0224f8a14578853e225fbda52132e7dd" style="width: 100.0%; height: 100.0%;"><b>Garniga Terme</b><br>Saldo netto: -3<br>Attrattività pc: 0.0<br>R50_km: 34.596 – T50_min: 30.0</div>`)[0];
+                popup_57f39de67fb0a369ea70401ade477dfd.setContent(html_0224f8a14578853e225fbda52132e7dd);
+            
+        
+
+        circle_marker_15438b7a7e894a8eaadebf82d5f20362.bindPopup(popup_57f39de67fb0a369ea70401ade477dfd)
+        ;
+
+        
+    
+    
+            var circle_marker_d4f2b9a7b32f1a6c4839e89d604776b9 = L.circleMarker(
+                [46.1572015, 11.1516093],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.50320425891238, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_38f6992e5ff5980191578d7b0a7323b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_06c8456e2fccb316f6937f8451b7353c = $(`<div id="html_06c8456e2fccb316f6937f8451b7353c" style="width: 100.0%; height: 100.0%;"><b>Giovo</b><br>Saldo netto: -29<br>Attrattività pc: 0.0007936507936507<br>R50_km: 36.183 – T50_min: 30.0</div>`)[0];
+                popup_38f6992e5ff5980191578d7b0a7323b6.setContent(html_06c8456e2fccb316f6937f8451b7353c);
+            
+        
+
+        circle_marker_d4f2b9a7b32f1a6c4839e89d604776b9.bindPopup(popup_38f6992e5ff5980191578d7b0a7323b6)
+        ;
+
+        
+    
+    
+            var circle_marker_acf2ad4fd641377a158cb58dfdd61b76 = L.circleMarker(
+                [46.1463198, 10.7691045],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.847875433085424, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_d8919ddffccdd2be436a8eb3b6188034 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8392af42b90c63e7b836b6c888969911 = $(`<div id="html_8392af42b90c63e7b836b6c888969911" style="width: 100.0%; height: 100.0%;"><b>Giustino</b><br>Saldo netto: 3<br>Attrattività pc: 0.0040268456375838<br>R50_km: 61.619 – T50_min: 62.0</div>`)[0];
+                popup_d8919ddffccdd2be436a8eb3b6188034.setContent(html_8392af42b90c63e7b836b6c888969911);
+            
+        
+
+        circle_marker_acf2ad4fd641377a158cb58dfdd61b76.bindPopup(popup_d8919ddffccdd2be436a8eb3b6188034)
+        ;
+
+        
+    
+    
+            var circle_marker_636d4e6872ccbd6ff6266ede7100151f = L.circleMarker(
+                [46.0150837, 11.6325633],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.989632985570475, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_b409bf584bb6cd9e08f3369e3c0192f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2dc2c1ee90ec87a894e8d8af26650084 = $(`<div id="html_2dc2c1ee90ec87a894e8d8af26650084" style="width: 100.0%; height: 100.0%;"><b>Grigno</b><br>Saldo netto: 115<br>Attrattività pc: 0.0777453838678328<br>R50_km: 63.158 – T50_min: 56.0</div>`)[0];
+                popup_b409bf584bb6cd9e08f3369e3c0192f5.setContent(html_2dc2c1ee90ec87a894e8d8af26650084);
+            
+        
+
+        circle_marker_636d4e6872ccbd6ff6266ede7100151f.bindPopup(popup_b409bf584bb6cd9e08f3369e3c0192f5)
+        ;
+
+        
+    
+    
+            var circle_marker_59f1ed0d5e461506f78a7f40d5383fd5 = L.circleMarker(
+                [46.150539, 11.7942486],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.193458087602181, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_64c514f391a8e268ad7c869e88e50090 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_595ce59a5a059382e1b4cb4569e8ec25 = $(`<div id="html_595ce59a5a059382e1b4cb4569e8ec25" style="width: 100.0%; height: 100.0%;"><b>Imer</b><br>Saldo netto: -15<br>Attrattività pc: 0.0102214650766609<br>R50_km: 95.199 – T50_min: 98.0</div>`)[0];
+                popup_64c514f391a8e268ad7c869e88e50090.setContent(html_595ce59a5a059382e1b4cb4569e8ec25);
+            
+        
+
+        circle_marker_59f1ed0d5e461506f78a7f40d5383fd5.bindPopup(popup_64c514f391a8e268ad7c869e88e50090)
+        ;
+
+        
+    
+    
+            var circle_marker_774744c7bb189a95db521d11cbc3264e = L.circleMarker(
+                [45.8852977, 11.0091965],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 19.737547451029677, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_85d4fedaa6ad0b4124102a4134003146 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cd82b45a7f9891e158a83793c9a0ad4d = $(`<div id="html_cd82b45a7f9891e158a83793c9a0ad4d" style="width: 100.0%; height: 100.0%;"><b>Isera</b><br>Saldo netto: -14<br>Attrattività pc: 0.0018083182640144<br>R50_km: 34.57 – T50_min: 27.0</div>`)[0];
+                popup_85d4fedaa6ad0b4124102a4134003146.setContent(html_cd82b45a7f9891e158a83793c9a0ad4d);
+            
+        
+
+        circle_marker_774744c7bb189a95db521d11cbc3264e.bindPopup(popup_85d4fedaa6ad0b4124102a4134003146)
+        ;
+
+        
+    
+    
+            var circle_marker_dc9ae9d325f8e8957a03fc6215c6484b = L.circleMarker(
+                [45.9367423, 11.2742486],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.627189348864889, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8d0e8023076dd1409fbebc112eb665d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d4152530066ed7b9a279fe28c579291f = $(`<div id="html_d4152530066ed7b9a279fe28c579291f" style="width: 100.0%; height: 100.0%;"><b>Lavarone</b><br>Saldo netto: 25<br>Attrattività pc: 0.029486099410278<br>R50_km: 40.914 – T50_min: 41.0</div>`)[0];
+                popup_8d0e8023076dd1409fbebc112eb665d9.setContent(html_d4152530066ed7b9a279fe28c579291f);
+            
+        
+
+        circle_marker_dc9ae9d325f8e8957a03fc6215c6484b.bindPopup(popup_8d0e8023076dd1409fbebc112eb665d9)
+        ;
+
+        
+    
+    
+            var circle_marker_cabaeb18adc7ed3ac5e740563ddae87d = L.circleMarker(
+                [46.1397504, 11.1115925],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 17.504725608568467, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_9b2d14ff73595baf954957a262fc6ac1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e6bd3e9720075d1885241259fe6e84ff = $(`<div id="html_e6bd3e9720075d1885241259fe6e84ff" style="width: 100.0%; height: 100.0%;"><b>Lavis</b><br>Saldo netto: -132<br>Attrattività pc: 0.0077825276772991<br>R50_km: 33.978 – T50_min: 26.0</div>`)[0];
+                popup_9b2d14ff73595baf954957a262fc6ac1.setContent(html_e6bd3e9720075d1885241259fe6e84ff);
+            
+        
+
+        circle_marker_cabaeb18adc7ed3ac5e740563ddae87d.bindPopup(popup_9b2d14ff73595baf954957a262fc6ac1)
+        ;
+
+        
+    
+    
+            var circle_marker_4bebced02edd6ddc7e12bb6e1945897a = L.circleMarker(
+                [45.8887732, 10.7309411],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.41127665441888, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8626bc0417a56c6c9e68369d288213b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a30c73fd208e39a1b0f7d2c47e71a5fa = $(`<div id="html_a30c73fd208e39a1b0f7d2c47e71a5fa" style="width: 100.0%; height: 100.0%;"><b>Ledro</b><br>Saldo netto: -17<br>Attrattività pc: 0.0028511689792815<br>R50_km: 56.215 – T50_min: 54.0</div>`)[0];
+                popup_8626bc0417a56c6c9e68369d288213b1.setContent(html_a30c73fd208e39a1b0f7d2c47e71a5fa);
+            
+        
+
+        circle_marker_4bebced02edd6ddc7e12bb6e1945897a.bindPopup(popup_8626bc0417a56c6c9e68369d288213b1)
+        ;
+
+        
+    
+    
+            var circle_marker_225b90928cb114bcfc6c1bbeb8e1e9bf = L.circleMarker(
+                [46.0116173, 11.301007],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.33707413642492, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_5cfbbdae65f82c3639c98e77f5a30bbd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_57b83e7f105338f282feb0f8f16446f6 = $(`<div id="html_57b83e7f105338f282feb0f8f16446f6" style="width: 100.0%; height: 100.0%;"><b>Levico Terme</b><br>Saldo netto: -24<br>Attrattività pc: 0.0033461395464121<br>R50_km: 36.962 – T50_min: 41.0</div>`)[0];
+                popup_5cfbbdae65f82c3639c98e77f5a30bbd.setContent(html_57b83e7f105338f282feb0f8f16446f6);
+            
+        
+
+        circle_marker_225b90928cb114bcfc6c1bbeb8e1e9bf.bindPopup(popup_5cfbbdae65f82c3639c98e77f5a30bbd)
+        ;
+
+        
+    
+    
+            var circle_marker_4f8141c42ba8aaf5ff575d9011798f30 = L.circleMarker(
+                [46.40469, 11.019244],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.605208964217136, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_2d7d60c3407d6e3fda48ece7c9d8f6f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7bc50293215f83bc9294caee7eff82fa = $(`<div id="html_7bc50293215f83bc9294caee7eff82fa" style="width: 100.0%; height: 100.0%;"><b>Livo</b><br>Saldo netto: -2<br>Attrattività pc: 0.0025445292620865<br>R50_km: 61.624 – T50_min: 56.0</div>`)[0];
+                popup_2d7d60c3407d6e3fda48ece7c9d8f6f7.setContent(html_7bc50293215f83bc9294caee7eff82fa);
+            
+        
+
+        circle_marker_4f8141c42ba8aaf5ff575d9011798f30.bindPopup(popup_2d7d60c3407d6e3fda48ece7c9d8f6f7)
+        ;
+
+        
+    
+    
+            var circle_marker_21e19dc9170ab0493a230e80961ce6db = L.circleMarker(
+                [46.1459908, 11.2199419],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.40995767281243, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7593c8d2babb1a16163e35b38d8c91bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a086ad533670e74fe2f58de220e7f92 = $(`<div id="html_5a086ad533670e74fe2f58de220e7f92" style="width: 100.0%; height: 100.0%;"><b>Lona-Lases</b><br>Saldo netto: -14<br>Attrattività pc: 0.0<br>R50_km: 38.749 – T50_min: 35.0</div>`)[0];
+                popup_7593c8d2babb1a16163e35b38d8c91bc.setContent(html_5a086ad533670e74fe2f58de220e7f92);
+            
+        
+
+        circle_marker_21e19dc9170ab0493a230e80961ce6db.bindPopup(popup_7593c8d2babb1a16163e35b38d8c91bc)
+        ;
+
+        
+    
+    
+            var circle_marker_c42fde6ef81f7df351b9e994b4baed2d = L.circleMarker(
+                [45.9217016, 11.3244525],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.954631138241457, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_1b62b71314bd0174d2ecda3926bf2971 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9746864970b4721326cc6099201fd057 = $(`<div id="html_9746864970b4721326cc6099201fd057" style="width: 100.0%; height: 100.0%;"><b>Luserna / Lusérn</b><br>Saldo netto: 0<br>Attrattività pc: 0.0148698884758364<br>R50_km: 44.408 – T50_min: 46.0</div>`)[0];
+                popup_1b62b71314bd0174d2ecda3926bf2971.setContent(html_9746864970b4721326cc6099201fd057);
+            
+        
+
+        circle_marker_c42fde6ef81f7df351b9e994b4baed2d.bindPopup(popup_1b62b71314bd0174d2ecda3926bf2971)
+        ;
+
+        
+    
+    
+            var circle_marker_c1fc5ea4260b7e7b3482df0905fb17b0 = L.circleMarker(
+                [46.0457777, 10.9823967],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.309638562606612, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8ee77ad146bb7ad3d4b0043f018dcc2f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac86cab5bc4b3e8479d29750e997b77d = $(`<div id="html_ac86cab5bc4b3e8479d29750e997b77d" style="width: 100.0%; height: 100.0%;"><b>Madruzzo</b><br>Saldo netto: -23<br>Attrattività pc: 0.0006784260515603<br>R50_km: 34.23 – T50_min: 32.0</div>`)[0];
+                popup_8ee77ad146bb7ad3d4b0043f018dcc2f.setContent(html_ac86cab5bc4b3e8479d29750e997b77d);
+            
+        
+
+        circle_marker_c1fc5ea4260b7e7b3482df0905fb17b0.bindPopup(popup_8ee77ad146bb7ad3d4b0043f018dcc2f)
+        ;
+
+        
+    
+    
+            var circle_marker_35519b7a8af3733d8870faa8745b149c = L.circleMarker(
+                [46.351604, 10.912956],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.430665966516298, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_e77811ad7d838b09776e1fa0fed0c313 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b064f4efe5448197477015af760dc1e = $(`<div id="html_4b064f4efe5448197477015af760dc1e" style="width: 100.0%; height: 100.0%;"><b>Malé</b><br>Saldo netto: -9<br>Attrattività pc: 0.0022301516503122<br>R50_km: 64.488 – T50_min: 59.0</div>`)[0];
+                popup_e77811ad7d838b09776e1fa0fed0c313.setContent(html_4b064f4efe5448197477015af760dc1e);
+            
+        
+
+        circle_marker_35519b7a8af3733d8870faa8745b149c.bindPopup(popup_e77811ad7d838b09776e1fa0fed0c313)
+        ;
+
+        
+    
+    
+            var circle_marker_3c6061b79fbb3686ef49cc6b9223b051 = L.circleMarker(
+                [46.1422639, 10.7734705],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.472375305570212, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_2b4f2874ddc819ad47a95f18a891256a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e179ad38c5ad50b60f439413a43abbba = $(`<div id="html_e179ad38c5ad50b60f439413a43abbba" style="width: 100.0%; height: 100.0%;"><b>Massimeno</b><br>Saldo netto: 0<br>Attrattività pc: 0.0<br>R50_km: 62.583 – T50_min: 64.0</div>`)[0];
+                popup_2b4f2874ddc819ad47a95f18a891256a.setContent(html_e179ad38c5ad50b60f439413a43abbba);
+            
+        
+
+        circle_marker_3c6061b79fbb3686ef49cc6b9223b051.bindPopup(popup_2b4f2874ddc819ad47a95f18a891256a)
+        ;
+
+        
+    
+    
+            var circle_marker_004d9a165ed150fd1f81e34e557752a7 = L.circleMarker(
+                [46.4571325, 11.7001097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.070860745239873, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_b52f03e26f53ccc419910aa4a930145b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_024cb77a423409ee374dddf3b0242a06 = $(`<div id="html_024cb77a423409ee374dddf3b0242a06" style="width: 100.0%; height: 100.0%;"><b>Mazzin / Mazin</b><br>Saldo netto: -2<br>Attrattività pc: 0.0016863406408094<br>R50_km: 84.465 – T50_min: 87.0</div>`)[0];
+                popup_b52f03e26f53ccc419910aa4a930145b.setContent(html_024cb77a423409ee374dddf3b0242a06);
+            
+        
+
+        circle_marker_004d9a165ed150fd1f81e34e557752a7.bindPopup(popup_b52f03e26f53ccc419910aa4a930145b)
+        ;
+
+        
+    
+    
+            var circle_marker_b8132bbfa1e8026976773545b2ed4f82 = L.circleMarker(
+                [46.3169972, 10.7980493],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.274378891095505, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_b86fd4c66083ec2c4d5e149718079042 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cfb08d880a1da03d0df2b97c3c622de5 = $(`<div id="html_cfb08d880a1da03d0df2b97c3c622de5" style="width: 100.0%; height: 100.0%;"><b>Mezzana</b><br>Saldo netto: 5<br>Attrattività pc: 0.0091116173120728<br>R50_km: 74.632 – T50_min: 67.0</div>`)[0];
+                popup_b86fd4c66083ec2c4d5e149718079042.setContent(html_cfb08d880a1da03d0df2b97c3c622de5);
+            
+        
+
+        circle_marker_b8132bbfa1e8026976773545b2ed4f82.bindPopup(popup_b86fd4c66083ec2c4d5e149718079042)
+        ;
+
+        
+    
+    
+            var circle_marker_bba84ad18eda2459d865a49c020ad384 = L.circleMarker(
+                [46.1545276, 11.8059418],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.344921496856534, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_90523237075177d8d3588ca5aa827266 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a38654ef82a3f07eab382a2537bab7c = $(`<div id="html_0a38654ef82a3f07eab382a2537bab7c" style="width: 100.0%; height: 100.0%;"><b>Mezzano</b><br>Saldo netto: -36<br>Attrattività pc: 0.0043887147335423<br>R50_km: 96.006 – T50_min: 100.0</div>`)[0];
+                popup_90523237075177d8d3588ca5aa827266.setContent(html_0a38654ef82a3f07eab382a2537bab7c);
+            
+        
+
+        circle_marker_bba84ad18eda2459d865a49c020ad384.bindPopup(popup_90523237075177d8d3588ca5aa827266)
+        ;
+
+        
+    
+    
+            var circle_marker_7202b7620cfa07452d053028566657dc = L.circleMarker(
+                [46.2152495, 11.1196152],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 15.601641942292748, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_a4dcaddf290257ec3e2d50a8c40ae400 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f5545682527411060d498d38150a29f = $(`<div id="html_9f5545682527411060d498d38150a29f" style="width: 100.0%; height: 100.0%;"><b>Mezzocorona</b><br>Saldo netto: -209<br>Attrattività pc: 0.0103298296484233<br>R50_km: 37.008 – T50_min: 27.0</div>`)[0];
+                popup_a4dcaddf290257ec3e2d50a8c40ae400.setContent(html_9f5545682527411060d498d38150a29f);
+            
+        
+
+        circle_marker_7202b7620cfa07452d053028566657dc.bindPopup(popup_a4dcaddf290257ec3e2d50a8c40ae400)
+        ;
+
+        
+    
+    
+            var circle_marker_370aefec74b480104561c873cffa7ed4 = L.circleMarker(
+                [46.211192, 11.0932021],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 15.114467554082657, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_e8a7f26e86d7c5e5c08783d052854b50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2002fff050667084c652acad20eed563 = $(`<div id="html_2002fff050667084c652acad20eed563" style="width: 100.0%; height: 100.0%;"><b>Mezzolombardo</b><br>Saldo netto: -269<br>Attrattività pc: 0.0058084560313386<br>R50_km: 37.859 – T50_min: 28.0</div>`)[0];
+                popup_e8a7f26e86d7c5e5c08783d052854b50.setContent(html_2002fff050667084c652acad20eed563);
+            
+        
+
+        circle_marker_370aefec74b480104561c873cffa7ed4.bindPopup(popup_e8a7f26e86d7c5e5c08783d052854b50)
+        ;
+
+        
+    
+    
+            var circle_marker_3daf57981a1db37c46ac3b25c2e64a68 = L.circleMarker(
+                [46.3766947, 11.6599965],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.316172577473383, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_04995c8e73bfc7258ac9fdea6a91926b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_426d4c62dc72345f534f496896c38691 = $(`<div id="html_426d4c62dc72345f534f496896c38691" style="width: 100.0%; height: 100.0%;"><b>Moena / Moena</b><br>Saldo netto: 71<br>Attrattività pc: 0.0322458270106221<br>R50_km: 73.929 – T50_min: 77.0</div>`)[0];
+                popup_04995c8e73bfc7258ac9fdea6a91926b.setContent(html_426d4c62dc72345f534f496896c38691);
+            
+        
+
+        circle_marker_3daf57981a1db37c46ac3b25c2e64a68.bindPopup(popup_04995c8e73bfc7258ac9fdea6a91926b)
+        ;
+
+        
+    
+    
+            var circle_marker_e7c44544fe843da41cb162e9a2568c20 = L.circleMarker(
+                [46.1416008, 10.9654211],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.057090071229862, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_65db2768a138353458598b199b69faf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8beea08cb25f9d520ce097fcfe0d4b0 = $(`<div id="html_d8beea08cb25f9d520ce097fcfe0d4b0" style="width: 100.0%; height: 100.0%;"><b>Molveno</b><br>Saldo netto: -9<br>Attrattività pc: 0.0008960573476702<br>R50_km: 44.147 – T50_min: 43.0</div>`)[0];
+                popup_65db2768a138353458598b199b69faf1.setContent(html_d8beea08cb25f9d520ce097fcfe0d4b0);
+            
+        
+
+        circle_marker_e7c44544fe843da41cb162e9a2568c20.bindPopup(popup_65db2768a138353458598b199b69faf1)
+        ;
+
+        
+    
+    
+            var circle_marker_6797a141a6b71eab33c729d063adb155 = L.circleMarker(
+                [45.8519652, 10.9779068],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.739361440045865, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_6598f665720dcb3dca704e2143f22c72 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ae29b65b4a89906cb0e9c7d68f4592d2 = $(`<div id="html_ae29b65b4a89906cb0e9c7d68f4592d2" style="width: 100.0%; height: 100.0%;"><b>Mori</b><br>Saldo netto: -91<br>Attrattività pc: 0.0018979122964738<br>R50_km: 36.004 – T50_min: 32.0</div>`)[0];
+                popup_6598f665720dcb3dca704e2143f22c72.setContent(html_ae29b65b4a89906cb0e9c7d68f4592d2);
+            
+        
+
+        circle_marker_6797a141a6b71eab33c729d063adb155.bindPopup(popup_6598f665720dcb3dca704e2143f22c72)
+        ;
+
+        
+    
+    
+            var circle_marker_3d84c6ff75405a8d91bcd9945d03a160 = L.circleMarker(
+                [45.8778429, 10.8908849],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.326161634354335, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_9f5170fb205afe7b67ab24c9982ef433 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_696a4a9d32c0b3958ad8e51cb9835132 = $(`<div id="html_696a4a9d32c0b3958ad8e51cb9835132" style="width: 100.0%; height: 100.0%;"><b>Nago-Torbole</b><br>Saldo netto: -9<br>Attrattività pc: 0.0102292768959435<br>R50_km: 40.331 – T50_min: 34.0</div>`)[0];
+                popup_9f5170fb205afe7b67ab24c9982ef433.setContent(html_696a4a9d32c0b3958ad8e51cb9835132);
+            
+        
+
+        circle_marker_3d84c6ff75405a8d91bcd9945d03a160.bindPopup(popup_9f5170fb205afe7b67ab24c9982ef433)
+        ;
+
+        
+    
+    
+            var circle_marker_b593eb7568b7cb68adef7b5deed8565a = L.circleMarker(
+                [45.9143396, 11.0214414],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 19.926455857026173, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_4126fdc90886de5b535613a82aa6bec4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60289ae8f21f96ee05e4ce59b932aeea = $(`<div id="html_60289ae8f21f96ee05e4ce59b932aeea" style="width: 100.0%; height: 100.0%;"><b>Nogaredo</b><br>Saldo netto: -13<br>Attrattività pc: 0.0014527845036319<br>R50_km: 32.188 – T50_min: 27.0</div>`)[0];
+                popup_4126fdc90886de5b535613a82aa6bec4.setContent(html_60289ae8f21f96ee05e4ce59b932aeea);
+            
+        
+
+        circle_marker_b593eb7568b7cb68adef7b5deed8565a.bindPopup(popup_4126fdc90886de5b535613a82aa6bec4)
+        ;
+
+        
+    
+    
+            var circle_marker_8d6205662a449ab2a62035f73650486f = L.circleMarker(
+                [45.9290197, 11.0710884],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 17.687615862923586, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_bd152b9320ba060413a4c454e17ba9b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b74bcf3ce95317a7889453e37f2c335 = $(`<div id="html_7b74bcf3ce95317a7889453e37f2c335" style="width: 100.0%; height: 100.0%;"><b>Nomi</b><br>Saldo netto: -12<br>Attrattività pc: 0.0030604437643458<br>R50_km: 27.972 – T50_min: 30.0</div>`)[0];
+                popup_bd152b9320ba060413a4c454e17ba9b3.setContent(html_7b74bcf3ce95317a7889453e37f2c335);
+            
+        
+
+        circle_marker_8d6205662a449ab2a62035f73650486f.bindPopup(popup_bd152b9320ba060413a4c454e17ba9b3)
+        ;
+
+        
+    
+    
+            var circle_marker_749445e8ce6833f4a747f638be5a157a = L.circleMarker(
+                [46.0218029, 11.3649519],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.565394891032208, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_66be6aa624c289512a469ef8e48bb9f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82214f5f149012e687e2b6d50dd87c96 = $(`<div id="html_82214f5f149012e687e2b6d50dd87c96" style="width: 100.0%; height: 100.0%;"><b>Novaledo</b><br>Saldo netto: 13<br>Attrattività pc: 0.0154826958105646<br>R50_km: 41.737 – T50_min: 42.0</div>`)[0];
+                popup_66be6aa624c289512a469ef8e48bb9f1.setContent(html_82214f5f149012e687e2b6d50dd87c96);
+            
+        
+
+        circle_marker_749445e8ce6833f4a747f638be5a157a.bindPopup(popup_66be6aa624c289512a469ef8e48bb9f1)
+        ;
+
+        
+    
+    
+            var circle_marker_bb23890b6dfcc07621dede22a03433f1 = L.circleMarker(
+                [46.3907089, 11.0589321],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.051810325824466, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_e83e68726dd517af3108b098a1cd6afe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89a5d55166a973a6349601e52f8c19a6 = $(`<div id="html_89a5d55166a973a6349601e52f8c19a6" style="width: 100.0%; height: 100.0%;"><b>Novella</b><br>Saldo netto: -54<br>Attrattività pc: 0.0033426183844011<br>R50_km: 59.162 – T50_min: 53.0</div>`)[0];
+                popup_e83e68726dd517af3108b098a1cd6afe.setContent(html_89a5d55166a973a6349601e52f8c19a6);
+            
+        
+
+        circle_marker_bb23890b6dfcc07621dede22a03433f1.bindPopup(popup_e83e68726dd517af3108b098a1cd6afe)
+        ;
+
+        
+    
+    
+            var circle_marker_4719b4d66003daf581251fe7d1d3ccb1 = L.circleMarker(
+                [46.0437072, 11.5533257],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.405848851343972, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_acc83bb5065f917a52a880a644b1d6e4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a6a4fd3fb1424e8fb5c02da24fab843 = $(`<div id="html_7a6a4fd3fb1424e8fb5c02da24fab843" style="width: 100.0%; height: 100.0%;"><b>Ospedaletto</b><br>Saldo netto: 10<br>Attrattività pc: 0.0203045685279187<br>R50_km: 55.265 – T50_min: 50.0</div>`)[0];
+                popup_acc83bb5065f917a52a880a644b1d6e4.setContent(html_7a6a4fd3fb1424e8fb5c02da24fab843);
+            
+        
+
+        circle_marker_4719b4d66003daf581251fe7d1d3ccb1.bindPopup(popup_acc83bb5065f917a52a880a644b1d6e4)
+        ;
+
+        
+    
+    
+            var circle_marker_2c17e84f967963c3eec3e8ebba43e0ba = L.circleMarker(
+                [46.3070135, 10.737311],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.248086442278236, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_2933383e2af46189a44259cc083d8a4a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4fe740bae05b482d2e319e71bd5dbdf0 = $(`<div id="html_4fe740bae05b482d2e319e71bd5dbdf0" style="width: 100.0%; height: 100.0%;"><b>Ossana</b><br>Saldo netto: -2<br>Attrattività pc: 0.002415458937198<br>R50_km: 79.897 – T50_min: 72.0</div>`)[0];
+                popup_2933383e2af46189a44259cc083d8a4a.setContent(html_4fe740bae05b482d2e319e71bd5dbdf0);
+            
+        
+
+        circle_marker_2c17e84f967963c3eec3e8ebba43e0ba.bindPopup(popup_2933383e2af46189a44259cc083d8a4a)
+        ;
+
+        
+    
+    
+            var circle_marker_e3c112bf2978c65f745af0e9103e5aaa = L.circleMarker(
+                [46.1297092, 11.3525381],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.749916029107853, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_567aab6a332b171bf6dbd262ff5ab346 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_52ada12cc008fc4399156eb10dff6458 = $(`<div id="html_52ada12cc008fc4399156eb10dff6458" style="width: 100.0%; height: 100.0%;"><b>Palù del Fersina / Palai en Bernstol</b><br>Saldo netto: -2<br>Attrattività pc: 0.0<br>R50_km: 45.101 – T50_min: 44.0</div>`)[0];
+                popup_567aab6a332b171bf6dbd262ff5ab346.setContent(html_52ada12cc008fc4399156eb10dff6458);
+            
+        
+
+        circle_marker_e3c112bf2978c65f745af0e9103e5aaa.bindPopup(popup_567aab6a332b171bf6dbd262ff5ab346)
+        ;
+
+        
+    
+    
+            var circle_marker_9655463eec783482f30bc96c1f4898ce = L.circleMarker(
+                [46.2856518, 11.5422379],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.164335539327123, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_c9a7f229dd0d8fd0bc5bad244202935c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_42db96be11fa121d644453dd26ea4163 = $(`<div id="html_42db96be11fa121d644453dd26ea4163" style="width: 100.0%; height: 100.0%;"><b>Panchià</b><br>Saldo netto: -14<br>Attrattività pc: 0.0<br>R50_km: 60.589 – T50_min: 63.0</div>`)[0];
+                popup_c9a7f229dd0d8fd0bc5bad244202935c.setContent(html_42db96be11fa121d644453dd26ea4163);
+            
+        
+
+        circle_marker_9655463eec783482f30bc96c1f4898ce.bindPopup(popup_c9a7f229dd0d8fd0bc5bad244202935c)
+        ;
+
+        
+    
+    
+            var circle_marker_554c336404517e04e239bd94c9416235 = L.circleMarker(
+                [46.362723, 10.6733792],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 5.754708152216969, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_40b4716a980b28d4df98af3ef9edf38f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_50a54dc74d536853aae24850f6dff8bf = $(`<div id="html_50a54dc74d536853aae24850f6dff8bf" style="width: 100.0%; height: 100.0%;"><b>Peio</b><br>Saldo netto: -6<br>Attrattività pc: 0.0005473453749315<br>R50_km: 91.17 – T50_min: 84.0</div>`)[0];
+                popup_40b4716a980b28d4df98af3ef9edf38f.setContent(html_50a54dc74d536853aae24850f6dff8bf);
+            
+        
+
+        circle_marker_554c336404517e04e239bd94c9416235.bindPopup(popup_40b4716a980b28d4df98af3ef9edf38f)
+        ;
+
+        
+    
+    
+            var circle_marker_13f1998a7693b6a3f27147deb4b5c751 = L.circleMarker(
+                [46.3112692, 10.7576902],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.445463818182883, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_fc16fa4352d5c014ea4f65e65366859f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d70272284ba7fe99c95cc5c090034342 = $(`<div id="html_d70272284ba7fe99c95cc5c090034342" style="width: 100.0%; height: 100.0%;"><b>Pellizzano</b><br>Saldo netto: 1<br>Attrattività pc: 0.0012870012870012<br>R50_km: 78.073 – T50_min: 70.0</div>`)[0];
+                popup_fc16fa4352d5c014ea4f65e65366859f.setContent(html_d70272284ba7fe99c95cc5c090034342);
+            
+        
+
+        circle_marker_13f1998a7693b6a3f27147deb4b5c751.bindPopup(popup_fc16fa4352d5c014ea4f65e65366859f)
+        ;
+
+        
+    
+    
+            var circle_marker_a23f14ddaafd808d6ed7af0ae076eddf = L.circleMarker(
+                [46.0872811, 10.7229576],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.886583494213639, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_f8df5015831e916214c837e066d220e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa2905d2d8172cc3a6c0e6adacfcd6c9 = $(`<div id="html_fa2905d2d8172cc3a6c0e6adacfcd6c9" style="width: 100.0%; height: 100.0%;"><b>Pelugo</b><br>Saldo netto: -2<br>Attrattività pc: 0.0025445292620865<br>R50_km: 58.021 – T50_min: 57.0</div>`)[0];
+                popup_f8df5015831e916214c837e066d220e3.setContent(html_fa2905d2d8172cc3a6c0e6adacfcd6c9);
+            
+        
+
+        circle_marker_a23f14ddaafd808d6ed7af0ae076eddf.bindPopup(popup_f8df5015831e916214c837e066d220e3)
+        ;
+
+        
+    
+    
+            var circle_marker_0adc7c91b823124eebca5c5a1021c001 = L.circleMarker(
+                [46.0638749, 11.2422017],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 15.35079231281288, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_0884fefea17b1f519ce7a5c7b7ffd393 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0adcebc9cb1d0eda4b86c4a5d129fea = $(`<div id="html_a0adcebc9cb1d0eda4b86c4a5d129fea" style="width: 100.0%; height: 100.0%;"><b>Pergine Valsugana</b><br>Saldo netto: -92<br>Attrattività pc: 0.0022806609262276<br>R50_km: 39.341 – T50_min: 30.0</div>`)[0];
+                popup_0884fefea17b1f519ce7a5c7b7ffd393.setContent(html_a0adcebc9cb1d0eda4b86c4a5d129fea);
+            
+        
+
+        circle_marker_0adc7c91b823124eebca5c5a1021c001.bindPopup(popup_0884fefea17b1f519ce7a5c7b7ffd393)
+        ;
+
+        
+    
+    
+            var circle_marker_2f17af29e3004bcaa48655657e7b4add = L.circleMarker(
+                [45.9386643, 10.6384705],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.662908541439084, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_53ab215a13105b0fbdd0961cf2348087 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b88c8fb6f7d61db70595c802c992b5f9 = $(`<div id="html_b88c8fb6f7d61db70595c802c992b5f9" style="width: 100.0%; height: 100.0%;"><b>Pieve di Bono-Prezzo</b><br>Saldo netto: 6<br>Attrattività pc: 0.0104968509447165<br>R50_km: 67.798 – T50_min: 68.0</div>`)[0];
+                popup_53ab215a13105b0fbdd0961cf2348087.setContent(html_b88c8fb6f7d61db70595c802c992b5f9);
+            
+        
+
+        circle_marker_2f17af29e3004bcaa48655657e7b4add.bindPopup(popup_53ab215a13105b0fbdd0961cf2348087)
+        ;
+
+        
+    
+    
+            var circle_marker_135b8d223f708a9ee1438ca1b5c76772 = L.circleMarker(
+                [46.0685596, 11.6086059],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.939556006959041, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_e8f2ec2bce9032627c10ec752ca3f5e0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39eb552b3448323b66d6aca7a31dd97a = $(`<div id="html_39eb552b3448323b66d6aca7a31dd97a" style="width: 100.0%; height: 100.0%;"><b>Pieve Tesino</b><br>Saldo netto: 2<br>Attrattività pc: 0.0077519379844961<br>R50_km: 63.032 – T50_min: 59.0</div>`)[0];
+                popup_e8f2ec2bce9032627c10ec752ca3f5e0.setContent(html_39eb552b3448323b66d6aca7a31dd97a);
+            
+        
+
+        circle_marker_135b8d223f708a9ee1438ca1b5c76772.bindPopup(popup_e8f2ec2bce9032627c10ec752ca3f5e0)
+        ;
+
+        
+    
+    
+            var circle_marker_a374dc337c4cf3c78500cdfcc790686d = L.circleMarker(
+                [46.1597717, 10.7651024],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.140008662204911, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_6808e39312e1c7d26d9220e28db61d6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da4a756af7a1f6998aa85dc26a71ab79 = $(`<div id="html_da4a756af7a1f6998aa85dc26a71ab79" style="width: 100.0%; height: 100.0%;"><b>Pinzolo</b><br>Saldo netto: 23<br>Attrattività pc: 0.013522215067611<br>R50_km: 62.943 – T50_min: 63.0</div>`)[0];
+                popup_6808e39312e1c7d26d9220e28db61d6e.setContent(html_da4a756af7a1f6998aa85dc26a71ab79);
+            
+        
+
+        circle_marker_a374dc337c4cf3c78500cdfcc790686d.bindPopup(popup_6808e39312e1c7d26d9220e28db61d6e)
+        ;
+
+        
+    
+    
+            var circle_marker_fc66b54ac44100ee8b7c0f984d903b87 = L.circleMarker(
+                [45.9261675, 11.041344],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_837df25dc75b32be30ceb9742c79f591 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf273e108dc9f868f4075f681801765d = $(`<div id="html_bf273e108dc9f868f4075f681801765d" style="width: 100.0%; height: 100.0%;"><b>Pomarolo</b><br>Saldo netto: -29<br>Attrattività pc: 0.0004103405826836<br>R50_km: 31.204 – T50_min: 28.0</div>`)[0];
+                popup_837df25dc75b32be30ceb9742c79f591.setContent(html_bf273e108dc9f868f4075f681801765d);
+            
+        
+
+        circle_marker_fc66b54ac44100ee8b7c0f984d903b87.bindPopup(popup_837df25dc75b32be30ceb9742c79f591)
+        ;
+
+        
+    
+    
+            var circle_marker_cd16359fc3327dea040cdd09df22b519 = L.circleMarker(
+                [46.0624952, 10.712243],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.15409566516154, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_d8348e6991938d7124c949cc53c018b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_028457e4054841046e77057e59c9dc96 = $(`<div id="html_028457e4054841046e77057e59c9dc96" style="width: 100.0%; height: 100.0%;"><b>Porte di Rendena</b><br>Saldo netto: -4<br>Attrattività pc: 0.0005659309564233<br>R50_km: 55.58 – T50_min: 54.0</div>`)[0];
+                popup_d8348e6991938d7124c949cc53c018b1.setContent(html_028457e4054841046e77057e59c9dc96);
+            
+        
+
+        circle_marker_cd16359fc3327dea040cdd09df22b519.bindPopup(popup_d8348e6991938d7124c949cc53c018b1)
+        ;
+
+        
+    
+    
+            var circle_marker_ce917b3b264327802d2ff2d7a4681e5d = L.circleMarker(
+                [46.3216798, 11.0955077],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.095534578069698, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_18edcf39deb1a6bdb94badf7c5084116 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_845c3d85c0079c208ea81f749ba7089c = $(`<div id="html_845c3d85c0079c208ea81f749ba7089c" style="width: 100.0%; height: 100.0%;"><b>Predaia</b><br>Saldo netto: -81<br>Attrattività pc: 0.0010298661174047<br>R50_km: 50.466 – T50_min: 45.0</div>`)[0];
+                popup_18edcf39deb1a6bdb94badf7c5084116.setContent(html_845c3d85c0079c208ea81f749ba7089c);
+            
+        
+
+        circle_marker_ce917b3b264327802d2ff2d7a4681e5d.bindPopup(popup_18edcf39deb1a6bdb94badf7c5084116)
+        ;
+
+        
+    
+    
+            var circle_marker_ab319ce0a1f5b43b14d5ba6264f530e1 = L.circleMarker(
+                [46.312407, 11.6025089],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.048367589929379, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_6eb12d23a4a79bd5b29242485c605c5a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ac8862f0d907b66f0d3b1aadf136cba = $(`<div id="html_8ac8862f0d907b66f0d3b1aadf136cba" style="width: 100.0%; height: 100.0%;"><b>Predazzo</b><br>Saldo netto: -21<br>Attrattività pc: 0.0048758865248226<br>R50_km: 65.425 – T50_min: 67.0</div>`)[0];
+                popup_6eb12d23a4a79bd5b29242485c605c5a.setContent(html_8ac8862f0d907b66f0d3b1aadf136cba);
+            
+        
+
+        circle_marker_ab319ce0a1f5b43b14d5ba6264f530e1.bindPopup(popup_6eb12d23a4a79bd5b29242485c605c5a)
+        ;
+
+        
+    
+    
+            var circle_marker_c1b3d06b12a4984f4d9b74394ee06a56 = L.circleMarker(
+                [46.2617775, 11.8005],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 5.216161534571887, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_0922409f434f6c5aa70aa1f1b93f28bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_beaf1583fb4ca932e168698555633636 = $(`<div id="html_beaf1583fb4ca932e168698555633636" style="width: 100.0%; height: 100.0%;"><b>Primiero San Martino di Castrozza</b><br>Saldo netto: -28<br>Attrattività pc: 0.022944550669216<br>R50_km: 91.854 – T50_min: 95.0</div>`)[0];
+                popup_0922409f434f6c5aa70aa1f1b93f28bd.setContent(html_beaf1583fb4ca932e168698555633636);
+            
+        
+
+        circle_marker_c1b3d06b12a4984f4d9b74394ee06a56.bindPopup(popup_0922409f434f6c5aa70aa1f1b93f28bd)
+        ;
+
+        
+    
+    
+            var circle_marker_6cd615d8108e3649fdfa90e082b1b651 = L.circleMarker(
+                [46.39978, 10.84677],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.309480417738773, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_c3e165fc2810334a3d93bce632b37473 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3e06a357877589c73e68c2e1741edd2 = $(`<div id="html_e3e06a357877589c73e68c2e1741edd2" style="width: 100.0%; height: 100.0%;"><b>Rabbi</b><br>Saldo netto: -2<br>Attrattività pc: 0.0<br>R50_km: 71.204 – T50_min: 66.0</div>`)[0];
+                popup_c3e165fc2810334a3d93bce632b37473.setContent(html_e3e06a357877589c73e68c2e1741edd2);
+            
+        
+
+        circle_marker_6cd615d8108e3649fdfa90e082b1b651.bindPopup(popup_c3e165fc2810334a3d93bce632b37473)
+        ;
+
+        
+    
+    
+            var circle_marker_508c630ff4102fecfa97d147041baad3 = L.circleMarker(
+                [45.8893165, 10.8431111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.173463877026734, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_af2961db0e3779117ee13ce4fa122bd2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d5513d9ba5a5e7b22d8fedfcdc8f4c30 = $(`<div id="html_d5513d9ba5a5e7b22d8fedfcdc8f4c30" style="width: 100.0%; height: 100.0%;"><b>Riva del Garda</b><br>Saldo netto: -76<br>Attrattività pc: 0.0096642929806714<br>R50_km: 41.319 – T50_min: 39.0</div>`)[0];
+                popup_af2961db0e3779117ee13ce4fa122bd2.setContent(html_d5513d9ba5a5e7b22d8fedfcdc8f4c30);
+            
+        
+
+        circle_marker_508c630ff4102fecfa97d147041baad3.bindPopup(popup_af2961db0e3779117ee13ce4fa122bd2)
+        ;
+
+        
+    
+    
+            var circle_marker_de1c27732bfcbf894ef1d00914f58b09 = L.circleMarker(
+                [46.3931367, 11.1191388],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.688517771203397, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_3741875295eb5d6b43fe2c583118c21b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c2581bb2ed503a6713ff84b0cf1683ca = $(`<div id="html_c2581bb2ed503a6713ff84b0cf1683ca" style="width: 100.0%; height: 100.0%;"><b>Romeno</b><br>Saldo netto: -49<br>Attrattività pc: 0.0007189072609633<br>R50_km: 58.553 – T50_min: 51.0</div>`)[0];
+                popup_3741875295eb5d6b43fe2c583118c21b.setContent(html_c2581bb2ed503a6713ff84b0cf1683ca);
+            
+        
+
+        circle_marker_de1c27732bfcbf894ef1d00914f58b09.bindPopup(popup_3741875295eb5d6b43fe2c583118c21b)
+        ;
+
+        
+    
+    
+            var circle_marker_f34a99bb816d8f088448caa5d999cabf = L.circleMarker(
+                [46.0528485, 11.4107658],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.143241512682447, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8d10ea2bde38b5cfefce6b1ff4401375 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_168b570ec697ba174195cd4e17df2209 = $(`<div id="html_168b570ec697ba174195cd4e17df2209" style="width: 100.0%; height: 100.0%;"><b>Roncegno Terme</b><br>Saldo netto: 9<br>Attrattività pc: 0.0075705437026841<br>R50_km: 47.198 – T50_min: 47.0</div>`)[0];
+                popup_8d10ea2bde38b5cfefce6b1ff4401375.setContent(html_168b570ec697ba174195cd4e17df2209);
+            
+        
+
+        circle_marker_f34a99bb816d8f088448caa5d999cabf.bindPopup(popup_8d10ea2bde38b5cfefce6b1ff4401375)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1a16480a8050a381d1b0ab96b2931b = L.circleMarker(
+                [46.0672495, 11.4342458],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.207166323648169, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_23ecf4d59a8da8e389428eb3dfdec3bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5fce55cfaea3263f3b7ea89fe2305fa0 = $(`<div id="html_5fce55cfaea3263f3b7ea89fe2305fa0" style="width: 100.0%; height: 100.0%;"><b>Ronchi Valsugana</b><br>Saldo netto: -6<br>Attrattività pc: 0.0<br>R50_km: 50.173 – T50_min: 47.0</div>`)[0];
+                popup_23ecf4d59a8da8e389428eb3dfdec3bf.setContent(html_5fce55cfaea3263f3b7ea89fe2305fa0);
+            
+        
+
+        circle_marker_4c1a16480a8050a381d1b0ab96b2931b.bindPopup(popup_23ecf4d59a8da8e389428eb3dfdec3bf)
+        ;
+
+        
+    
+    
+            var circle_marker_59856206f662c48ba5bba50830bbe9e8 = L.circleMarker(
+                [45.8913232, 10.952357],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.27693626676626, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_c9d0b03e38a028f41a0d250447f10d29 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4cce7a56163d78c3c911e0daf6bf30a = $(`<div id="html_b4cce7a56163d78c3c911e0daf6bf30a" style="width: 100.0%; height: 100.0%;"><b>Ronzo-Chienis</b><br>Saldo netto: -6<br>Attrattività pc: 0.001010101010101<br>R50_km: 35.54 – T50_min: 39.0</div>`)[0];
+                popup_c9d0b03e38a028f41a0d250447f10d29.setContent(html_b4cce7a56163d78c3c911e0daf6bf30a);
+            
+        
+
+        circle_marker_59856206f662c48ba5bba50830bbe9e8.bindPopup(popup_c9d0b03e38a028f41a0d250447f10d29)
+        ;
+
+        
+    
+    
+            var circle_marker_26f3f0c6bb971c0266fe3b0d87f05edc = L.circleMarker(
+                [46.4242599, 11.1516865],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.61363941979891, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_d84eaed57cb5d1fab4bd418b413fa60d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb185a95c6f6d7deca859e4b0524c042 = $(`<div id="html_fb185a95c6f6d7deca859e4b0524c042" style="width: 100.0%; height: 100.0%;"><b>Ronzone</b><br>Saldo netto: -28<br>Attrattività pc: 0.0089086859688195<br>R50_km: 61.607 – T50_min: 56.0</div>`)[0];
+                popup_d84eaed57cb5d1fab4bd418b413fa60d.setContent(html_fb185a95c6f6d7deca859e4b0524c042);
+            
+        
+
+        circle_marker_26f3f0c6bb971c0266fe3b0d87f05edc.bindPopup(popup_d84eaed57cb5d1fab4bd418b413fa60d)
+        ;
+
+        
+    
+    
+            var circle_marker_ad83ef16ef90fd50cd39f248dc98b129 = L.circleMarker(
+                [46.2495084, 11.1712555],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.644410107237992, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_f7b19dcd738760ff8b6d5df6a786398c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_81a37be96f4405aa1ce7ec28c0d88524 = $(`<div id="html_81a37be96f4405aa1ce7ec28c0d88524" style="width: 100.0%; height: 100.0%;"><b>Roverè della Luna</b><br>Saldo netto: -164<br>Attrattività pc: 0.0103975535168195<br>R50_km: 40.916 – T50_min: 34.0</div>`)[0];
+                popup_f7b19dcd738760ff8b6d5df6a786398c.setContent(html_81a37be96f4405aa1ce7ec28c0d88524);
+            
+        
+
+        circle_marker_ad83ef16ef90fd50cd39f248dc98b129.bindPopup(popup_f7b19dcd738760ff8b6d5df6a786398c)
+        ;
+
+        
+    
+    
+            var circle_marker_3e76a9462256a8252ffd9c9bd1656eb5 = L.circleMarker(
+                [45.89096, 11.0401399],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.30060570333256, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_97ce9eda4876a13b2cd63c010c5852cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5d21f1b7ce9f7ff08885c55d1d55320 = $(`<div id="html_c5d21f1b7ce9f7ff08885c55d1d55320" style="width: 100.0%; height: 100.0%;"><b>Rovereto</b><br>Saldo netto: 152<br>Attrattività pc: 0.0119167084796788<br>R50_km: 39.089 – T50_min: 30.0</div>`)[0];
+                popup_97ce9eda4876a13b2cd63c010c5852cb.setContent(html_c5d21f1b7ce9f7ff08885c55d1d55320);
+            
+        
+
+        circle_marker_3e76a9462256a8252ffd9c9bd1656eb5.bindPopup(popup_97ce9eda4876a13b2cd63c010c5852cb)
+        ;
+
+        
+    
+    
+            var circle_marker_dfd95a47ac7c3634496b0df967ae8265 = L.circleMarker(
+                [46.4147775, 11.1801802],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.676584814757021, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_5e364d757483bbe68158405703b9f1fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2c2564ad4282057de79424dff994216f = $(`<div id="html_2c2564ad4282057de79424dff994216f" style="width: 100.0%; height: 100.0%;"><b>Ruffrè-Mendola</b><br>Saldo netto: -47<br>Attrattività pc: 0.0023980815347721<br>R50_km: 62.666 – T50_min: 60.0</div>`)[0];
+                popup_5e364d757483bbe68158405703b9f1fe.setContent(html_2c2564ad4282057de79424dff994216f);
+            
+        
+
+        circle_marker_dfd95a47ac7c3634496b0df967ae8265.bindPopup(popup_5e364d757483bbe68158405703b9f1fe)
+        ;
+
+        
+    
+    
+            var circle_marker_5d3a89e01cb58d6a7e984f1d413ff337 = L.circleMarker(
+                [46.4517496, 11.010232],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.630227082243541, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_b4b7e36834c0eee20872df25cf1b588f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0762a496a609bba6842db0b3613330b5 = $(`<div id="html_0762a496a609bba6842db0b3613330b5" style="width: 100.0%; height: 100.0%;"><b>Rumo</b><br>Saldo netto: -3<br>Attrattività pc: 0.0049627791563275<br>R50_km: 69.5 – T50_min: 66.0</div>`)[0];
+                popup_b4b7e36834c0eee20872df25cf1b588f.setContent(html_0762a496a609bba6842db0b3613330b5);
+            
+        
+
+        circle_marker_5d3a89e01cb58d6a7e984f1d413ff337.bindPopup(popup_b4b7e36834c0eee20872df25cf1b588f)
+        ;
+
+        
+    
+    
+            var circle_marker_097272e9680463253528ba76ffb33187 = L.circleMarker(
+                [46.194683, 11.9431647],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 4.843741868420236, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_de602e9bc1bcfe5192e24b879004556f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_37482ba0f86232bfb9a1dc70613b1ec1 = $(`<div id="html_37482ba0f86232bfb9a1dc70613b1ec1" style="width: 100.0%; height: 100.0%;"><b>Sagron Mis</b><br>Saldo netto: -29<br>Attrattività pc: 0.0111731843575419<br>R50_km: 109.569 – T50_min: 112.0</div>`)[0];
+                popup_de602e9bc1bcfe5192e24b879004556f.setContent(html_37482ba0f86232bfb9a1dc70613b1ec1);
+            
+        
+
+        circle_marker_097272e9680463253528ba76ffb33187.bindPopup(popup_de602e9bc1bcfe5192e24b879004556f)
+        ;
+
+        
+    
+    
+            var circle_marker_bb5ffeb0c4e5858b9ced6b18c52b14bd = L.circleMarker(
+                [46.081582, 11.522698],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.061705535915559, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_1adc35f3135d4e522a1874d02078f88d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b09d396812040b7f9797d717d3608d3 = $(`<div id="html_9b09d396812040b7f9797d717d3608d3" style="width: 100.0%; height: 100.0%;"><b>Samone</b><br>Saldo netto: 7<br>Attrattività pc: 0.0182149362477231<br>R50_km: 55.603 – T50_min: 55.0</div>`)[0];
+                popup_1adc35f3135d4e522a1874d02078f88d.setContent(html_9b09d396812040b7f9797d717d3608d3);
+            
+        
+
+        circle_marker_bb5ffeb0c4e5858b9ced6b18c52b14bd.bindPopup(popup_1adc35f3135d4e522a1874d02078f88d)
+        ;
+
+        
+    
+    
+            var circle_marker_7cd6506306874d3dfb4c00f27a0d9cad = L.circleMarker(
+                [46.4301799, 11.685807],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 6.895846246949968, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7e49d5d3ec8ea39d30ed747e9f691a8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ca687f474ef12b9f2c1de5a8f468992a = $(`<div id="html_ca687f474ef12b9f2c1de5a8f468992a" style="width: 100.0%; height: 100.0%;"><b>San Giovanni di Fassa / Sèn Jan</b><br>Saldo netto: 17<br>Attrattività pc: 0.0101732196865548<br>R50_km: 81.113 – T50_min: 83.0</div>`)[0];
+                popup_7e49d5d3ec8ea39d30ed747e9f691a8f.setContent(html_ca687f474ef12b9f2c1de5a8f468992a);
+            
+        
+
+        circle_marker_7cd6506306874d3dfb4c00f27a0d9cad.bindPopup(popup_7e49d5d3ec8ea39d30ed747e9f691a8f)
+        ;
+
+        
+    
+    
+            var circle_marker_4f8edda5970901e1c3d9f52fe5382dc0 = L.circleMarker(
+                [46.0767945, 10.9097659],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.387653764181241, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_ba942c40952ee7a2a0f4f25e6f068891 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad5d97eb5e71ac48841f188e5c2126ca = $(`<div id="html_ad5d97eb5e71ac48841f188e5c2126ca" style="width: 100.0%; height: 100.0%;"><b>San Lorenzo Dorsino</b><br>Saldo netto: -6<br>Attrattività pc: 0.0<br>R50_km: 45.913 – T50_min: 43.0</div>`)[0];
+                popup_ba942c40952ee7a2a0f4f25e6f068891.setContent(html_ad5d97eb5e71ac48841f188e5c2126ca);
+            
+        
+
+        circle_marker_4f8edda5970901e1c3d9f52fe5382dc0.bindPopup(popup_ba942c40952ee7a2a0f4f25e6f068891)
+        ;
+
+        
+    
+    
+            var circle_marker_e696b2748a39b95b54b3ff8a68562ad9 = L.circleMarker(
+                [46.193535, 11.1328901],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 16.204266097269663, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8e0ea8baf5344ec839e5d028fdf0f7d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cc434d3becf4cefd2af49ef2ab25c3af = $(`<div id="html_cc434d3becf4cefd2af49ef2ab25c3af" style="width: 100.0%; height: 100.0%;"><b>San Michele all'Adige</b><br>Saldo netto: -213<br>Attrattività pc: 0.0077830780818478<br>R50_km: 36.073 – T50_min: 26.0</div>`)[0];
+                popup_8e0ea8baf5344ec839e5d028fdf0f7d3.setContent(html_cc434d3becf4cefd2af49ef2ab25c3af);
+            
+        
+
+        circle_marker_e696b2748a39b95b54b3ff8a68562ad9.bindPopup(popup_8e0ea8baf5344ec839e5d028fdf0f7d3)
+        ;
+
+        
+    
+    
+            var circle_marker_097c9668a374ac6d18b27e2a63d852d5 = L.circleMarker(
+                [46.108123, 11.3025755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.018557763947447, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_20f9b637640223b3eb8fc62224f50eb4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3b3e58f6001b62a4df02ed8c88fc1fd = $(`<div id="html_e3b3e58f6001b62a4df02ed8c88fc1fd" style="width: 100.0%; height: 100.0%;"><b>Sant'Orsola Terme</b><br>Saldo netto: -8<br>Attrattività pc: 0.0017969451931716<br>R50_km: 40.547 – T50_min: 41.0</div>`)[0];
+                popup_20f9b637640223b3eb8fc62224f50eb4.setContent(html_e3b3e58f6001b62a4df02ed8c88fc1fd);
+            
+        
+
+        circle_marker_097c9668a374ac6d18b27e2a63d852d5.bindPopup(popup_20f9b637640223b3eb8fc62224f50eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_1d22f4fd38758b470ef0876dac1fd9ef = L.circleMarker(
+                [46.3656209, 11.074082],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.973321084135703, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_240ddd9a8bc3a253cca9918897a569b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cf4f6c94c1afeb4116abcae6aedb027a = $(`<div id="html_cf4f6c94c1afeb4116abcae6aedb027a" style="width: 100.0%; height: 100.0%;"><b>Sanzeno</b><br>Saldo netto: -14<br>Attrattività pc: 0.0032679738562091<br>R50_km: 53.427 – T50_min: 46.0</div>`)[0];
+                popup_240ddd9a8bc3a253cca9918897a569b6.setContent(html_cf4f6c94c1afeb4116abcae6aedb027a);
+            
+        
+
+        circle_marker_1d22f4fd38758b470ef0876dac1fd9ef.bindPopup(popup_240ddd9a8bc3a253cca9918897a569b6)
+        ;
+
+        
+    
+    
+            var circle_marker_377887281f14f1fb29f45b4eec89c09d = L.circleMarker(
+                [46.4200644, 11.1409298],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.326449515618386, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_c6e377e0beb88068cb96776755dc6010 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d68c63c1366765dcf535195bc5bde1e5 = $(`<div id="html_d68c63c1366765dcf535195bc5bde1e5" style="width: 100.0%; height: 100.0%;"><b>Sarnonico</b><br>Saldo netto: -26<br>Attrattività pc: 0.0125786163522012<br>R50_km: 60.647 – T50_min: 56.0</div>`)[0];
+                popup_c6e377e0beb88068cb96776755dc6010.setContent(html_d68c63c1366765dcf535195bc5bde1e5);
+            
+        
+
+        circle_marker_377887281f14f1fb29f45b4eec89c09d.bindPopup(popup_c6e377e0beb88068cb96776755dc6010)
+        ;
+
+        
+    
+    
+            var circle_marker_bd9f5dd9d67d86609916390ae36805dd = L.circleMarker(
+                [46.0646035, 11.506885],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.99411839284445, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_bb8dd6f8e03e01a746b0f64e3cdd43d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_41ffcb35a965a81efd782b8bbf68771b = $(`<div id="html_41ffcb35a965a81efd782b8bbf68771b" style="width: 100.0%; height: 100.0%;"><b>Scurelle</b><br>Saldo netto: 6<br>Attrattività pc: 0.0103397341211226<br>R50_km: 53.023 – T50_min: 49.0</div>`)[0];
+                popup_bb8dd6f8e03e01a746b0f64e3cdd43d3.setContent(html_41ffcb35a965a81efd782b8bbf68771b);
+            
+        
+
+        circle_marker_bd9f5dd9d67d86609916390ae36805dd.bindPopup(popup_bb8dd6f8e03e01a746b0f64e3cdd43d3)
+        ;
+
+        
+    
+    
+            var circle_marker_b336f2c15bc28f5ba8e89fce3cdeea8f = L.circleMarker(
+                [46.1901947, 11.2586273],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.751220492946953, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_88606606dcecdd1f8d8a5c41f4feeb48 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a2aab40d81951170aea9e4504ee825bb = $(`<div id="html_a2aab40d81951170aea9e4504ee825bb" style="width: 100.0%; height: 100.0%;"><b>Segonzano</b><br>Saldo netto: -5<br>Attrattività pc: 0.0007163323782234<br>R50_km: 41.272 – T50_min: 40.0</div>`)[0];
+                popup_88606606dcecdd1f8d8a5c41f4feeb48.setContent(html_a2aab40d81951170aea9e4504ee825bb);
+            
+        
+
+        circle_marker_b336f2c15bc28f5ba8e89fce3cdeea8f.bindPopup(popup_88606606dcecdd1f8d8a5c41f4feeb48)
+        ;
+
+        
+    
+    
+            var circle_marker_a4717ff3261e0ae1f7020032991b31df = L.circleMarker(
+                [45.98488, 10.6706386],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.434827351855498, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_f59b91bd367f075111b9315f5ff89103 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fdbd44fdc30dea835e862790a7b05e21 = $(`<div id="html_fdbd44fdc30dea835e862790a7b05e21" style="width: 100.0%; height: 100.0%;"><b>Sella Giudicarie</b><br>Saldo netto: -13<br>Attrattività pc: 0.0020739716557207<br>R50_km: 62.438 – T50_min: 61.0</div>`)[0];
+                popup_f59b91bd367f075111b9315f5ff89103.setContent(html_fdbd44fdc30dea835e862790a7b05e21);
+            
+        
+
+        circle_marker_a4717ff3261e0ae1f7020032991b31df.bindPopup(popup_f59b91bd367f075111b9315f5ff89103)
+        ;
+
+        
+    
+    
+            var circle_marker_a016b8702d93a2e3b4f199887e8e6562 = L.circleMarker(
+                [46.3368525, 11.1158989],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.78237461782212, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_91e5526a1f73ac6f1b0ad3a2ef3b5ad4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9b8c00f41a317ed2a3786c79817d20a = $(`<div id="html_e9b8c00f41a317ed2a3786c79817d20a" style="width: 100.0%; height: 100.0%;"><b>Sfruz</b><br>Saldo netto: -3<br>Attrattività pc: 0.0<br>R50_km: 53.997 – T50_min: 54.0</div>`)[0];
+                popup_91e5526a1f73ac6f1b0ad3a2ef3b5ad4.setContent(html_e9b8c00f41a317ed2a3786c79817d20a);
+            
+        
+
+        circle_marker_a016b8702d93a2e3b4f199887e8e6562.bindPopup(popup_91e5526a1f73ac6f1b0ad3a2ef3b5ad4)
+        ;
+
+        
+    
+    
+            var circle_marker_015459ac4be9047cd6ccf7581ee7e06c = L.circleMarker(
+                [46.3947763, 11.6669887],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.297361624638668, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_d5f699a5c18b8b9c5afe92e997f525de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ca81ffa83492c2a680f843f140a8a4f = $(`<div id="html_1ca81ffa83492c2a680f843f140a8a4f" style="width: 100.0%; height: 100.0%;"><b>Soraga di Fassa / Soraga</b><br>Saldo netto: 7<br>Attrattività pc: 0.0173160173160173<br>R50_km: 76.689 – T50_min: 79.0</div>`)[0];
+                popup_d5f699a5c18b8b9c5afe92e997f525de.setContent(html_1ca81ffa83492c2a680f843f140a8a4f);
+            
+        
+
+        circle_marker_015459ac4be9047cd6ccf7581ee7e06c.bindPopup(popup_d5f699a5c18b8b9c5afe92e997f525de)
+        ;
+
+        
+    
+    
+            var circle_marker_c9ab60c47269d7e32530528431c76f7a = L.circleMarker(
+                [46.2215465, 11.3146837],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.830759631981298, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_10453d9cf48efe0db489d725042a950d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1c6fe7f630ab6cf157761d9ddd10180d = $(`<div id="html_1c6fe7f630ab6cf157761d9ddd10180d" style="width: 100.0%; height: 100.0%;"><b>Sover</b><br>Saldo netto: -7<br>Attrattività pc: 0.0<br>R50_km: 48.198 – T50_min: 49.0</div>`)[0];
+                popup_10453d9cf48efe0db489d725042a950d.setContent(html_1c6fe7f630ab6cf157761d9ddd10180d);
+            
+        
+
+        circle_marker_c9ab60c47269d7e32530528431c76f7a.bindPopup(popup_10453d9cf48efe0db489d725042a950d)
+        ;
+
+        
+    
+    
+            var circle_marker_33e815b8eaed2610148ff71d8c878b81 = L.circleMarker(
+                [46.0984292, 10.7343257],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.844014544427566, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7dc2fc534bc2b742cb746e7a0c5f140e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_81d7d46ca945836e809c152d2d39cd0e = $(`<div id="html_81d7d46ca945836e809c152d2d39cd0e" style="width: 100.0%; height: 100.0%;"><b>Spiazzo</b><br>Saldo netto: -4<br>Attrattività pc: 0.0016064257028112<br>R50_km: 59.084 – T50_min: 59.0</div>`)[0];
+                popup_7dc2fc534bc2b742cb746e7a0c5f140e.setContent(html_81d7d46ca945836e809c152d2d39cd0e);
+            
+        
+
+        circle_marker_33e815b8eaed2610148ff71d8c878b81.bindPopup(popup_7dc2fc534bc2b742cb746e7a0c5f140e)
+        ;
+
+        
+    
+    
+            var circle_marker_a03173e0c6ef7c1f06892777ddf96975 = L.circleMarker(
+                [46.2180455, 11.0479816],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.562122101503395, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7f7fb3e8afb497e49105bd012d101671 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6ae5509edbaf133903e71d8a834d8422 = $(`<div id="html_6ae5509edbaf133903e71d8a834d8422" style="width: 100.0%; height: 100.0%;"><b>Spormaggiore</b><br>Saldo netto: -30<br>Attrattività pc: 0.0<br>R50_km: 41.386 – T50_min: 36.0</div>`)[0];
+                popup_7f7fb3e8afb497e49105bd012d101671.setContent(html_6ae5509edbaf133903e71d8a834d8422);
+            
+        
+
+        circle_marker_a03173e0c6ef7c1f06892777ddf96975.bindPopup(popup_7f7fb3e8afb497e49105bd012d101671)
+        ;
+
+        
+    
+    
+            var circle_marker_b75f27ac6aee4b64c0b04bde76df9ded = L.circleMarker(
+                [46.2373103, 11.0313934],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.152017226957325, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_ed703187d23fd96e9a47f4406ff3a2d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a8adecb64266026f9cd651997bb84e1 = $(`<div id="html_7a8adecb64266026f9cd651997bb84e1" style="width: 100.0%; height: 100.0%;"><b>Sporminore</b><br>Saldo netto: -7<br>Attrattività pc: 0.0042553191489361<br>R50_km: 41.323 – T50_min: 37.0</div>`)[0];
+                popup_ed703187d23fd96e9a47f4406ff3a2d1.setContent(html_7a8adecb64266026f9cd651997bb84e1);
+            
+        
+
+        circle_marker_b75f27ac6aee4b64c0b04bde76df9ded.bindPopup(popup_ed703187d23fd96e9a47f4406ff3a2d1)
+        ;
+
+        
+    
+    
+            var circle_marker_fd1adbdb5cd285482ecc63e7d92c8aca = L.circleMarker(
+                [46.0521575, 10.8542791],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.796136170159206, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_39fb8f420459387592ab3df34b671845 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a83695b78c1cd6609b504d7f5d8f46a7 = $(`<div id="html_a83695b78c1cd6609b504d7f5d8f46a7" style="width: 100.0%; height: 100.0%;"><b>Stenico</b><br>Saldo netto: -7<br>Attrattività pc: 0.0<br>R50_km: 43.434 – T50_min: 41.0</div>`)[0];
+                popup_39fb8f420459387592ab3df34b671845.setContent(html_a83695b78c1cd6609b504d7f5d8f46a7);
+            
+        
+
+        circle_marker_fd1adbdb5cd285482ecc63e7d92c8aca.bindPopup(popup_39fb8f420459387592ab3df34b671845)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0ea6b9e5250dd6fae8f3c6920f54b3 = L.circleMarker(
+                [45.8490705, 10.5776811],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 7.345847105504056, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7dd7a1b07138ac6c9ee486e89252ee9c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e18ea515b08fa5f7c39274aacf1bdad1 = $(`<div id="html_e18ea515b08fa5f7c39274aacf1bdad1" style="width: 100.0%; height: 100.0%;"><b>Storo</b><br>Saldo netto: 151<br>Attrattività pc: 0.0651357915654669<br>R50_km: 69.426 – T50_min: 67.0</div>`)[0];
+                popup_7dd7a1b07138ac6c9ee486e89252ee9c.setContent(html_e18ea515b08fa5f7c39274aacf1bdad1);
+            
+        
+
+        circle_marker_ab0ea6b9e5250dd6fae8f3c6920f54b3.bindPopup(popup_7dd7a1b07138ac6c9ee486e89252ee9c)
+        ;
+
+        
+    
+    
+            var circle_marker_214e9f167948e6eb545f18c6b36123c4 = L.circleMarker(
+                [46.1198069, 10.7505588],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.879143872296076, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_1b8de4b71981459bec573de6994201ae = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_77310bb7789d1310b6002e64444cfd97 = $(`<div id="html_77310bb7789d1310b6002e64444cfd97" style="width: 100.0%; height: 100.0%;"><b>Strembo</b><br>Saldo netto: -3<br>Attrattività pc: 0.0<br>R50_km: 59.388 – T50_min: 61.0</div>`)[0];
+                popup_1b8de4b71981459bec573de6994201ae.setContent(html_77310bb7789d1310b6002e64444cfd97);
+            
+        
+
+        circle_marker_214e9f167948e6eb545f18c6b36123c4.bindPopup(popup_1b8de4b71981459bec573de6994201ae)
+        ;
+
+        
+    
+    
+            var circle_marker_3a6ca9ac1a3a1e8707a1064b7f637e7d = L.circleMarker(
+                [46.0701235, 11.480232],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.622598311838356, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_9fe7427530e1c245181e89247041ce89 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4380672db76ff591865f91e8cb5128fd = $(`<div id="html_4380672db76ff591865f91e8cb5128fd" style="width: 100.0%; height: 100.0%;"><b>Telve</b><br>Saldo netto: -12<br>Attrattività pc: 0.0005285412262156<br>R50_km: 52.098 – T50_min: 48.0</div>`)[0];
+                popup_9fe7427530e1c245181e89247041ce89.setContent(html_4380672db76ff591865f91e8cb5128fd);
+            
+        
+
+        circle_marker_3a6ca9ac1a3a1e8707a1064b7f637e7d.bindPopup(popup_9fe7427530e1c245181e89247041ce89)
+        ;
+
+        
+    
+    
+            var circle_marker_936b88fa309ab7fb43f4d16fe4a77a12 = L.circleMarker(
+                [46.0715221, 11.4716741],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.529870659401592, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_a9b5b286d57eb881d87d402ca281e2e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_19c605084ea99a4734f777d2ddd6b3b2 = $(`<div id="html_19c605084ea99a4734f777d2ddd6b3b2" style="width: 100.0%; height: 100.0%;"><b>Telve di Sopra</b><br>Saldo netto: -3<br>Attrattività pc: 0.0<br>R50_km: 52.341 – T50_min: 49.0</div>`)[0];
+                popup_a9b5b286d57eb881d87d402ca281e2e3.setContent(html_19c605084ea99a4734f777d2ddd6b3b2);
+            
+        
+
+        circle_marker_936b88fa309ab7fb43f4d16fe4a77a12.bindPopup(popup_a9b5b286d57eb881d87d402ca281e2e3)
+        ;
+
+        
+    
+    
+            var circle_marker_982c3bcda04838f998523127fdac88d1 = L.circleMarker(
+                [46.0131211, 11.2664339],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 15.593777496333374, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_a2fa792243a57ed1797934ea28b9ecc5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3683e615ebf28b7096eb067d36b6ea7f = $(`<div id="html_3683e615ebf28b7096eb067d36b6ea7f" style="width: 100.0%; height: 100.0%;"><b>Tenna</b><br>Saldo netto: -8<br>Attrattività pc: 0.0<br>R50_km: 35.852 – T50_min: 38.0</div>`)[0];
+                popup_a2fa792243a57ed1797934ea28b9ecc5.setContent(html_3683e615ebf28b7096eb067d36b6ea7f);
+            
+        
+
+        circle_marker_982c3bcda04838f998523127fdac88d1.bindPopup(popup_a2fa792243a57ed1797934ea28b9ecc5)
+        ;
+
+        
+    
+    
+            var circle_marker_ec5d260de38b2ba6321690a2cf8d9514 = L.circleMarker(
+                [45.920005, 10.8315831],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 13.420301788428551, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_2fd809f11991b21e2beb95dffe4a7506 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a7530b7753f71c4d30a81e2fced16136 = $(`<div id="html_a7530b7753f71c4d30a81e2fced16136" style="width: 100.0%; height: 100.0%;"><b>Tenno</b><br>Saldo netto: -11<br>Attrattività pc: 0.0030181086519114<br>R50_km: 41.432 – T50_min: 43.0</div>`)[0];
+                popup_2fd809f11991b21e2beb95dffe4a7506.setContent(html_a7530b7753f71c4d30a81e2fced16136);
+            
+        
+
+        circle_marker_ec5d260de38b2ba6321690a2cf8d9514.bindPopup(popup_2fd809f11991b21e2beb95dffe4a7506)
+        ;
+
+        
+    
+    
+            var circle_marker_533c6ad1ca5d0a27cdcc901bdaf0aa95 = L.circleMarker(
+                [45.8791813, 11.1509138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.383674043434198, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_6e4ba7145bbeb88a249f9d48c7dc949b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5c65b1cc05bc0a571d39040bcc4937e = $(`<div id="html_a5c65b1cc05bc0a571d39040bcc4937e" style="width: 100.0%; height: 100.0%;"><b>Terragnolo</b><br>Saldo netto: -5<br>Attrattività pc: 0.0<br>R50_km: 35.432 – T50_min: 40.0</div>`)[0];
+                popup_6e4ba7145bbeb88a249f9d48c7dc949b.setContent(html_a5c65b1cc05bc0a571d39040bcc4937e);
+            
+        
+
+        circle_marker_533c6ad1ca5d0a27cdcc901bdaf0aa95.bindPopup(popup_6e4ba7145bbeb88a249f9d48c7dc949b)
+        ;
+
+        
+    
+    
+            var circle_marker_2b0596a37bbde246d7a149225011eb6c = L.circleMarker(
+                [46.1667866, 11.1082614],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 16.57335135509913, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_dec7ab593c8ac89d3ce7143f85b9c7ef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25debce57de362f501ed21ffcb132872 = $(`<div id="html_25debce57de362f501ed21ffcb132872" style="width: 100.0%; height: 100.0%;"><b>Terre d'Adige</b><br>Saldo netto: -65<br>Attrattività pc: 0.0006561679790026<br>R50_km: 34.535 – T50_min: 26.0</div>`)[0];
+                popup_dec7ab593c8ac89d3ce7143f85b9c7ef.setContent(html_25debce57de362f501ed21ffcb132872);
+            
+        
+
+        circle_marker_2b0596a37bbde246d7a149225011eb6c.bindPopup(popup_dec7ab593c8ac89d3ce7143f85b9c7ef)
+        ;
+
+        
+    
+    
+            var circle_marker_2c6e6a2539c5703c38984d8bbbb1c68c = L.circleMarker(
+                [46.3611385, 10.9262615],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.0667775080554, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_75c2d5b0e83c22bb825bbef1cab409e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0657868aa99bb2f494cc4245eefe7380 = $(`<div id="html_0657868aa99bb2f494cc4245eefe7380" style="width: 100.0%; height: 100.0%;"><b>Terzolas</b><br>Saldo netto: -3<br>Attrattività pc: 0.0015503875968992<br>R50_km: 63.646 – T50_min: 58.0</div>`)[0];
+                popup_75c2d5b0e83c22bb825bbef1cab409e9.setContent(html_0657868aa99bb2f494cc4245eefe7380);
+            
+        
+
+        circle_marker_2c6e6a2539c5703c38984d8bbbb1c68c.bindPopup(popup_75c2d5b0e83c22bb825bbef1cab409e9)
+        ;
+
+        
+    
+    
+            var circle_marker_923d3b3041f43c4e224daf617fc8823b = L.circleMarker(
+                [46.2894156, 11.5103834],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.841682945939118, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8fa2808fbe7097e21fee862359b3c960 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6113c36f1f4ef60841e9be6af1028e7f = $(`<div id="html_6113c36f1f4ef60841e9be6af1028e7f" style="width: 100.0%; height: 100.0%;"><b>Tesero</b><br>Saldo netto: -19<br>Attrattività pc: 0.0071525885558583<br>R50_km: 58.529 – T50_min: 61.0</div>`)[0];
+                popup_8fa2808fbe7097e21fee862359b3c960.setContent(html_6113c36f1f4ef60841e9be6af1028e7f);
+            
+        
+
+        circle_marker_923d3b3041f43c4e224daf617fc8823b.bindPopup(popup_8fa2808fbe7097e21fee862359b3c960)
+        ;
+
+        
+    
+    
+            var circle_marker_099ab2eb99ea1567b549372ba7077591 = L.circleMarker(
+                [46.0349608, 10.7259197],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.873431843780358, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_ca80ab80b7de3eaaf55f1349e7456595 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f0e9b68b82fb5be6b581a39566418f24 = $(`<div id="html_f0e9b68b82fb5be6b581a39566418f24" style="width: 100.0%; height: 100.0%;"><b>Tione di Trento</b><br>Saldo netto: 12<br>Attrattività pc: 0.0081989614648811<br>R50_km: 54.374 – T50_min: 52.0</div>`)[0];
+                popup_ca80ab80b7de3eaaf55f1349e7456595.setContent(html_f0e9b68b82fb5be6b581a39566418f24);
+            
+        
+
+        circle_marker_099ab2eb99ea1567b549372ba7077591.bindPopup(popup_ca80ab80b7de3eaaf55f1349e7456595)
+        ;
+
+        
+    
+    
+            var circle_marker_c358c134a2f3f8b2b502b91ffbfcf753 = L.circleMarker(
+                [46.2650615, 11.0864731],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.801129015294, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_e23327bf74e2be09c164b83f8455765a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aeca603ecf7913313876414d273941d9 = $(`<div id="html_aeca603ecf7913313876414d273941d9" style="width: 100.0%; height: 100.0%;"><b>Ton</b><br>Saldo netto: -27<br>Attrattività pc: 0.0015186028853454<br>R50_km: 42.552 – T50_min: 38.0</div>`)[0];
+                popup_e23327bf74e2be09c164b83f8455765a.setContent(html_aeca603ecf7913313876414d273941d9);
+            
+        
+
+        circle_marker_c358c134a2f3f8b2b502b91ffbfcf753.bindPopup(popup_e23327bf74e2be09c164b83f8455765a)
+        ;
+
+        
+    
+    
+            var circle_marker_69cd94b12b1b525a66e157b08f47f66a = L.circleMarker(
+                [46.074128, 11.4489831],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.072069681834417, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_52932ca1f41e317ac6c30444b4257c58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f7a3b8973610274eaf90efbd1995bf21 = $(`<div id="html_f7a3b8973610274eaf90efbd1995bf21" style="width: 100.0%; height: 100.0%;"><b>Torcegno</b><br>Saldo netto: -3<br>Attrattività pc: 0.0<br>R50_km: 51.067 – T50_min: 50.0</div>`)[0];
+                popup_52932ca1f41e317ac6c30444b4257c58.setContent(html_f7a3b8973610274eaf90efbd1995bf21);
+            
+        
+
+        circle_marker_69cd94b12b1b525a66e157b08f47f66a.bindPopup(popup_52932ca1f41e317ac6c30444b4257c58)
+        ;
+
+        
+    
+    
+            var circle_marker_11aaf1012758ddd2eda1c3552f98c0ce = L.circleMarker(
+                [45.883186, 11.0539739],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_fdfe8361d879b7e9cd01c22141337c77 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3574a344e63058afe90b7fc30233abb1 = $(`<div id="html_3574a344e63058afe90b7fc30233abb1" style="width: 100.0%; height: 100.0%;"><b>Trambileno</b><br>Saldo netto: -3<br>Attrattività pc: 0.0047683923705722<br>R50_km: 35.697 – T50_min: 30.0</div>`)[0];
+                popup_fdfe8361d879b7e9cd01c22141337c77.setContent(html_3574a344e63058afe90b7fc30233abb1);
+            
+        
+
+        circle_marker_11aaf1012758ddd2eda1c3552f98c0ce.bindPopup(popup_fdfe8361d879b7e9cd01c22141337c77)
+        ;
+
+        
+    
+    
+            var circle_marker_c7739c8ce050de663606f5a938ec1776 = L.circleMarker(
+                [46.0528299, 10.7774943],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.076774307510671, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_de004d58a47a452ae077b86a0905174f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a49ec6c943117c3af7936a2531473fa = $(`<div id="html_7a49ec6c943117c3af7936a2531473fa" style="width: 100.0%; height: 100.0%;"><b>Tre Ville</b><br>Saldo netto: -4<br>Attrattività pc: 0.0043321299638989<br>R50_km: 50.241 – T50_min: 47.0</div>`)[0];
+                popup_de004d58a47a452ae077b86a0905174f.setContent(html_7a49ec6c943117c3af7936a2531473fa);
+            
+        
+
+        circle_marker_c7739c8ce050de663606f5a938ec1776.bindPopup(popup_de004d58a47a452ae077b86a0905174f)
+        ;
+
+        
+    
+    
+            var circle_marker_2c46c4253640452c9183ab84eb6d4634 = L.circleMarker(
+                [46.0673856, 11.1267378],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.169830199307857, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_1afe29366f41f8c77ab0abc853027fd6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e5bbd71f0fae7478ee6e95c771afcf9 = $(`<div id="html_0e5bbd71f0fae7478ee6e95c771afcf9" style="width: 100.0%; height: 100.0%;"><b>Trento</b><br>Saldo netto: -310<br>Attrattività pc: 0.0123180385762442<br>R50_km: 40.172 – T50_min: 34.0</div>`)[0];
+                popup_1afe29366f41f8c77ab0abc853027fd6.setContent(html_0e5bbd71f0fae7478ee6e95c771afcf9);
+            
+        
+
+        circle_marker_2c46c4253640452c9183ab84eb6d4634.bindPopup(popup_1afe29366f41f8c77ab0abc853027fd6)
+        ;
+
+        
+    
+    
+            var circle_marker_b94455e0d22eefa73beee50ca88483f2 = L.circleMarker(
+                [45.9465779, 10.6209608],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.42592677384422, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_3898e1d49737858e002bbb8b57a88a63 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d8d4011a2877583e6777b8067e73c2a = $(`<div id="html_2d8d4011a2877583e6777b8067e73c2a" style="width: 100.0%; height: 100.0%;"><b>Valdaone</b><br>Saldo netto: -3<br>Attrattività pc: 0.005240174672489<br>R50_km: 68.624 – T50_min: 69.0</div>`)[0];
+                popup_3898e1d49737858e002bbb8b57a88a63.setContent(html_2d8d4011a2877583e6777b8067e73c2a);
+            
+        
+
+        circle_marker_b94455e0d22eefa73beee50ca88483f2.bindPopup(popup_3898e1d49737858e002bbb8b57a88a63)
+        ;
+
+        
+    
+    
+            var circle_marker_141825852d0816944840d9a89c357c60 = L.circleMarker(
+                [46.2483058, 11.3429764],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.092393764207307, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_f3bbd553b67c2f3cda4b6f79cd8b5bca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0613582e44060d59f2fa0986ef31856e = $(`<div id="html_0613582e44060d59f2fa0986ef31856e" style="width: 100.0%; height: 100.0%;"><b>Valfloriana</b><br>Saldo netto: -10<br>Attrattività pc: 0.0<br>R50_km: 49.575 – T50_min: 51.0</div>`)[0];
+                popup_f3bbd553b67c2f3cda4b6f79cd8b5bca.setContent(html_0613582e44060d59f2fa0986ef31856e);
+            
+        
+
+        circle_marker_141825852d0816944840d9a89c357c60.bindPopup(popup_f3bbd553b67c2f3cda4b6f79cd8b5bca)
+        ;
+
+        
+    
+    
+            var circle_marker_5e29074e7d7e1eaab5743d4cd2c3dff8 = L.circleMarker(
+                [45.7823689, 11.1166692],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 8.973261776767048, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_97a42a38ed40527e1cc9b7dcb06e4352 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97601908ecdcce80879541741975e237 = $(`<div id="html_97601908ecdcce80879541741975e237" style="width: 100.0%; height: 100.0%;"><b>Vallarsa</b><br>Saldo netto: -8<br>Attrattività pc: 0.0043668122270742<br>R50_km: 49.655 – T50_min: 46.0</div>`)[0];
+                popup_97a42a38ed40527e1cc9b7dcb06e4352.setContent(html_97601908ecdcce80879541741975e237);
+            
+        
+
+        circle_marker_5e29074e7d7e1eaab5743d4cd2c3dff8.bindPopup(popup_97a42a38ed40527e1cc9b7dcb06e4352)
+        ;
+
+        
+    
+    
+            var circle_marker_1ad7e5be26572005abbd4f7a108759b1 = L.circleMarker(
+                [46.0786356, 11.0000139],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 14.033609764435116, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_7558366b15b5c60b11d4c979abdc1310 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d68403cee216671cbe802ba24474f31b = $(`<div id="html_d68403cee216671cbe802ba24474f31b" style="width: 100.0%; height: 100.0%;"><b>Vallelaghi</b><br>Saldo netto: -7<br>Attrattività pc: 0.0044504643962848<br>R50_km: 31.256 – T50_min: 30.0</div>`)[0];
+                popup_7558366b15b5c60b11d4c979abdc1310.setContent(html_d68403cee216671cbe802ba24474f31b);
+            
+        
+
+        circle_marker_1ad7e5be26572005abbd4f7a108759b1.bindPopup(popup_7558366b15b5c60b11d4c979abdc1310)
+        ;
+
+        
+    
+    
+            var circle_marker_0d526f79ba3aa9ade54610c51387503e = L.circleMarker(
+                [46.2971211, 10.6946531],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 6.761488017356757, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_c4142d3b825144468d09c91425d6c14d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d4e15cb00a92ef57824f4e264c1116ba = $(`<div id="html_d4e15cb00a92ef57824f4e264c1116ba" style="width: 100.0%; height: 100.0%;"><b>Vermiglio</b><br>Saldo netto: 11<br>Attrattività pc: 0.0197693574958813<br>R50_km: 83.214 – T50_min: 75.0</div>`)[0];
+                popup_c4142d3b825144468d09c91425d6c14d.setContent(html_d4e15cb00a92ef57824f4e264c1116ba);
+            
+        
+
+        circle_marker_0d526f79ba3aa9ade54610c51387503e.bindPopup(popup_c4142d3b825144468d09c91425d6c14d)
+        ;
+
+        
+    
+    
+            var circle_marker_763e5828acc6b789dbaf5a4f83ffab1e = L.circleMarker(
+                [46.0445123, 11.2770559],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 12.963870521268834, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_3dd14dd76e0eb1a5b78d77780b38607d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a32ea7a3ff2eb911a51911a54f32e7ee = $(`<div id="html_a32ea7a3ff2eb911a51911a54f32e7ee" style="width: 100.0%; height: 100.0%;"><b>Vignola-Falesina</b><br>Saldo netto: 6<br>Attrattività pc: 0.0441988950276243<br>R50_km: 42.036 – T50_min: 40.0</div>`)[0];
+                popup_3dd14dd76e0eb1a5b78d77780b38607d.setContent(html_a32ea7a3ff2eb911a51911a54f32e7ee);
+            
+        
+
+        circle_marker_763e5828acc6b789dbaf5a4f83ffab1e.bindPopup(popup_3dd14dd76e0eb1a5b78d77780b38607d)
+        ;
+
+        
+    
+    
+            var circle_marker_cab638bd616fff183fc60823be2021d5 = L.circleMarker(
+                [45.914973, 11.0332434],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_a9943860d967cccb70fa0195a017bbf6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a9f89943ac5e2a27c911305308ac59f = $(`<div id="html_8a9f89943ac5e2a27c911305308ac59f" style="width: 100.0%; height: 100.0%;"><b>Villa Lagarina</b><br>Saldo netto: -21<br>Attrattività pc: 0.0018167661562418<br>R50_km: 31.183 – T50_min: 26.0</div>`)[0];
+                popup_a9943860d967cccb70fa0195a017bbf6.setContent(html_8a9f89943ac5e2a27c911305308ac59f);
+            
+        
+
+        circle_marker_cab638bd616fff183fc60823be2021d5.bindPopup(popup_a9943860d967cccb70fa0195a017bbf6)
+        ;
+
+        
+    
+    
+            var circle_marker_02ccfc5b30c9f122e0349f48ac27e777 = L.circleMarker(
+                [46.3263612, 11.0227789],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 10.995236110626337, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_8c4b9ae04a476fb4c48633c9e0a48cab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_846fce71436e1471c361ad77c9bedb22 = $(`<div id="html_846fce71436e1471c361ad77c9bedb22" style="width: 100.0%; height: 100.0%;"><b>Ville d'Anaunia</b><br>Saldo netto: -31<br>Attrattività pc: 0.000845129938728<br>R50_km: 52.621 – T50_min: 49.0</div>`)[0];
+                popup_8c4b9ae04a476fb4c48633c9e0a48cab.setContent(html_846fce71436e1471c361ad77c9bedb22);
+            
+        
+
+        circle_marker_02ccfc5b30c9f122e0349f48ac27e777.bindPopup(popup_8c4b9ae04a476fb4c48633c9e0a48cab)
+        ;
+
+        
+    
+    
+            var circle_marker_2edcdb44dfe4d05d03000f888f83abc1 = L.circleMarker(
+                [46.3053445, 11.4579424],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 11.069866957893579, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_bfcebb133e90275c583653a93887c34a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a2884e0e7f11a6dfcdd495bda1fd3b30 = $(`<div id="html_a2884e0e7f11a6dfcdd495bda1fd3b30" style="width: 100.0%; height: 100.0%;"><b>Ville di Fiemme</b><br>Saldo netto: -79<br>Attrattività pc: 0.0045558086560364<br>R50_km: 55.884 – T50_min: 58.0</div>`)[0];
+                popup_bfcebb133e90275c583653a93887c34a.setContent(html_a2884e0e7f11a6dfcdd495bda1fd3b30);
+            
+        
+
+        circle_marker_2edcdb44dfe4d05d03000f888f83abc1.bindPopup(popup_bfcebb133e90275c583653a93887c34a)
+        ;
+
+        
+    
+    
+            var circle_marker_6ee1d3dc9527dacded52155089ad1e1b = L.circleMarker(
+                [45.9178679, 11.0638977],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 18.859246801341968, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_73d0ee1d1e06039671ddd3a1d1145a8f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3bf5b5ecc253313372ee545bfa43ec79 = $(`<div id="html_3bf5b5ecc253313372ee545bfa43ec79" style="width: 100.0%; height: 100.0%;"><b>Volano</b><br>Saldo netto: -22<br>Attrattività pc: 0.0039447731755424<br>R50_km: 29.018 – T50_min: 30.0</div>`)[0];
+                popup_73d0ee1d1e06039671ddd3a1d1145a8f.setContent(html_3bf5b5ecc253313372ee545bfa43ec79);
+            
+        
+
+        circle_marker_6ee1d3dc9527dacded52155089ad1e1b.bindPopup(popup_73d0ee1d1e06039671ddd3a1d1145a8f)
+        ;
+
+        
+    
+    
+            var circle_marker_d484aa22205343a05048f4359b5bfe05 = L.circleMarker(
+                [46.2858823, 11.5653272],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.7, "radius": 9.93820870173032, "stroke": true, "weight": 3}
+            ).addTo(map_b5fdeffa435d1c7d9f19487e2e857b00);
+        
+    
+        var popup_a53114e6f702f7990b9c96019aff66dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d3b015d44bf5a236184219eb0c0c2e9e = $(`<div id="html_d3b015d44bf5a236184219eb0c0c2e9e" style="width: 100.0%; height: 100.0%;"><b>Ziano di Fiemme</b><br>Saldo netto: -8<br>Attrattività pc: 0.012521343198634<br>R50_km: 60.858 – T50_min: 63.0</div>`)[0];
+                popup_a53114e6f702f7990b9c96019aff66dd.setContent(html_d3b015d44bf5a236184219eb0c0c2e9e);
+            
+        
+
+        circle_marker_d484aa22205343a05048f4359b5bfe05.bindPopup(popup_a53114e6f702f7990b9c96019aff66dd)
+        ;
+
+        
+    
+</script>
+</html>

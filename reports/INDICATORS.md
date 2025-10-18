@@ -86,7 +86,7 @@ Indicatori di confronto calcolati su tutti i comuni.
 Table of Contents
 =================
 
-* [Indicatori  - <em>Trentino Commuter Analysis</em>](#indicatori----trentino-commuter-analysis)
+* Indicatori  - <em>Trentino Commuter Analysis</em>
    * [Scopo degl indicatori](#scopo-degl-indicatori)
    * [Indicatori dei flussi di pendolarismo](#indicatori-dei-flussi-di-pendolarismo)
    * [Intensità di pendolarismo e ruoli funzionali](#intensità-di-pendolarismo-e-ruoli-funzionali)

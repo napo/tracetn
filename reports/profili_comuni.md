@@ -3,177 +3,10 @@
 Le seguenti schede descrivono il **profilo di mobilità** di ciascun comune del Trentino, basato sui microdati dei movimenti pendolari 2021.
 Ogni scheda riporta un commento sintetico, una tabella di indicatori confrontata con la **media provinciale**, e una lista di **comuni simili** calcolata tramite analisi di similarità sugli indicatori principali.
 
-## Indice
-- [Ala](#ala)
-- [Albiano](#albiano)
-- [Aldeno](#aldeno)
-- [Altavalle](#altavalle)
-- [Altopiano della Vigolana](#altopiano-della-vigolana)
-- [Amblar-Don](#amblar-don)
-- [Andalo](#andalo)
-- [Arco](#arco)
-- [Avio](#avio)
-- [Baselga di Pinè](#baselga-di-pine)
-- [Bedollo](#bedollo)
-- [Besenello](#besenello)
-- [Bieno](#bieno)
-- [Bleggio Superiore](#bleggio-superiore)
-- [Bocenago](#bocenago)
-- [Bondone](#bondone)
-- [Borgo Chiese](#borgo-chiese)
-- [Borgo Lares](#borgo-lares)
-- [Borgo Valsugana](#borgo-valsugana)
-- [Borgo d'Anaunia](#borgo-danaunia)
-- [Brentonico](#brentonico)
-- [Bresimo](#bresimo)
-- [Caderzone Terme](#caderzone-terme)
-- [Calceranica al Lago](#calceranica-al-lago)
-- [Caldes](#caldes)
-- [Caldonazzo](#caldonazzo)
-- [Calliano](#calliano)
-- [Campitello di Fassa / Ciampedel](#campitello-di-fassa--ciampedel)
-- [Campodenno](#campodenno)
-- [Canal San Bovo](#canal-san-bovo)
-- [Canazei / Cianacei](#canazei--cianacei)
-- [Capriana](#capriana)
-- [Carisolo](#carisolo)
-- [Carzano](#carzano)
-- [Castel Condino](#castel-condino)
-- [Castel Ivano](#castel-ivano)
-- [Castello Tesino](#castello-tesino)
-- [Castello-Molina di Fiemme](#castello-molina-di-fiemme)
-- [Castelnuovo](#castelnuovo)
-- [Cavalese](#cavalese)
-- [Cavareno](#cavareno)
-- [Cavedago](#cavedago)
-- [Cavedine](#cavedine)
-- [Cavizzana](#cavizzana)
-- [Cembra Lisignago](#cembra-lisignago)
-- [Cimone](#cimone)
-- [Cinte Tesino](#cinte-tesino)
-- [Cis](#cis)
-- [Civezzano](#civezzano)
-- [Cles](#cles)
-- [Comano Terme](#comano-terme)
-- [Commezzadura](#commezzadura)
-- [Contà](#conta)
-- [Croviana](#croviana)
-- [Dambel](#dambel)
-- [Denno](#denno)
-- [Dimaro Folgarida](#dimaro-folgarida)
-- [Drena](#drena)
-- [Dro](#dro)
-- [Fai della Paganella](#fai-della-paganella)
-- [Fiavè](#fiave)
-- [Fierozzo / Vlarotz](#fierozzo--vlarotz)
-- [Folgaria](#folgaria)
-- [Fornace](#fornace)
-- [Frassilongo / Garait](#frassilongo--garait)
-- [Garniga Terme](#garniga-terme)
-- [Giovo](#giovo)
-- [Giustino](#giustino)
-- [Grigno](#grigno)
-- [Imer](#imer)
-- [Isera](#isera)
-- [Lavarone](#lavarone)
-- [Lavis](#lavis)
-- [Ledro](#ledro)
-- [Levico Terme](#levico-terme)
-- [Livo](#livo)
-- [Lona-Lases](#lona-lases)
-- [Luserna / Lusérn](#luserna--lusern)
-- [Madruzzo](#madruzzo)
-- [Malé](#male)
-- [Massimeno](#massimeno)
-- [Mazzin / Mazin](#mazzin--mazin)
-- [Mezzana](#mezzana)
-- [Mezzano](#mezzano)
-- [Mezzocorona](#mezzocorona)
-- [Mezzolombardo](#mezzolombardo)
-- [Moena / Moena](#moena--moena)
-- [Molveno](#molveno)
-- [Mori](#mori)
-- [Nago-Torbole](#nago-torbole)
-- [Nogaredo](#nogaredo)
-- [Nomi](#nomi)
-- [Novaledo](#novaledo)
-- [Novella](#novella)
-- [Ospedaletto](#ospedaletto)
-- [Ossana](#ossana)
-- [Palù del Fersina / Palai en Bernstol](#palu-del-fersina--palai-en-bernstol)
-- [Panchià](#panchia)
-- [Peio](#peio)
-- [Pellizzano](#pellizzano)
-- [Pelugo](#pelugo)
-- [Pergine Valsugana](#pergine-valsugana)
-- [Pieve Tesino](#pieve-tesino)
-- [Pieve di Bono-Prezzo](#pieve-di-bono-prezzo)
-- [Pinzolo](#pinzolo)
-- [Pomarolo](#pomarolo)
-- [Porte di Rendena](#porte-di-rendena)
-- [Predaia](#predaia)
-- [Predazzo](#predazzo)
-- [Primiero San Martino di Castrozza](#primiero-san-martino-di-castrozza)
-- [Rabbi](#rabbi)
-- [Riva del Garda](#riva-del-garda)
-- [Romeno](#romeno)
-- [Roncegno Terme](#roncegno-terme)
-- [Ronchi Valsugana](#ronchi-valsugana)
-- [Ronzo-Chienis](#ronzo-chienis)
-- [Ronzone](#ronzone)
-- [Rovereto](#rovereto)
-- [Roverè della Luna](#rovere-della-luna)
-- [Ruffrè-Mendola](#ruffre-mendola)
-- [Rumo](#rumo)
-- [Sagron Mis](#sagron-mis)
-- [Samone](#samone)
-- [San Giovanni di Fassa / Sèn Jan](#san-giovanni-di-fassa--sen-jan)
-- [San Lorenzo Dorsino](#san-lorenzo-dorsino)
-- [San Michele all'Adige](#san-michele-alladige)
-- [Sant'Orsola Terme](#santorsola-terme)
-- [Sanzeno](#sanzeno)
-- [Sarnonico](#sarnonico)
-- [Scurelle](#scurelle)
-- [Segonzano](#segonzano)
-- [Sella Giudicarie](#sella-giudicarie)
-- [Sfruz](#sfruz)
-- [Soraga di Fassa / Soraga](#soraga-di-fassa--soraga)
-- [Sover](#sover)
-- [Spiazzo](#spiazzo)
-- [Spormaggiore](#spormaggiore)
-- [Sporminore](#sporminore)
-- [Stenico](#stenico)
-- [Storo](#storo)
-- [Strembo](#strembo)
-- [Telve](#telve)
-- [Telve di Sopra](#telve-di-sopra)
-- [Tenna](#tenna)
-- [Tenno](#tenno)
-- [Terragnolo](#terragnolo)
-- [Terre d'Adige](#terre-dadige)
-- [Terzolas](#terzolas)
-- [Tesero](#tesero)
-- [Tione di Trento](#tione-di-trento)
-- [Ton](#ton)
-- [Torcegno](#torcegno)
-- [Trambileno](#trambileno)
-- [Tre Ville](#tre-ville)
-- [Trento](#trento)
-- [Valdaone](#valdaone)
-- [Valfloriana](#valfloriana)
-- [Vallarsa](#vallarsa)
-- [Vallelaghi](#vallelaghi)
-- [Vermiglio](#vermiglio)
-- [Vignola-Falesina](#vignola-falesina)
-- [Villa Lagarina](#villa-lagarina)
-- [Ville d'Anaunia](#ville-danaunia)
-- [Ville di Fiemme](#ville-di-fiemme)
-- [Volano](#volano)
-- [Ziano di Fiemme](#ziano-di-fiemme)
-
 ---
 
 <a id="ala"></a>
+
 ## Ala
 
 Il comune di **Ala** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -198,6 +31,7 @@ Il comune di **Ala** si caratterizza come un comune a prevalenza **residenziale*
 ---
 
 <a id="albiano"></a>
+
 ## Albiano
 
 Il comune di **Albiano** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -222,6 +56,7 @@ Il comune di **Albiano** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="aldeno"></a>
+
 ## Aldeno
 
 Il comune di **Aldeno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -246,6 +81,7 @@ Il comune di **Aldeno** si caratterizza come un comune a prevalenza **residenzia
 ---
 
 <a id="altavalle"></a>
+
 ## Altavalle
 
 Il comune di **Altavalle** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -270,6 +106,7 @@ Il comune di **Altavalle** si caratterizza come un **polo occupazionale** (saldo
 ---
 
 <a id="altopiano-della-vigolana"></a>
+
 ## Altopiano della Vigolana
 
 Il comune di **Altopiano della Vigolana** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -294,6 +131,7 @@ Il comune di **Altopiano della Vigolana** si caratterizza come un comune a preva
 ---
 
 <a id="amblar-don"></a>
+
 ## Amblar-Don
 
 Il comune di **Amblar-Don** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -318,6 +156,7 @@ Il comune di **Amblar-Don** si caratterizza come un comune a prevalenza **reside
 ---
 
 <a id="andalo"></a>
+
 ## Andalo
 
 Il comune di **Andalo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -342,6 +181,7 @@ Il comune di **Andalo** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="arco"></a>
+
 ## Arco
 
 Il comune di **Arco** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -366,6 +206,7 @@ Il comune di **Arco** si caratterizza come un **polo occupazionale** (saldo posi
 ---
 
 <a id="avio"></a>
+
 ## Avio
 
 Il comune di **Avio** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -390,6 +231,7 @@ Il comune di **Avio** si caratterizza come un **polo occupazionale** (saldo posi
 ---
 
 <a id="baselga-di-pine"></a>
+
 ## Baselga di Pinè
 
 Il comune di **Baselga di Pinè** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / alto (Q4).
@@ -414,6 +256,7 @@ Il comune di **Baselga di Pinè** si caratterizza come un **polo occupazionale**
 ---
 
 <a id="bedollo"></a>
+
 ## Bedollo
 
 Il comune di **Bedollo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -438,6 +281,7 @@ Il comune di **Bedollo** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="besenello"></a>
+
 ## Besenello
 
 Il comune di **Besenello** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -462,6 +306,7 @@ Il comune di **Besenello** si caratterizza come un comune a prevalenza **residen
 ---
 
 <a id="bieno"></a>
+
 ## Bieno
 
 Il comune di **Bieno** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -486,6 +331,7 @@ Il comune di **Bieno** si caratterizza come un **polo occupazionale** (saldo pos
 ---
 
 <a id="bleggio-superiore"></a>
+
 ## Bleggio Superiore
 
 Il comune di **Bleggio Superiore** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -510,6 +356,7 @@ Il comune di **Bleggio Superiore** si caratterizza come un **polo occupazionale*
 ---
 
 <a id="bocenago"></a>
+
 ## Bocenago
 
 Il comune di **Bocenago** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
@@ -534,6 +381,7 @@ Il comune di **Bocenago** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="bondone"></a>
+
 ## Bondone
 
 Il comune di **Bondone** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -558,6 +406,7 @@ Il comune di **Bondone** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="borgo-chiese"></a>
+
 ## Borgo Chiese
 
 Il comune di **Borgo Chiese** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -582,6 +431,7 @@ Il comune di **Borgo Chiese** si caratterizza come un **polo occupazionale** (sa
 ---
 
 <a id="borgo-lares"></a>
+
 ## Borgo Lares
 
 Il comune di **Borgo Lares** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -606,6 +456,7 @@ Il comune di **Borgo Lares** si caratterizza come un **polo occupazionale** (sal
 ---
 
 <a id="borgo-valsugana"></a>
+
 ## Borgo Valsugana
 
 Il comune di **Borgo Valsugana** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-basso (Q2).
@@ -630,6 +481,7 @@ Il comune di **Borgo Valsugana** si caratterizza come un **polo occupazionale** 
 ---
 
 <a id="borgo-danaunia"></a>
+
 ## Borgo d'Anaunia
 
 Il comune di **Borgo d'Anaunia** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -654,6 +506,7 @@ Il comune di **Borgo d'Anaunia** si caratterizza come un comune a prevalenza **r
 ---
 
 <a id="brentonico"></a>
+
 ## Brentonico
 
 Il comune di **Brentonico** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -678,6 +531,7 @@ Il comune di **Brentonico** si caratterizza come un comune a prevalenza **reside
 ---
 
 <a id="bresimo"></a>
+
 ## Bresimo
 
 Il comune di **Bresimo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -702,6 +556,7 @@ Il comune di **Bresimo** si caratterizza come un **polo occupazionale** (saldo p
 ---
 
 <a id="caderzone-terme"></a>
+
 ## Caderzone Terme
 
 Il comune di **Caderzone Terme** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
@@ -726,6 +581,7 @@ Il comune di **Caderzone Terme** si caratterizza come un **polo occupazionale** 
 ---
 
 <a id="calceranica-al-lago"></a>
+
 ## Calceranica al Lago
 
 Il comune di **Calceranica al Lago** si caratterizza come un comune **bilanciato** nei flussi in entrata e in uscita, con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -750,6 +606,7 @@ Il comune di **Calceranica al Lago** si caratterizza come un comune **bilanciato
 ---
 
 <a id="caldes"></a>
+
 ## Caldes
 
 Il comune di **Caldes** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -774,6 +631,7 @@ Il comune di **Caldes** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="caldonazzo"></a>
+
 ## Caldonazzo
 
 Il comune di **Caldonazzo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -798,6 +656,7 @@ Il comune di **Caldonazzo** si caratterizza come un comune a prevalenza **reside
 ---
 
 <a id="calliano"></a>
+
 ## Calliano
 
 Il comune di **Calliano** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -822,6 +681,7 @@ Il comune di **Calliano** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="campitello-di-fassa--ciampedel"></a>
+
 ## Campitello di Fassa / Ciampedel
 
 Il comune di **Campitello di Fassa / Ciampedel** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -846,6 +706,7 @@ Il comune di **Campitello di Fassa / Ciampedel** si caratterizza come un **polo 
 ---
 
 <a id="campodenno"></a>
+
 ## Campodenno
 
 Il comune di **Campodenno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -870,6 +731,7 @@ Il comune di **Campodenno** si caratterizza come un comune a prevalenza **reside
 ---
 
 <a id="canal-san-bovo"></a>
+
 ## Canal San Bovo
 
 Il comune di **Canal San Bovo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -894,6 +756,7 @@ Il comune di **Canal San Bovo** si caratterizza come un comune a prevalenza **re
 ---
 
 <a id="canazei--cianacei"></a>
+
 ## Canazei / Cianacei
 
 Il comune di **Canazei / Cianacei** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -918,6 +781,7 @@ Il comune di **Canazei / Cianacei** si caratterizza come un **polo occupazionale
 ---
 
 <a id="capriana"></a>
+
 ## Capriana
 
 Il comune di **Capriana** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -942,6 +806,7 @@ Il comune di **Capriana** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="carisolo"></a>
+
 ## Carisolo
 
 Il comune di **Carisolo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -966,6 +831,7 @@ Il comune di **Carisolo** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="carzano"></a>
+
 ## Carzano
 
 Il comune di **Carzano** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -990,6 +856,7 @@ Il comune di **Carzano** si caratterizza come un **polo occupazionale** (saldo p
 ---
 
 <a id="castel-condino"></a>
+
 ## Castel Condino
 
 Il comune di **Castel Condino** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -1014,6 +881,7 @@ Il comune di **Castel Condino** si caratterizza come un **polo occupazionale** (
 ---
 
 <a id="castel-ivano"></a>
+
 ## Castel Ivano
 
 Il comune di **Castel Ivano** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1038,6 +906,7 @@ Il comune di **Castel Ivano** si caratterizza come un **polo occupazionale** (sa
 ---
 
 <a id="castello-tesino"></a>
+
 ## Castello Tesino
 
 Il comune di **Castello Tesino** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -1062,6 +931,7 @@ Il comune di **Castello Tesino** si caratterizza come un **polo occupazionale** 
 ---
 
 <a id="castello-molina-di-fiemme"></a>
+
 ## Castello-Molina di Fiemme
 
 Il comune di **Castello-Molina di Fiemme** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1086,6 +956,7 @@ Il comune di **Castello-Molina di Fiemme** si caratterizza come un comune a prev
 ---
 
 <a id="castelnuovo"></a>
+
 ## Castelnuovo
 
 Il comune di **Castelnuovo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-alto (Q3).
@@ -1110,6 +981,7 @@ Il comune di **Castelnuovo** si caratterizza come un **polo occupazionale** (sal
 ---
 
 <a id="cavalese"></a>
+
 ## Cavalese
 
 Il comune di **Cavalese** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1134,6 +1006,7 @@ Il comune di **Cavalese** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="cavareno"></a>
+
 ## Cavareno
 
 Il comune di **Cavareno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1158,6 +1031,7 @@ Il comune di **Cavareno** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="cavedago"></a>
+
 ## Cavedago
 
 Il comune di **Cavedago** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -1182,6 +1056,7 @@ Il comune di **Cavedago** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="cavedine"></a>
+
 ## Cavedine
 
 Il comune di **Cavedine** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -1206,6 +1081,7 @@ Il comune di **Cavedine** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="cavizzana"></a>
+
 ## Cavizzana
 
 Il comune di **Cavizzana** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -1230,6 +1106,7 @@ Il comune di **Cavizzana** si caratterizza come un **polo occupazionale** (saldo
 ---
 
 <a id="cembra-lisignago"></a>
+
 ## Cembra Lisignago
 
 Il comune di **Cembra Lisignago** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / alto (Q4).
@@ -1254,6 +1131,7 @@ Il comune di **Cembra Lisignago** si caratterizza come un comune a prevalenza **
 ---
 
 <a id="cimone"></a>
+
 ## Cimone
 
 Il comune di **Cimone** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1278,6 +1156,7 @@ Il comune di **Cimone** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="cinte-tesino"></a>
+
 ## Cinte Tesino
 
 Il comune di **Cinte Tesino** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -1302,6 +1181,7 @@ Il comune di **Cinte Tesino** si caratterizza come un **polo occupazionale** (sa
 ---
 
 <a id="cis"></a>
+
 ## Cis
 
 Il comune di **Cis** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1326,6 +1206,7 @@ Il comune di **Cis** si caratterizza come un **polo occupazionale** (saldo posit
 ---
 
 <a id="civezzano"></a>
+
 ## Civezzano
 
 Il comune di **Civezzano** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1350,6 +1231,7 @@ Il comune di **Civezzano** si caratterizza come un comune a prevalenza **residen
 ---
 
 <a id="cles"></a>
+
 ## Cles
 
 Il comune di **Cles** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-alto (Q3).
@@ -1374,6 +1256,7 @@ Il comune di **Cles** si caratterizza come un comune a prevalenza **residenziale
 ---
 
 <a id="comano-terme"></a>
+
 ## Comano Terme
 
 Il comune di **Comano Terme** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -1398,6 +1281,7 @@ Il comune di **Comano Terme** si caratterizza come un comune a prevalenza **resi
 ---
 
 <a id="commezzadura"></a>
+
 ## Commezzadura
 
 Il comune di **Commezzadura** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -1422,6 +1306,7 @@ Il comune di **Commezzadura** si caratterizza come un **polo occupazionale** (sa
 ---
 
 <a id="conta"></a>
+
 ## Contà
 
 Il comune di **Contà** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -1446,6 +1331,7 @@ Il comune di **Contà** si caratterizza come un comune a prevalenza **residenzia
 ---
 
 <a id="croviana"></a>
+
 ## Croviana
 
 Il comune di **Croviana** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -1470,6 +1356,7 @@ Il comune di **Croviana** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="dambel"></a>
+
 ## Dambel
 
 Il comune di **Dambel** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1494,6 +1381,7 @@ Il comune di **Dambel** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="denno"></a>
+
 ## Denno
 
 Il comune di **Denno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -1518,6 +1406,7 @@ Il comune di **Denno** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="dimaro-folgarida"></a>
+
 ## Dimaro Folgarida
 
 Il comune di **Dimaro Folgarida** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -1542,6 +1431,7 @@ Il comune di **Dimaro Folgarida** si caratterizza come un comune a prevalenza **
 ---
 
 <a id="drena"></a>
+
 ## Drena
 
 Il comune di **Drena** si caratterizza come un comune **bilanciato** nei flussi in entrata e in uscita, con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1566,6 +1456,7 @@ Il comune di **Drena** si caratterizza come un comune **bilanciato** nei flussi 
 ---
 
 <a id="dro"></a>
+
 ## Dro
 
 Il comune di **Dro** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1590,6 +1481,7 @@ Il comune di **Dro** si caratterizza come un comune a prevalenza **residenziale*
 ---
 
 <a id="fai-della-paganella"></a>
+
 ## Fai della Paganella
 
 Il comune di **Fai della Paganella** si caratterizza come un comune **bilanciato** nei flussi in entrata e in uscita, con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / alto (Q4).
@@ -1614,6 +1506,7 @@ Il comune di **Fai della Paganella** si caratterizza come un comune **bilanciato
 ---
 
 <a id="fiave"></a>
+
 ## Fiavè
 
 Il comune di **Fiavè** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -1638,6 +1531,7 @@ Il comune di **Fiavè** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="fierozzo--vlarotz"></a>
+
 ## Fierozzo / Vlarotz
 
 Il comune di **Fierozzo / Vlarotz** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -1662,6 +1556,7 @@ Il comune di **Fierozzo / Vlarotz** si caratterizza come un **polo occupazionale
 ---
 
 <a id="folgaria"></a>
+
 ## Folgaria
 
 Il comune di **Folgaria** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -1686,6 +1581,7 @@ Il comune di **Folgaria** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="fornace"></a>
+
 ## Fornace
 
 Il comune di **Fornace** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1710,6 +1606,7 @@ Il comune di **Fornace** si caratterizza come un **polo occupazionale** (saldo p
 ---
 
 <a id="frassilongo--garait"></a>
+
 ## Frassilongo / Garait
 
 Il comune di **Frassilongo / Garait** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -1734,6 +1631,7 @@ Il comune di **Frassilongo / Garait** si caratterizza come un **polo occupaziona
 ---
 
 <a id="garniga-terme"></a>
+
 ## Garniga Terme
 
 Il comune di **Garniga Terme** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1758,6 +1656,7 @@ Il comune di **Garniga Terme** si caratterizza come un **polo occupazionale** (s
 ---
 
 <a id="giovo"></a>
+
 ## Giovo
 
 Il comune di **Giovo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1782,6 +1681,7 @@ Il comune di **Giovo** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="giustino"></a>
+
 ## Giustino
 
 Il comune di **Giustino** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
@@ -1806,6 +1706,7 @@ Il comune di **Giustino** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="grigno"></a>
+
 ## Grigno
 
 Il comune di **Grigno** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -1830,6 +1731,7 @@ Il comune di **Grigno** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="imer"></a>
+
 ## Imer
 
 Il comune di **Imer** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -1854,6 +1756,7 @@ Il comune di **Imer** si caratterizza come un comune a prevalenza **residenziale
 ---
 
 <a id="isera"></a>
+
 ## Isera
 
 Il comune di **Isera** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1878,6 +1781,7 @@ Il comune di **Isera** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="lavarone"></a>
+
 ## Lavarone
 
 Il comune di **Lavarone** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -1902,6 +1806,7 @@ Il comune di **Lavarone** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="lavis"></a>
+
 ## Lavis
 
 Il comune di **Lavis** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -1926,6 +1831,7 @@ Il comune di **Lavis** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="ledro"></a>
+
 ## Ledro
 
 Il comune di **Ledro** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1950,6 +1856,7 @@ Il comune di **Ledro** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="levico-terme"></a>
+
 ## Levico Terme
 
 Il comune di **Levico Terme** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -1974,6 +1881,7 @@ Il comune di **Levico Terme** si caratterizza come un comune a prevalenza **resi
 ---
 
 <a id="livo"></a>
+
 ## Livo
 
 Il comune di **Livo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -1998,6 +1906,7 @@ Il comune di **Livo** si caratterizza come un **polo occupazionale** (saldo posi
 ---
 
 <a id="lona-lases"></a>
+
 ## Lona-Lases
 
 Il comune di **Lona-Lases** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2022,6 +1931,7 @@ Il comune di **Lona-Lases** si caratterizza come un comune a prevalenza **reside
 ---
 
 <a id="luserna--lusern"></a>
+
 ## Luserna / Lusérn
 
 Il comune di **Luserna / Lusérn** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2046,6 +1956,7 @@ Il comune di **Luserna / Lusérn** si caratterizza come un **polo occupazionale*
 ---
 
 <a id="madruzzo"></a>
+
 ## Madruzzo
 
 Il comune di **Madruzzo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2070,6 +1981,7 @@ Il comune di **Madruzzo** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="male"></a>
+
 ## Malé
 
 Il comune di **Malé** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -2094,6 +2006,7 @@ Il comune di **Malé** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="massimeno"></a>
+
 ## Massimeno
 
 Il comune di **Massimeno** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2118,6 +2031,7 @@ Il comune di **Massimeno** si caratterizza come un **polo occupazionale** (saldo
 ---
 
 <a id="mazzin--mazin"></a>
+
 ## Mazzin / Mazin
 
 Il comune di **Mazzin / Mazin** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2142,6 +2056,7 @@ Il comune di **Mazzin / Mazin** si caratterizza come un **polo occupazionale** (
 ---
 
 <a id="mezzana"></a>
+
 ## Mezzana
 
 Il comune di **Mezzana** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2166,6 +2081,7 @@ Il comune di **Mezzana** si caratterizza come un **polo occupazionale** (saldo p
 ---
 
 <a id="mezzano"></a>
+
 ## Mezzano
 
 Il comune di **Mezzano** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2190,6 +2106,7 @@ Il comune di **Mezzano** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="mezzocorona"></a>
+
 ## Mezzocorona
 
 Il comune di **Mezzocorona** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2214,6 +2131,7 @@ Il comune di **Mezzocorona** si caratterizza come un comune a prevalenza **resid
 ---
 
 <a id="mezzolombardo"></a>
+
 ## Mezzolombardo
 
 Il comune di **Mezzolombardo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2238,6 +2156,7 @@ Il comune di **Mezzolombardo** si caratterizza come un comune a prevalenza **res
 ---
 
 <a id="moena--moena"></a>
+
 ## Moena / Moena
 
 Il comune di **Moena / Moena** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2262,6 +2181,7 @@ Il comune di **Moena / Moena** si caratterizza come un **polo occupazionale** (s
 ---
 
 <a id="molveno"></a>
+
 ## Molveno
 
 Il comune di **Molveno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2286,6 +2206,7 @@ Il comune di **Molveno** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="mori"></a>
+
 ## Mori
 
 Il comune di **Mori** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2310,6 +2231,7 @@ Il comune di **Mori** si caratterizza come un comune a prevalenza **residenziale
 ---
 
 <a id="nago-torbole"></a>
+
 ## Nago-Torbole
 
 Il comune di **Nago-Torbole** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / alto (Q4).
@@ -2334,6 +2256,7 @@ Il comune di **Nago-Torbole** si caratterizza come un comune a prevalenza **resi
 ---
 
 <a id="nogaredo"></a>
+
 ## Nogaredo
 
 Il comune di **Nogaredo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2358,6 +2281,7 @@ Il comune di **Nogaredo** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="nomi"></a>
+
 ## Nomi
 
 Il comune di **Nomi** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2382,6 +2306,7 @@ Il comune di **Nomi** si caratterizza come un comune a prevalenza **residenziale
 ---
 
 <a id="novaledo"></a>
+
 ## Novaledo
 
 Il comune di **Novaledo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2406,6 +2331,7 @@ Il comune di **Novaledo** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="novella"></a>
+
 ## Novella
 
 Il comune di **Novella** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -2430,6 +2356,7 @@ Il comune di **Novella** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="ospedaletto"></a>
+
 ## Ospedaletto
 
 Il comune di **Ospedaletto** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -2454,6 +2381,7 @@ Il comune di **Ospedaletto** si caratterizza come un **polo occupazionale** (sal
 ---
 
 <a id="ossana"></a>
+
 ## Ossana
 
 Il comune di **Ossana** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2478,6 +2406,7 @@ Il comune di **Ossana** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="palu-del-fersina--palai-en-bernstol"></a>
+
 ## Palù del Fersina / Palai en Bernstol
 
 Il comune di **Palù del Fersina / Palai en Bernstol** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2502,6 +2431,7 @@ Il comune di **Palù del Fersina / Palai en Bernstol** si caratterizza come un *
 ---
 
 <a id="panchia"></a>
+
 ## Panchià
 
 Il comune di **Panchià** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
@@ -2526,6 +2456,7 @@ Il comune di **Panchià** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="peio"></a>
+
 ## Peio
 
 Il comune di **Peio** si caratterizza come un comune **bilanciato** nei flussi in entrata e in uscita, con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2550,6 +2481,7 @@ Il comune di **Peio** si caratterizza come un comune **bilanciato** nei flussi i
 ---
 
 <a id="pellizzano"></a>
+
 ## Pellizzano
 
 Il comune di **Pellizzano** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2574,6 +2506,7 @@ Il comune di **Pellizzano** si caratterizza come un **polo occupazionale** (sald
 ---
 
 <a id="pelugo"></a>
+
 ## Pelugo
 
 Il comune di **Pelugo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -2598,6 +2531,7 @@ Il comune di **Pelugo** si caratterizza come un **polo occupazionale** (saldo po
 ---
 
 <a id="pergine-valsugana"></a>
+
 ## Pergine Valsugana
 
 Il comune di **Pergine Valsugana** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2622,6 +2556,7 @@ Il comune di **Pergine Valsugana** si caratterizza come un comune a prevalenza *
 ---
 
 <a id="pieve-tesino"></a>
+
 ## Pieve Tesino
 
 Il comune di **Pieve Tesino** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -2646,6 +2581,7 @@ Il comune di **Pieve Tesino** si caratterizza come un **polo occupazionale** (sa
 ---
 
 <a id="pieve-di-bono-prezzo"></a>
+
 ## Pieve di Bono-Prezzo
 
 Il comune di **Pieve di Bono-Prezzo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2670,6 +2606,7 @@ Il comune di **Pieve di Bono-Prezzo** si caratterizza come un **polo occupaziona
 ---
 
 <a id="pinzolo"></a>
+
 ## Pinzolo
 
 Il comune di **Pinzolo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2694,6 +2631,7 @@ Il comune di **Pinzolo** si caratterizza come un **polo occupazionale** (saldo p
 ---
 
 <a id="pomarolo"></a>
+
 ## Pomarolo
 
 Il comune di **Pomarolo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -2718,6 +2656,7 @@ Il comune di **Pomarolo** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="porte-di-rendena"></a>
+
 ## Porte di Rendena
 
 Il comune di **Porte di Rendena** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -2742,6 +2681,7 @@ Il comune di **Porte di Rendena** si caratterizza come un **polo occupazionale**
 ---
 
 <a id="predaia"></a>
+
 ## Predaia
 
 Il comune di **Predaia** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2766,6 +2706,7 @@ Il comune di **Predaia** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="predazzo"></a>
+
 ## Predazzo
 
 Il comune di **Predazzo** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2790,6 +2731,7 @@ Il comune di **Predazzo** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="primiero-san-martino-di-castrozza"></a>
+
 ## Primiero San Martino di Castrozza
 
 Il comune di **Primiero San Martino di Castrozza** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2814,6 +2756,7 @@ Il comune di **Primiero San Martino di Castrozza** si caratterizza come un comun
 ---
 
 <a id="rabbi"></a>
+
 ## Rabbi
 
 Il comune di **Rabbi** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -2838,6 +2781,7 @@ Il comune di **Rabbi** si caratterizza come un **polo occupazionale** (saldo pos
 ---
 
 <a id="riva-del-garda"></a>
+
 ## Riva del Garda
 
 Il comune di **Riva del Garda** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2862,6 +2806,7 @@ Il comune di **Riva del Garda** si caratterizza come un comune a prevalenza **re
 ---
 
 <a id="romeno"></a>
+
 ## Romeno
 
 Il comune di **Romeno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -2886,6 +2831,7 @@ Il comune di **Romeno** si caratterizza come un comune a prevalenza **residenzia
 ---
 
 <a id="roncegno-terme"></a>
+
 ## Roncegno Terme
 
 Il comune di **Roncegno Terme** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2910,6 +2856,7 @@ Il comune di **Roncegno Terme** si caratterizza come un **polo occupazionale** (
 ---
 
 <a id="ronchi-valsugana"></a>
+
 ## Ronchi Valsugana
 
 Il comune di **Ronchi Valsugana** si caratterizza come un comune **bilanciato** nei flussi in entrata e in uscita, con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -2934,6 +2881,7 @@ Il comune di **Ronchi Valsugana** si caratterizza come un comune **bilanciato** 
 ---
 
 <a id="ronzo-chienis"></a>
+
 ## Ronzo-Chienis
 
 Il comune di **Ronzo-Chienis** si caratterizza come un comune **bilanciato** nei flussi in entrata e in uscita, con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -2958,6 +2906,7 @@ Il comune di **Ronzo-Chienis** si caratterizza come un comune **bilanciato** nei
 ---
 
 <a id="ronzone"></a>
+
 ## Ronzone
 
 Il comune di **Ronzone** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -2982,6 +2931,7 @@ Il comune di **Ronzone** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="rovereto"></a>
+
 ## Rovereto
 
 Il comune di **Rovereto** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -3006,6 +2956,7 @@ Il comune di **Rovereto** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="rovere-della-luna"></a>
+
 ## Roverè della Luna
 
 Il comune di **Roverè della Luna** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / alto (Q4).
@@ -3030,6 +2981,7 @@ Il comune di **Roverè della Luna** si caratterizza come un comune a prevalenza 
 ---
 
 <a id="ruffre-mendola"></a>
+
 ## Ruffrè-Mendola
 
 Il comune di **Ruffrè-Mendola** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -3054,6 +3006,7 @@ Il comune di **Ruffrè-Mendola** si caratterizza come un comune a prevalenza **r
 ---
 
 <a id="rumo"></a>
+
 ## Rumo
 
 Il comune di **Rumo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -3078,6 +3031,7 @@ Il comune di **Rumo** si caratterizza come un **polo occupazionale** (saldo posi
 ---
 
 <a id="sagron-mis"></a>
+
 ## Sagron Mis
 
 Il comune di **Sagron Mis** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -3099,9 +3053,9 @@ Il comune di **Sagron Mis** si caratterizza come un comune a prevalenza **reside
 | Comuni entro 30 min | 4.000 | 25.819 | -21.819 |
 
 **Comuni simili:** [Bondone](#bondone), [Ruffrè-Mendola](#ruffre-mendola), [Imer](#imer), [Mezzano](#mezzano), [Primiero San Martino di Castrozza](#primiero-san-martino-di-castrozza)
----
 
 <a id="samone"></a>
+
 ## Samone
 
 Il comune di **Samone** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3123,9 +3077,9 @@ Il comune di **Samone** si caratterizza come un **polo occupazionale** (saldo po
 | Comuni entro 30 min | 22.000 | 25.819 | -3.819 |
 
 **Comuni simili:** [Ospedaletto](#ospedaletto), [Castel Ivano](#castel-ivano), [Borgo Lares](#borgo-lares), [Castelnuovo](#castelnuovo), [Scurelle](#scurelle)
----
 
 <a id="san-giovanni-di-fassa--sen-jan"></a>
+
 ## San Giovanni di Fassa / Sèn Jan
 
 Il comune di **San Giovanni di Fassa / Sèn Jan** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -3150,6 +3104,7 @@ Il comune di **San Giovanni di Fassa / Sèn Jan** si caratterizza come un **polo
 ---
 
 <a id="san-lorenzo-dorsino"></a>
+
 ## San Lorenzo Dorsino
 
 Il comune di **San Lorenzo Dorsino** si caratterizza come un comune **bilanciato** nei flussi in entrata e in uscita, con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3174,6 +3129,7 @@ Il comune di **San Lorenzo Dorsino** si caratterizza come un comune **bilanciato
 ---
 
 <a id="san-michele-alladige"></a>
+
 ## San Michele all'Adige
 
 Il comune di **San Michele all'Adige** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -3198,6 +3154,7 @@ Il comune di **San Michele all'Adige** si caratterizza come un comune a prevalen
 ---
 
 <a id="santorsola-terme"></a>
+
 ## Sant'Orsola Terme
 
 Il comune di **Sant'Orsola Terme** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3222,6 +3179,7 @@ Il comune di **Sant'Orsola Terme** si caratterizza come un comune a prevalenza *
 ---
 
 <a id="sanzeno"></a>
+
 ## Sanzeno
 
 Il comune di **Sanzeno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-alto (Q3).
@@ -3246,6 +3204,7 @@ Il comune di **Sanzeno** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="sarnonico"></a>
+
 ## Sarnonico
 
 Il comune di **Sarnonico** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3270,6 +3229,7 @@ Il comune di **Sarnonico** si caratterizza come un comune a prevalenza **residen
 ---
 
 <a id="scurelle"></a>
+
 ## Scurelle
 
 Il comune di **Scurelle** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3294,6 +3254,7 @@ Il comune di **Scurelle** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="segonzano"></a>
+
 ## Segonzano
 
 Il comune di **Segonzano** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3318,6 +3279,7 @@ Il comune di **Segonzano** si caratterizza come un **polo occupazionale** (saldo
 ---
 
 <a id="sella-giudicarie"></a>
+
 ## Sella Giudicarie
 
 Il comune di **Sella Giudicarie** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
@@ -3342,6 +3304,7 @@ Il comune di **Sella Giudicarie** si caratterizza come un comune a prevalenza **
 ---
 
 <a id="sfruz"></a>
+
 ## Sfruz
 
 Il comune di **Sfruz** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3366,6 +3329,7 @@ Il comune di **Sfruz** si caratterizza come un **polo occupazionale** (saldo pos
 ---
 
 <a id="soraga-di-fassa--soraga"></a>
+
 ## Soraga di Fassa / Soraga
 
 Il comune di **Soraga di Fassa / Soraga** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -3390,6 +3354,7 @@ Il comune di **Soraga di Fassa / Soraga** si caratterizza come un **polo occupaz
 ---
 
 <a id="sover"></a>
+
 ## Sover
 
 Il comune di **Sover** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-basso (Q2).
@@ -3414,6 +3379,7 @@ Il comune di **Sover** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="spiazzo"></a>
+
 ## Spiazzo
 
 Il comune di **Spiazzo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3438,6 +3404,7 @@ Il comune di **Spiazzo** si caratterizza come un **polo occupazionale** (saldo p
 ---
 
 <a id="spormaggiore"></a>
+
 ## Spormaggiore
 
 Il comune di **Spormaggiore** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / alto (Q4).
@@ -3462,6 +3429,7 @@ Il comune di **Spormaggiore** si caratterizza come un comune a prevalenza **resi
 ---
 
 <a id="sporminore"></a>
+
 ## Sporminore
 
 Il comune di **Sporminore** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3486,6 +3454,7 @@ Il comune di **Sporminore** si caratterizza come un comune a prevalenza **reside
 ---
 
 <a id="stenico"></a>
+
 ## Stenico
 
 Il comune di **Stenico** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3510,6 +3479,7 @@ Il comune di **Stenico** si caratterizza come un comune a prevalenza **residenzi
 ---
 
 <a id="storo"></a>
+
 ## Storo
 
 Il comune di **Storo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -3534,6 +3504,7 @@ Il comune di **Storo** si caratterizza come un **polo occupazionale** (saldo pos
 ---
 
 <a id="strembo"></a>
+
 ## Strembo
 
 Il comune di **Strembo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
@@ -3558,6 +3529,7 @@ Il comune di **Strembo** si caratterizza come un **polo occupazionale** (saldo p
 ---
 
 <a id="telve"></a>
+
 ## Telve
 
 Il comune di **Telve** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3582,6 +3554,7 @@ Il comune di **Telve** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="telve-di-sopra"></a>
+
 ## Telve di Sopra
 
 Il comune di **Telve di Sopra** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3606,6 +3579,7 @@ Il comune di **Telve di Sopra** si caratterizza come un **polo occupazionale** (
 ---
 
 <a id="tenna"></a>
+
 ## Tenna
 
 Il comune di **Tenna** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -3630,6 +3604,7 @@ Il comune di **Tenna** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="tenno"></a>
+
 ## Tenno
 
 Il comune di **Tenno** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3654,6 +3629,7 @@ Il comune di **Tenno** si caratterizza come un comune a prevalenza **residenzial
 ---
 
 <a id="terragnolo"></a>
+
 ## Terragnolo
 
 Il comune di **Terragnolo** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / medio-alto (Q3).
@@ -3678,6 +3654,7 @@ Il comune di **Terragnolo** si caratterizza come un **polo occupazionale** (sald
 ---
 
 <a id="terre-dadige"></a>
+
 ## Terre d'Adige
 
 Il comune di **Terre d'Adige** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -3702,6 +3679,7 @@ Il comune di **Terre d'Adige** si caratterizza come un comune a prevalenza **res
 ---
 
 <a id="terzolas"></a>
+
 ## Terzolas
 
 Il comune di **Terzolas** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / medio-basso (Q2).
@@ -3726,6 +3704,7 @@ Il comune di **Terzolas** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="tesero"></a>
+
 ## Tesero
 
 Il comune di **Tesero** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
@@ -3750,6 +3729,7 @@ Il comune di **Tesero** si caratterizza come un comune a prevalenza **residenzia
 ---
 
 <a id="tione-di-trento"></a>
+
 ## Tione di Trento
 
 Il comune di **Tione di Trento** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3774,6 +3754,7 @@ Il comune di **Tione di Trento** si caratterizza come un **polo occupazionale** 
 ---
 
 <a id="ton"></a>
+
 ## Ton
 
 Il comune di **Ton** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3798,6 +3779,7 @@ Il comune di **Ton** si caratterizza come un comune a prevalenza **residenziale*
 ---
 
 <a id="torcegno"></a>
+
 ## Torcegno
 
 Il comune di **Torcegno** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -3822,6 +3804,7 @@ Il comune di **Torcegno** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="trambileno"></a>
+
 ## Trambileno
 
 Il comune di **Trambileno** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -3846,6 +3829,7 @@ Il comune di **Trambileno** si caratterizza come un **polo occupazionale** (sald
 ---
 
 <a id="tre-ville"></a>
+
 ## Tre Ville
 
 Il comune di **Tre Ville** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3870,6 +3854,7 @@ Il comune di **Tre Ville** si caratterizza come un **polo occupazionale** (saldo
 ---
 
 <a id="trento"></a>
+
 ## Trento
 
 Il comune di **Trento** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -3894,6 +3879,7 @@ Il comune di **Trento** si caratterizza come un comune a prevalenza **residenzia
 ---
 
 <a id="valdaone"></a>
+
 ## Valdaone
 
 Il comune di **Valdaone** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -3918,6 +3904,7 @@ Il comune di **Valdaone** si caratterizza come un **polo occupazionale** (saldo 
 ---
 
 <a id="valfloriana"></a>
+
 ## Valfloriana
 
 Il comune di **Valfloriana** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** basso (Q1) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-basso (Q2).
@@ -3942,6 +3929,7 @@ Il comune di **Valfloriana** si caratterizza come un comune a prevalenza **resid
 ---
 
 <a id="vallarsa"></a>
+
 ## Vallarsa
 
 Il comune di **Vallarsa** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -3966,6 +3954,7 @@ Il comune di **Vallarsa** si caratterizza come un comune a prevalenza **residenz
 ---
 
 <a id="vallelaghi"></a>
+
 ## Vallelaghi
 
 Il comune di **Vallelaghi** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -3990,6 +3979,7 @@ Il comune di **Vallelaghi** si caratterizza come un comune a prevalenza **reside
 ---
 
 <a id="vermiglio"></a>
+
 ## Vermiglio
 
 Il comune di **Vermiglio** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** alto (Q4), e un’**accessibilità** (R50 km / T50 min) classificata come basso (Q1) / basso (Q1).
@@ -4014,6 +4004,7 @@ Il comune di **Vermiglio** si caratterizza come un **polo occupazionale** (saldo
 ---
 
 <a id="vignola-falesina"></a>
+
 ## Vignola-Falesina
 
 Il comune di **Vignola-Falesina** si caratterizza come un **polo occupazionale** (saldo positivo dei flussi di lavoro), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-alto (Q3) / medio-alto (Q3).
@@ -4038,6 +4029,7 @@ Il comune di **Vignola-Falesina** si caratterizza come un **polo occupazionale**
 ---
 
 <a id="villa-lagarina"></a>
+
 ## Villa Lagarina
 
 Il comune di **Villa Lagarina** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** basso (Q1), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -4062,6 +4054,7 @@ Il comune di **Villa Lagarina** si caratterizza come un comune a prevalenza **re
 ---
 
 <a id="ville-danaunia"></a>
+
 ## Ville d'Anaunia
 
 Il comune di **Ville d'Anaunia** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-basso (Q2) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -4086,6 +4079,7 @@ Il comune di **Ville d'Anaunia** si caratterizza come un comune a prevalenza **r
 ---
 
 <a id="ville-di-fiemme"></a>
+
 ## Ville di Fiemme
 
 Il comune di **Ville di Fiemme** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / medio-basso (Q2).
@@ -4110,6 +4104,7 @@ Il comune di **Ville di Fiemme** si caratterizza come un comune a prevalenza **r
 ---
 
 <a id="volano"></a>
+
 ## Volano
 
 Il comune di **Volano** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** medio-alto (Q3) e **autocontenimento** medio-basso (Q2), e un’**accessibilità** (R50 km / T50 min) classificata come alto (Q4) / alto (Q4).
@@ -4134,6 +4129,7 @@ Il comune di **Volano** si caratterizza come un comune a prevalenza **residenzia
 ---
 
 <a id="ziano-di-fiemme"></a>
+
 ## Ziano di Fiemme
 
 Il comune di **Ziano di Fiemme** si caratterizza come un comune a prevalenza **residenziale** (più lavoratori in uscita che in entrata), con un livello di **attrattività lavorativa** alto (Q4) e **autocontenimento** medio-alto (Q3), e un’**accessibilità** (R50 km / T50 min) classificata come medio-basso (Q2) / basso (Q1).
