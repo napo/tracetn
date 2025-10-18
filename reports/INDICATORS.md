@@ -82,5 +82,18 @@ Indicatori di confronto calcolati su tutti i comuni.
 | **quartile_category** | Posizione del comune (Q1–Q4) | Semplifica la lettura: Q4 = migliori 25%, Q1 = peggiori 25%. |
 
 
-</details>
 
+Table of Contents
+=================
+
+* [Indicatori  - <em>Trentino Commuter Analysis</em>](#indicatori----trentino-commuter-analysis)
+   * [Scopo degl indicatori](#scopo-degl-indicatori)
+   * [Indicatori dei flussi di pendolarismo](#indicatori-dei-flussi-di-pendolarismo)
+   * [Intensità di pendolarismo e ruoli funzionali](#intensità-di-pendolarismo-e-ruoli-funzionali)
+   * [Equilibrio territoriale](#equilibrio-territoriale)
+   * [Accessibilità territoriale](#accessibilità-territoriale)
+   * [Connettività locale](#connettività-locale)
+   * [Indicatori sintetici](#indicatori-sintetici)
+   * [Confronto statistico (medie e quartili)](#confronto-statistico-medie-e-quartili)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
