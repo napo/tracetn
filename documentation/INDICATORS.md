@@ -18,8 +18,6 @@ tags: ["mobility", "Trentino", "commuting", "data analysis", "accessibility"]
 - Supportare la **pianificazione basata sui dati** e le politiche di mobilità.  
 - Consentire analisi **replicabili nel tempo** e **basate su dati aperti**.
 
-<summary><b>Italiano</b></summary>
-
 ## Indicatori dei flussi di pendolarismo
 Derivati dai microdati dei movimenti *in entrata* e *in uscita* per motivi di lavoro.
 
