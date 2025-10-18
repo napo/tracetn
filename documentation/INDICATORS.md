@@ -1,9 +1,9 @@
 ---
-title: "Indicatori / Indicators  Trentino - Commuter Analysis"
+title: "Indicatori Trentino - Commuter Analysis"
 author: "napo"
 date: "2021"
 license: "CC BY 4.0"
-description: "Factsheet of all indicators computed available in Italian and English versions."
+description: "Factsheet di tutti gli indicatori calcolati"
 tags: ["mobility", "Trentino", "commuting", "data analysis", "accessibility"]
 ---
 
